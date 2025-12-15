@@ -1,0 +1,5 @@
+*.nc
+.vscode
+Others
+Old
+.DS_Store
