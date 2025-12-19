@@ -8,7 +8,8 @@ import time
 
 # 引入你自己写的文件 (确保文件名对得上)
 from dataset.dataset_loader import FireDataset  
-from model.model_ConvLSTM import ConvLSTMModel       
+from model.model_ConvLSTM import ConvLSTMModel     
+from model.loss import DiceLoss  
 
 # ================= 配置参数区 =================
 # 显卡设置
@@ -26,7 +27,7 @@ print(f"🚀 当前使用的计算设备: {DEVICE}")
 # 超参数
 BATCH_SIZE = 16        # 显存够大可以改大，比如 32
 LEARNING_RATE = 1e-4   # 学习率，ConvLSTM 建议小一点
-NUM_EPOCHS = 50        # 训练轮数
+NUM_EPOCHS = 200        # 训练轮数
 SEQ_LEN = 7            # 输入过去 7 天
 DATA_PATH = './data/mini_dataset.nc' # 数据路径
 SAVE_PATH = './checkpoint/best_model.pth'       # 模型保存路径
@@ -69,7 +70,7 @@ def get_dataloaders():
     return train_loader, val_loader, test_loader
 
 # ================= 2. 训练与验证函数 =================
-def train_one_epoch(model, loader, criterion, optimizer):
+def train_one_epoch(model, loader, criterion_bce, criterion_dice, optimizer):
     model.train() # 开启训练模式
     running_loss = 0.0
     
@@ -88,7 +89,9 @@ def train_one_epoch(model, loader, criterion, optimizer):
         
         # 3. 计算 Loss
         # 注意：BCEWithLogitsLoss 内部自带 Sigmoid，所以模型输出不需要加 Sigmoid
-        loss = criterion(outputs, targets)
+        loss_bce = criterion_bce(outputs, targets)
+        loss_dice = criterion_dice(outputs, targets)
+        loss = loss_bce + loss_dice
         
         # 4. 反向传播与优化
         loss.backward()
@@ -101,7 +104,7 @@ def train_one_epoch(model, loader, criterion, optimizer):
             
     return running_loss / len(loader)
 
-def validate(model, loader, criterion):
+def validate(model, loader, criterion_bce, criterion_dice):
     model.eval() # 开启评估模式 (关闭 Dropout 等)
     running_loss = 0.0
     
@@ -111,7 +114,9 @@ def validate(model, loader, criterion):
             targets = targets.to(DEVICE, dtype=torch.float)
             
             outputs = model(inputs)
-            loss = criterion(outputs, targets)
+            loss_bce = criterion_bce(outputs, targets)
+            loss_dice = criterion_dice(outputs, targets)
+            loss = loss_bce + loss_dice
             running_loss += loss.item()
             
     return running_loss / len(loader)
@@ -128,8 +133,9 @@ if __name__ == "__main__":
     # 3. 定义 Loss 和 优化器
     # 🚨 关键点：加权 Loss
     # 因为火灾像素很少(0少1多)，我们要给火灾像素(1)更高的权重，强迫模型关注火灾
-    pos_weight = torch.tensor([10.0]).to(DEVICE) 
-    criterion = nn.BCEWithLogitsLoss(pos_weight=pos_weight)
+    
+    criterion_bce = nn.BCEWithLogitsLoss(pos_weight=torch.tensor([100.0]).to(DEVICE)) # 权重还是给大点
+    criterion_dice = DiceLoss()
     
     optimizer = optim.Adam(model.parameters(), lr=LEARNING_RATE)
     
@@ -143,10 +149,10 @@ if __name__ == "__main__":
         print(f"\nEpoch [{epoch+1}/{NUM_EPOCHS}]")
         
         # 训练
-        train_loss = train_one_epoch(model, train_loader, criterion, optimizer)
+        train_loss = train_one_epoch(model, train_loader, criterion_bce, criterion_dice, optimizer)
         
         # 验证
-        val_loss = validate(model, val_loader, criterion)
+        val_loss = validate(model, val_loader, criterion_bce, criterion_dice,)
         
         print(f"   Train Loss: {train_loss:.4f} | Val Loss: {val_loss:.4f}")
         
@@ -161,3 +167,24 @@ if __name__ == "__main__":
     total_time = time.time() - start_time
     print(f"\n✨ 训练结束！总耗时: {total_time/60:.2f} 分钟")
     print(f"最佳模型已保存在: {SAVE_PATH}")
+
+    # ================= 5. 最终测试 (新增部分) =================
+    print("\n🔍 正在加载最佳模型进行最终测试...")
+    
+    # 1. 重新加载保存的“最佳模型”参数
+    # (这一步很重要，因为现在的 model 变量是训练到最后一步的模型，不一定是最好的)
+    best_state = torch.load(SAVE_PATH, map_location=DEVICE)
+    model.load_state_dict(best_state)
+    
+    # 2. 在测试集上跑一遍
+    # (直接复用 validate 函数就行，因为逻辑一样：只算 Loss，不更新参数)
+    test_loss = validate(model, test_loader, criterion_bce, criterion_dice,)
+    
+    print("="*40)
+    print(f"🏆 最终测试集 Loss: {test_loss:.4f}")
+    print("="*40)
+    
+    if test_loss < 0.6: # 这里的阈值只是举例
+        print("✨ 结果看起来不错！模型具备泛化能力。")
+    else:
+        print("⚠️ Loss 偏高，可能需要调整模型结构或增加数据。")

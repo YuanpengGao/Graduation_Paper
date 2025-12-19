@@ -4,3 +4,6 @@ Others
 Old
 .DS_Store
 checkpoint
+*.png
+__pycache__/
+test.py
