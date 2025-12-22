@@ -7,3 +7,5 @@ checkpoint
 *.png
 __pycache__/
 test.py
+*.npy
+*.pyc

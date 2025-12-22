@@ -57,10 +57,38 @@ class ConvLSTMModel(nn.Module):
                                       kernel_size=3, 
                                       bias=True)
         
+        self.norm = nn.GroupNorm(4, hidden_channels)
+        
         # 2. 输出层：把 LSTM 的隐藏状态转成最终的预测图 (1个通道)
         self.output_layer = nn.Conv2d(hidden_channels, 1, kernel_size=1)
         
         self.hidden_channels = hidden_channels
+        # self._init_bias()
+
+    def _init_bias(self):
+        # 1. 设置最后一层的 Bias (解决正负样本极度不平衡造成的初始 Loss 过大)
+        # 假设正样本(火)只占图像的 1% (p=0.01)
+        # 公式: bias = log(p / (1 - p))
+        # log(0.01 / 0.99) ≈ -4.595
+        # 这会让模型一开始输出的概率接近 0.01，而不是 0.5
+        init_bias_value = 2.0 
+        nn.init.constant_(self.output_layer.bias, init_bias_value)
+        print(f"🔥 核弹级初始化：Bias 已设为 {init_bias_value}，强制模型初始预测全火！")
+        
+        # 2. (可选但推荐) 设置 LSTM 遗忘门的 Bias 为 1.0
+        # 这有助于 LSTM 在训练初期记住更长的序列信息，防止梯度消失
+        # ConvLSTM 的 bias 是 (4 * hidden_dim) 长度，顺序是 i, f, o, g
+        # 我们要找到 f (遗忘门) 的那一段加 1
+        with torch.no_grad():
+            # 获取 LSTM 卷积层的 bias
+            lstm_bias = self.conv_lstm.conv.bias
+            # 计算切片位置
+            n = self.hidden_channels
+            # bias 长度是 4n，遗忘门是第二段 [n : 2n]
+            lstm_bias[n : 2*n].data.fill_(1.0)
+            
+        print(f"✅ 模型初始化完成: Output Bias set to {init_bias_value}, LSTM Forget Gate Bias set to 1.0")
+    
 
     def forward(self, x):
         """
@@ -81,6 +109,8 @@ class ConvLSTMModel(nn.Module):
         
         # 循环结束后，hidden_state[0] 就是最后一个时刻的 H (包含了所有历史信息)
         final_h = hidden_state[0]
+
+        final_h = self.norm(final_h)
         
         # 通过最后的卷积层，得到预测结果
         prediction = self.output_layer(final_h)

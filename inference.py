@@ -5,16 +5,19 @@ import os
 import random
 
 # 引入你的模型和数据集类
+# ⚠️ 确保 dataset_loader.py 已经是更新后的极简版本
 from dataset.dataset_loader import FireDataset
 from model.model_ConvLSTM import ConvLSTMModel
 
 # ================= 配置 =================
 # 必须和训练时保持一致
-SEQ_LEN = 7
-INPUT_CHANNELS = 5
+INPUT_CHANNELS = 8
 HIDDEN_CHANNELS = 32
-DATA_PATH = './data/mini_dataset.nc'
-MODEL_PATH = './checkpoint/best_model.pth'
+
+# 指向你刚才生成的 balanced 数据集
+DATA_PATH = './data/balanced_train_data.nc' 
+# 指向训练好的最佳模型
+MODEL_PATH = './checkpoint/best_model_balanced.pth'
 
 # 设备选择 (自动适配 Mac)
 def get_device():
@@ -33,31 +36,39 @@ def load_model():
     model = ConvLSTMModel(input_channels=INPUT_CHANNELS, hidden_channels=HIDDEN_CHANNELS)
     
     # 关键：map_location 确保在 CPU/Mac 上也能加载 CUDA 训练的模型
-    state_dict = torch.load(MODEL_PATH, map_location=DEVICE)
-    model.load_state_dict(state_dict)
-    
-    model.to(DEVICE)
-    model.eval() # 开启评估模式 (关闭 Dropout 等)
-    print("✅ 模型加载成功！")
-    return model
+    if os.path.exists(MODEL_PATH):
+        state_dict = torch.load(MODEL_PATH, map_location=DEVICE, weights_only=True)
+        model.load_state_dict(state_dict)
+        model.to(DEVICE)
+        model.eval() # 开启评估模式
+        print("✅ 模型加载成功！")
+        
+        # 打印 Bias 看看有没有被训练坏
+        print(f"DEBUG - Output Layer Bias: {model.output_layer.bias.data.cpu().numpy()}")
+        return model
+    else:
+        print(f"❌ 找不到模型文件: {MODEL_PATH}")
+        return None
 
 def visualize_result(input_seq, target, prediction, save_name="result.png"):
     """
-    input_seq: (Time, C, H, W) - 输入序列
+    input_seq: (Time, C, H, W) - 输入序列 (经过归一化的)
     target: (1, H, W) - 真实标签
     prediction: (1, H, W) - 模型预测概率
     """
     
     # 取出 "昨天" (序列的最后一天) 的火灾情况作为对比
     # 假设 Channel 0 是 Burned Areas
+    # 注意：这里的 input_seq 是归一化过的，数值可能不是 0/1
+    # 但形状还是看得到的
     last_input_fire = input_seq[-1, 0, :, :] 
     
     fig, axes = plt.subplots(1, 4, figsize=(20, 5))
     
     # 1. 昨天的火 (Input T-1)
     ax = axes[0]
-    im = ax.imshow(last_input_fire, cmap='Reds', vmin=0, vmax=1)
-    ax.set_title("Input: Yesterday's Fire")
+    im = ax.imshow(last_input_fire, cmap='Reds') # 去掉 vmin/vmax 以便观察归一化后的值
+    ax.set_title("Input: Yesterday's Fire (Normalized)")
     plt.colorbar(im, ax=ax, fraction=0.046, pad=0.04)
     
     # 2. 今天的真火 (Ground Truth)
@@ -74,76 +85,80 @@ def visualize_result(input_seq, target, prediction, save_name="result.png"):
     plt.colorbar(im, ax=ax, fraction=0.046, pad=0.04)
     
     # 4. 二值化后的预测 (Binary Prediction > 0.5)
-    # 看看如果按 0.5 切一刀，AI 到底认为哪里着火了
     ax = axes[3]
-    binary_pred = (prediction[0] > 0.3).astype(float) # 阈值设低一点(0.3)更容易看清
+    # 阈值设为 0.5 看看效果
+    binary_pred = (prediction[0] > 0.5).astype(float) 
     im = ax.imshow(binary_pred, cmap='Reds', vmin=0, vmax=1)
-    ax.set_title("AI Decision (Threshold > 0.3)")
+    ax.set_title("AI Decision (Threshold > 0.5)")
     plt.colorbar(im, ax=ax, fraction=0.046, pad=0.04)
     
     plt.tight_layout()
     plt.savefig(save_name)
-    print(f"✨ 图片已保存为: {save_name} (请在左侧文件栏打开查看)")
-    plt.show() # 如果在 Mac 本地跑，会直接弹窗显示
+    print(f"✨ 图片已保存为: {save_name}")
+    # plt.show() # 如果在服务器上跑，这一行可以注释掉
 
 def main():
     # 1. 准备模型
     model = load_model()
+    if model is None: return
     
-    # 2. 准备数据 (只取测试集部分)
-    print("📥 正在加载数据集...")
-    full_dataset = FireDataset(DATA_PATH, seq_len=SEQ_LEN)
+    # 2. 准备数据
+    print(f"📥 正在加载数据集: {DATA_PATH} ...")
+    
+    # 🔥【修改点】不再需要传 seq_len，因为 dataset 内部已经切好了
+    try:
+        full_dataset = FireDataset(DATA_PATH)
+    except TypeError:
+        print("❌ 错误：Dataset 初始化失败。请检查 dataset_loader.py 是否已更新为不需要 seq_len 的版本。")
+        return
+
     total_len = len(full_dataset)
-    test_start_idx = int(0.8 * total_len) # 假设后20%是测试集
+    print(f"📊 数据集总数: {total_len}")
     
-    # 3. 🔍 寻找“连续火灾”样本
-    # 我们不再随机抽，而是遍历测试集，直到找到一个完美的样本
-    print(f"🔍 正在遍历测试集 (索引 {test_start_idx} -> {total_len}) 寻找【连续火灾】样本...")
+    # 3. 寻找测试样本
+    # 因为现在全是正样本，所以我们不需要太复杂的搜索逻辑，随便拿几个都应该有火
+    print(f"🔍 正在抽取样本进行测试...")
     
     found_idx = -1
     found_inputs = None
     found_target = None
     
-    # 遍历测试集
-    for i in range(test_start_idx, total_len):
+    # 简单遍历前 20 个样本，找一个火点比较明显的
+    for i in range(min(20, total_len)):
         inputs, target = full_dataset[i]
         
-        # inputs shape: (7, 5, 128, 128)
-        # target shape: (1, 128, 128)
+        # 统计火点像素
+        fire_pixels = (target > 0).sum()
         
-        # 假设 Channel 0 是 burned_areas
-        # 1. 检查昨天 (序列最后一天) 是否有火
-        yesterday_fire = inputs[-1, 0, :, :]
-        has_fire_yesterday = yesterday_fire.max() > 0
-        
-        # 2. 检查今天 (Target) 是否有火
-        has_fire_today = target.max() > 0
-        
-        # 🔥 核心条件：昨天有火 AND 今天也有火
-        if has_fire_yesterday and has_fire_today:
-            print(f"🎯 找到了！索引: {i}")
-            print(f"   - 昨天火点像素数: {(yesterday_fire > 0).sum()}")
-            print(f"   - 今天火点像素数: {(target > 0).sum()}")
-            
+        if fire_pixels > 10: # 找一个火点超过10个像素的，画出来比较明显
+            print(f"🎯 找到优质样本！索引: {i}, 火点像素数: {fire_pixels}")
             found_idx = i
             found_inputs = inputs
             found_target = target
-            break # 找到一个就停，想多找几个可以注释掉 break
-    
+            break
+            
     if found_idx == -1:
-        print("⚠️ 哎呀，测试集里没找到【连续两天都有火】的样本。")
-        print("   -> 可能是测试集刚好切到了没火的时间段，或者火灾刚好在昨天熄灭了。")
-        print("   -> 正在随机抽取一个样本兜底...")
-        rand_idx = random.randint(test_start_idx, total_len - 1)
-        found_inputs, found_target = full_dataset[rand_idx]
-    
+        print("⚠️ 没找到火点很多的样本，随机取一个...")
+        found_idx = 0
+        found_inputs, found_target = full_dataset[0]
+
     # 4. 推理
     # 增加 Batch 维度: (T, C, H, W) -> (1, T, C, H, W)
     input_tensor = found_inputs.unsqueeze(0).to(DEVICE, dtype=torch.float)
     
+    print("\n------- Debug 信息 -------")
+    print(f"Input Min: {input_tensor.min().item():.4f}, Max: {input_tensor.max().item():.4f}")
+    if torch.isnan(input_tensor).any():
+        print("❌ 警告：输入数据包含 NaN！")
+    
     with torch.no_grad():
         logits = model(input_tensor)
+        
+        print(f"Logits Min: {logits.min().item():.4f}, Max: {logits.max().item():.4f}")
+        print(f"Logits Mean: {logits.mean().item():.4f}")
+        
         preds = torch.sigmoid(logits)
+        print(f"Preds Max Prob: {preds.max().item():.4f}")
         
     # 转回 CPU numpy 方便画图
     inputs_np = found_inputs.numpy()
@@ -151,8 +166,7 @@ def main():
     preds_np = preds.cpu().numpy()[0] 
     
     # 5. 可视化
-    print(f"🎨 正在绘制索引 {found_idx if found_idx != -1 else rand_idx} 的预测结果...")
-    visualize_result(inputs_np, target_np, preds_np, save_name="prediction_continuous_fire.png")
+    visualize_result(inputs_np, target_np, preds_np, save_name="prediction_balanced.png")
     
 if __name__ == "__main__":
     main()
