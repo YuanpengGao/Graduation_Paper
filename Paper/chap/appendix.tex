@@ -1,0 +1,23 @@
+% chap/app.tex
+
+\chapter{模型核心模块代码实现}
+\label{appendix:A}
+
+本附录提供了本文提出的时空解耦双分支 Swin Transformer预测模型的核心代码实现，基于 PyTorch 深度学习框架编写。
+
+\section{动态气象分支与静态地形分支算法实现}
+\label{app:A-1}
+此处展示模型中用于处理动态变量的 \texttt{DynamicSwin3D} 模块，
+% 第一个代码框：动态分支
+\lstinputlisting[language=Python, caption=动态变量提取模块 (DynamicSwin3D) 实现]{code/DynamicSwin3D.py}
+
+此处展示模型中用于处理静态变量的 \texttt{StaticSwin2D} 模块。
+
+% 第二个代码框：静态分支
+\lstinputlisting[language=Python, caption=静态变量编码模块 (StaticSwin2D) 实现]{code/StaticSwin2D.py}
+\section{地理感知交叉注意力机制融合模块算法实现}
+\label{app:A-2}
+此处展示模型中的地理感知交叉注意力机制\texttt{GeoCrossAttention}融合模块。
+\lstinputlisting[language=Python, caption=地理感知交叉注意力模块 (GeoCrossAttention) 实现]{code/GeoCrossAttention.py}
+
+

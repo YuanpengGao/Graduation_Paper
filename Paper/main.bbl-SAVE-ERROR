@@ -1,0 +1,2765 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{pausas2017flammability}{article}{}
+      \name{author}{3}{}{%
+        {{hash=8c42ae4eb956b4caf6706f8b9b37dd68}{%
+           family={Pausas},
+           familyi={P\bibinitperiod},
+           given={Juli\bibnamedelima G},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=ca1460e7b0a6bf20b9b6242780de3e7b}{%
+           family={Keeley},
+           familyi={K\bibinitperiod},
+           given={Jon\bibnamedelima E},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=45be34b10010d3a1006ae256aa3f50be}{%
+           family={Schwilk},
+           familyi={S\bibinitperiod},
+           given={Dylan\bibnamedelima W},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{10c4f944065b865c33ec54df14c2a69f}
+      \strng{fullhash}{10c4f944065b865c33ec54df14c2a69f}
+      \strng{bibnamehash}{10c4f944065b865c33ec54df14c2a69f}
+      \strng{authorbibnamehash}{10c4f944065b865c33ec54df14c2a69f}
+      \strng{authornamehash}{10c4f944065b865c33ec54df14c2a69f}
+      \strng{authorfullhash}{10c4f944065b865c33ec54df14c2a69f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Ecology}
+      \field{number}{2}
+      \field{title}{Flammability as an ecological and evolutionary driver}
+      \field{volume}{105}
+      \field{year}{2017}
+      \field{pages}{289\bibrangedash 297}
+      \range{pages}{9}
+    \endentry
+    \entry{pausas2021wildfires}{article}{}
+      \name{author}{2}{}{%
+        {{hash=8c42ae4eb956b4caf6706f8b9b37dd68}{%
+           family={Pausas},
+           familyi={P\bibinitperiod},
+           given={Juli\bibnamedelima G},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=ca1460e7b0a6bf20b9b6242780de3e7b}{%
+           family={Keeley},
+           familyi={K\bibinitperiod},
+           given={Jon\bibnamedelima E},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{342ccf73d309d3093edac9a0cdcb50e5}
+      \strng{fullhash}{342ccf73d309d3093edac9a0cdcb50e5}
+      \strng{bibnamehash}{342ccf73d309d3093edac9a0cdcb50e5}
+      \strng{authorbibnamehash}{342ccf73d309d3093edac9a0cdcb50e5}
+      \strng{authornamehash}{342ccf73d309d3093edac9a0cdcb50e5}
+      \strng{authorfullhash}{342ccf73d309d3093edac9a0cdcb50e5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in Ecology and the Environment}
+      \field{number}{7}
+      \field{title}{Wildfires and global change}
+      \field{volume}{19}
+      \field{year}{2021}
+      \field{pages}{387\bibrangedash 395}
+      \range{pages}{9}
+    \endentry
+    \entry{batllori2013climate}{article}{}
+      \name{author}{4}{}{%
+        {{hash=89cc42565721f72d8f556a876c34d043}{%
+           family={Batllori},
+           familyi={B\bibinitperiod},
+           given={Enric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=90649399875176562ad9ab9fdf572e85}{%
+           family={Parisien},
+           familyi={P\bibinitperiod},
+           given={Marc-André},
+           giveni={M\bibinithyphendelim A\bibinitperiod}}}%
+        {{hash=da84e2b61ad65434e6c8e526c68107c1}{%
+           family={Krawchuk},
+           familyi={K\bibinitperiod},
+           given={Meg\bibnamedelima A},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=e0a0113d498d9399f8fa44e9ad83dbad}{%
+           family={Moritz},
+           familyi={M\bibinitperiod},
+           given={Max\bibnamedelima A},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{2b7576d4e2dfee9e04f1ec24f9e54da7}
+      \strng{fullhash}{c18e32907a30c8cbda2a155e68249c09}
+      \strng{bibnamehash}{2b7576d4e2dfee9e04f1ec24f9e54da7}
+      \strng{authorbibnamehash}{2b7576d4e2dfee9e04f1ec24f9e54da7}
+      \strng{authornamehash}{2b7576d4e2dfee9e04f1ec24f9e54da7}
+      \strng{authorfullhash}{c18e32907a30c8cbda2a155e68249c09}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Global Ecology and Biogeography}
+      \field{number}{10}
+      \field{title}{Climate change-induced shifts in fire for M editerranean ecosystems}
+      \field{volume}{22}
+      \field{year}{2013}
+      \field{pages}{1118\bibrangedash 1129}
+      \range{pages}{12}
+    \endentry
+    \entry{moreira2020wildfire}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=f9d7681b60451722a241e0baeaa15522}{%
+           family={Moreira},
+           familyi={M\bibinitperiod},
+           given={Francisco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=5fb4d98c361a00536317b93ee7a5d7f2}{%
+           family={Ascoli},
+           familyi={A\bibinitperiod},
+           given={Davide},
+           giveni={D\bibinitperiod}}}%
+        {{hash=7b3b4d9d36bef6434e7c6ebd31e7f859}{%
+           family={Safford},
+           familyi={S\bibinitperiod},
+           given={Hugh},
+           giveni={H\bibinitperiod}}}%
+        {{hash=8a90ff6ba0883f481af5ec1ec47b5ea0}{%
+           family={Adams},
+           familyi={A\bibinitperiod},
+           given={Mark\bibnamedelima A},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=c4b55504bb76555aa5fe4a9a241e21d1}{%
+           family={Moreno},
+           familyi={M\bibinitperiod},
+           given={José\bibnamedelima M},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=c23d8989cea95da0eb81bc63a5a98d2f}{%
+           family={Pereira},
+           familyi={P\bibinitperiod},
+           given={José\bibnamedelima MC},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=1956c71877f574827c8a1dc8148c0c36}{%
+           family={Catry},
+           familyi={C\bibinitperiod},
+           given={Filipe\bibnamedelima X},
+           giveni={F\bibinitperiod\bibinitdelim X\bibinitperiod}}}%
+        {{hash=47fd88759b5c00445bd58feec86f745c}{%
+           family={Armesto},
+           familyi={A\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9da47a2af0556c3f25e3d03a0c70781a}{%
+           family={Bond},
+           familyi={B\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+        {{hash=83b3285fe5b4c9342d484231aadf58d3}{%
+           family={González},
+           familyi={G\bibinitperiod},
+           given={Mauro\bibnamedelima E},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{89f09501a5d03c65cd78ccdf3f923550}
+      \strng{fullhash}{7d910b09d9578b9cee4280f35715f670}
+      \strng{bibnamehash}{89f09501a5d03c65cd78ccdf3f923550}
+      \strng{authorbibnamehash}{89f09501a5d03c65cd78ccdf3f923550}
+      \strng{authornamehash}{89f09501a5d03c65cd78ccdf3f923550}
+      \strng{authorfullhash}{7d910b09d9578b9cee4280f35715f670}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Environmental Research Letters}
+      \field{number}{1}
+      \field{title}{Wildfire management in Mediterranean-type regions: paradigm change needed}
+      \field{volume}{15}
+      \field{year}{2020}
+      \field{pages}{011001}
+      \range{pages}{1}
+    \endentry
+    \entry{archibald2013defining}{article}{}
+      \name{author}{4}{}{%
+        {{hash=b483cbce815889da9d9f8cbc72ddd0c9}{%
+           family={Archibald},
+           familyi={A\bibinitperiod},
+           given={Sally},
+           giveni={S\bibinitperiod}}}%
+        {{hash=258d723c89e720510ed921f46b334d58}{%
+           family={Lehmann},
+           familyi={L\bibinitperiod},
+           given={Caroline\bibnamedelima ER},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=c94ce744d2df47a031ac6b4bffd99cda}{%
+           family={Gómez-Dans},
+           familyi={G\bibinithyphendelim D\bibinitperiod},
+           given={Jose\bibnamedelima L},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=ec77123b82e95a5fe95bb4494bde557c}{%
+           family={Bradstock},
+           familyi={B\bibinitperiod},
+           given={Ross\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {National Academy of Sciences}%
+      }
+      \strng{namehash}{d21cb2d522f3a9d160802bf25071157c}
+      \strng{fullhash}{c5533c7d90074e6ead3df51711caf844}
+      \strng{bibnamehash}{d21cb2d522f3a9d160802bf25071157c}
+      \strng{authorbibnamehash}{d21cb2d522f3a9d160802bf25071157c}
+      \strng{authornamehash}{d21cb2d522f3a9d160802bf25071157c}
+      \strng{authorfullhash}{c5533c7d90074e6ead3df51711caf844}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{16}
+      \field{title}{Defining pyromes and global syndromes of fire regimes}
+      \field{volume}{110}
+      \field{year}{2013}
+      \field{pages}{6442\bibrangedash 6447}
+      \range{pages}{6}
+    \endentry
+    \entry{linn2002studying}{article}{}
+      \name{author}{4}{}{%
+        {{hash=805d32132e19820d1b33d899cc9f4422}{%
+           family={Linn},
+           familyi={L\bibinitperiod},
+           given={Rodman},
+           giveni={R\bibinitperiod}}}%
+        {{hash=98cf204301a9f939ef4568795884e3f1}{%
+           family={Reisner},
+           familyi={R\bibinitperiod},
+           given={Jon},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3c055a46438bb116b98f6a81c7dfc821}{%
+           family={Colman},
+           familyi={C\bibinitperiod},
+           given={Jonah\bibnamedelima J},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=6aed4e1d9661d97d1ea29655c81f3085}{%
+           family={Winterkamp},
+           familyi={W\bibinitperiod},
+           given={Judith},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {CSIRO Publishing}%
+      }
+      \strng{namehash}{13f739c03f4049c8547cd3393b5aaf30}
+      \strng{fullhash}{689d5533e3c613327f180e0287b4fbe8}
+      \strng{bibnamehash}{13f739c03f4049c8547cd3393b5aaf30}
+      \strng{authorbibnamehash}{13f739c03f4049c8547cd3393b5aaf30}
+      \strng{authornamehash}{13f739c03f4049c8547cd3393b5aaf30}
+      \strng{authorfullhash}{689d5533e3c613327f180e0287b4fbe8}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International journal of wildland fire}
+      \field{number}{4}
+      \field{title}{Studying wildfire behavior using FIRETEC}
+      \field{volume}{11}
+      \field{year}{2002}
+      \field{pages}{233\bibrangedash 246}
+      \range{pages}{14}
+    \endentry
+    \entry{mell2007physics}{article}{}
+      \name{author}{4}{}{%
+        {{hash=b7fb7e69a06e21a8c66b9fffd91266bc}{%
+           family={Mell},
+           familyi={M\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+        {{hash=b6f99016d242ef326931447a96af43a4}{%
+           family={Jenkins},
+           familyi={J\bibinitperiod},
+           given={Mary\bibnamedelima Ann},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=6818f5ba2a50550e0452ae0917e01f74}{%
+           family={Gould},
+           familyi={G\bibinitperiod},
+           given={Jim},
+           giveni={J\bibinitperiod}}}%
+        {{hash=006f840225672a07f22d8f41d1b6a05e}{%
+           family={Cheney},
+           familyi={C\bibinitperiod},
+           given={Phil},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {CSIRO Publishing}%
+      }
+      \strng{namehash}{a7c7c56fd830306082d6e10cae49db91}
+      \strng{fullhash}{86dc8373c31c16403e4ea0815bd00a3a}
+      \strng{bibnamehash}{a7c7c56fd830306082d6e10cae49db91}
+      \strng{authorbibnamehash}{a7c7c56fd830306082d6e10cae49db91}
+      \strng{authornamehash}{a7c7c56fd830306082d6e10cae49db91}
+      \strng{authorfullhash}{86dc8373c31c16403e4ea0815bd00a3a}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Wildland Fire}
+      \field{number}{1}
+      \field{title}{A physics-based approach to modelling grassland fires}
+      \field{volume}{16}
+      \field{year}{2007}
+      \field{pages}{1\bibrangedash 22}
+      \range{pages}{22}
+    \endentry
+    \entry{abatzoglou2019global}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ba5565cef991bdaf6f1f52542c553e60}{%
+           family={Abatzoglou},
+           familyi={A\bibinitperiod},
+           given={John\bibnamedelima T},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=69579f58d5e3e38b220e4dd31cc024b9}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={A\bibnamedelima Park},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=f261f9b957a9df1c2c7ccaabf0e8b8a9}{%
+           family={Barbero},
+           familyi={B\bibinitperiod},
+           given={Renaud},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{a07d6a681616963cebc470d2df326d83}
+      \strng{fullhash}{a07d6a681616963cebc470d2df326d83}
+      \strng{bibnamehash}{a07d6a681616963cebc470d2df326d83}
+      \strng{authorbibnamehash}{a07d6a681616963cebc470d2df326d83}
+      \strng{authornamehash}{a07d6a681616963cebc470d2df326d83}
+      \strng{authorfullhash}{a07d6a681616963cebc470d2df326d83}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Geophysical Research Letters}
+      \field{number}{1}
+      \field{title}{Global emergence of anthropogenic climate change in fire weather indices}
+      \field{volume}{46}
+      \field{year}{2019}
+      \field{pages}{326\bibrangedash 336}
+      \range{pages}{11}
+    \endentry
+    \entry{wildfire-review}{article}{}
+      \name{author}{8}{}{%
+        {{hash=55a00ae5171e0cd33963666f78caab29}{%
+           family={Kondylatos},
+           familyi={K\bibinitperiod},
+           given={Spyros},
+           giveni={S\bibinitperiod}}}%
+        {{hash=99e840dffe8c09bd9ff8d0df505e25d2}{%
+           family={Prapas},
+           familyi={P\bibinitperiod},
+           given={Ioannis},
+           giveni={I\bibinitperiod}}}%
+        {{hash=30fbcd9afc8aee2b4b2febc896c553c4}{%
+           family={Ronco},
+           familyi={R\bibinitperiod},
+           given={Michele},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ca2f29a5355696aad930e4f0e34cdbbd}{%
+           family={Papoutsis},
+           familyi={P\bibinitperiod},
+           given={Ioannis},
+           giveni={I\bibinitperiod}}}%
+        {{hash=01c50c5ae75cebee86dca145c4ab7fe2}{%
+           family={Camps-Valls},
+           familyi={C\bibinithyphendelim V\bibinitperiod},
+           given={Gustau},
+           giveni={G\bibinitperiod}}}%
+        {{hash=531ddf562e427a45904a5ac73ce2af2f}{%
+           family={Piles},
+           familyi={P\bibinitperiod},
+           given={María},
+           giveni={M\bibinitperiod}}}%
+        {{hash=468dcaaf626652ad1045f3d33ec6de65}{%
+           family={Fernández-Torres},
+           familyi={F\bibinithyphendelim T\bibinitperiod},
+           given={Miguel-Ángel},
+           giveni={M\bibinithyphendelim Á\bibinitperiod}}}%
+        {{hash=922b86d3829d3e9b63a0d133f45328c0}{%
+           family={Carvalhais},
+           familyi={C\bibinitperiod},
+           given={Nuno},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{7d5afb3d2d80eeb1fc0fa18e47132a4b}
+      \strng{fullhash}{d26dffc950f053cdd0f0bf854d3a342e}
+      \strng{bibnamehash}{7d5afb3d2d80eeb1fc0fa18e47132a4b}
+      \strng{authorbibnamehash}{7d5afb3d2d80eeb1fc0fa18e47132a4b}
+      \strng{authornamehash}{7d5afb3d2d80eeb1fc0fa18e47132a4b}
+      \strng{authorfullhash}{d26dffc950f053cdd0f0bf854d3a342e}
+      \field{extraname}{1}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Geophysical Research Letters}
+      \field{number}{17}
+      \field{title}{Wildfire danger prediction and understanding with deep learning}
+      \field{volume}{49}
+      \field{year}{2022}
+      \field{pages}{e2022GL099368}
+      \range{pages}{-1}
+    \endentry
+    \entry{van1974structure}{book}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=6c9403df73ff9602220dc43b2f44e481}{%
+           family={Van\bibnamedelima Wagner},
+           familyi={V\bibinitperiod\bibinitdelim W\bibinitperiod},
+           given={CE},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Environment Canada, Forestry Service Ottawa, ON, Canada}%
+      }
+      \strng{namehash}{bc27a12f4eec53ec0987431aa8ca3886}
+      \strng{fullhash}{bc27a12f4eec53ec0987431aa8ca3886}
+      \strng{bibnamehash}{bc27a12f4eec53ec0987431aa8ca3886}
+      \strng{authorbibnamehash}{bc27a12f4eec53ec0987431aa8ca3886}
+      \strng{authornamehash}{bc27a12f4eec53ec0987431aa8ca3886}
+      \strng{authorfullhash}{bc27a12f4eec53ec0987431aa8ca3886}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Structure of the Canadian forest fire weather index}
+      \field{volume}{1333}
+      \field{year}{1974}
+    \endentry
+    \entry{rothermel1972mathematical}{book}{}
+      \name{author}{1}{}{%
+        {{hash=00cee41451171874d7b300d35c9866ee}{%
+           family={Rothermel},
+           familyi={R\bibinitperiod},
+           given={Richard\bibnamedelima C},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Intermountain Forest \& Range Experiment Station, Forest Service, US}%
+      }
+      \strng{namehash}{00cee41451171874d7b300d35c9866ee}
+      \strng{fullhash}{00cee41451171874d7b300d35c9866ee}
+      \strng{bibnamehash}{00cee41451171874d7b300d35c9866ee}
+      \strng{authorbibnamehash}{00cee41451171874d7b300d35c9866ee}
+      \strng{authornamehash}{00cee41451171874d7b300d35c9866ee}
+      \strng{authorfullhash}{00cee41451171874d7b300d35c9866ee}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A mathematical model for predicting fire spread in wildland fuels}
+      \field{volume}{115}
+      \field{year}{1972}
+    \endentry
+    \entry{jain2020review}{article}{}
+      \name{author}{6}{}{%
+        {{hash=e796bbe35c9d14a0792ce47bd2cc1056}{%
+           family={Jain},
+           familyi={J\bibinitperiod},
+           given={Piyush},
+           giveni={P\bibinitperiod}}}%
+        {{hash=53682ff5d71a4cfce6828fd9467e13cf}{%
+           family={Coogan},
+           familyi={C\bibinitperiod},
+           given={Sean\bibnamedelima CP},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=653d0ba956678255714fa696aefb7709}{%
+           family={Subramanian},
+           familyi={S\bibinitperiod},
+           given={Sriram\bibnamedelima Ganapathi},
+           giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=ca82b846a197d41722abe45110716a6d}{%
+           family={Crowley},
+           familyi={C\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=536e3db12b0bab4ed6dc25469e80d236}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod}}}%
+        {{hash=165895b2e0522130040cd5d97b524ca2}{%
+           family={Flannigan},
+           familyi={F\bibinitperiod},
+           given={Mike\bibnamedelima D},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {NRC Research Press 1840 Woodward Drive, Suite 1, Ottawa, ON K2C 0P7}%
+      }
+      \strng{namehash}{5e1b05077790f257f4ea76754b5aed83}
+      \strng{fullhash}{43158ce90e3d3e840ee6b6ff61490340}
+      \strng{bibnamehash}{5e1b05077790f257f4ea76754b5aed83}
+      \strng{authorbibnamehash}{5e1b05077790f257f4ea76754b5aed83}
+      \strng{authornamehash}{5e1b05077790f257f4ea76754b5aed83}
+      \strng{authorfullhash}{43158ce90e3d3e840ee6b6ff61490340}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Environmental Reviews}
+      \field{number}{4}
+      \field{title}{A review of machine learning applications in wildfire science and management}
+      \field{volume}{28}
+      \field{year}{2020}
+      \field{pages}{478\bibrangedash 505}
+      \range{pages}{28}
+    \endentry
+    \entry{bi2023pangu}{article}{}
+      \name{author}{6}{}{%
+        {{hash=6ce83c6930257f1bda3f2d26cf0da663}{%
+           family={Bi},
+           familyi={B\bibinitperiod},
+           given={Kaifeng},
+           giveni={K\bibinitperiod}}}%
+        {{hash=465fac3aefe5aab59dc6ab47670a1bdd}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Lingxi},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e1e92d80edcb00bf72d15567731837f1}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Hengheng},
+           giveni={H\bibinitperiod}}}%
+        {{hash=c6b0b16d268b7266380aa15c23031fcf}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Xin},
+           giveni={X\bibinitperiod}}}%
+        {{hash=ac565d0f91eabaa258728d27ef55d4ab}{%
+           family={Gu},
+           familyi={G\bibinitperiod},
+           given={Xiaotao},
+           giveni={X\bibinitperiod}}}%
+        {{hash=9632951617f2079b7d7fa6a955341020}{%
+           family={Tian},
+           familyi={T\bibinitperiod},
+           given={Qi},
+           giveni={Q\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group UK London}%
+      }
+      \strng{namehash}{a738364c3e52c207ca122b03ff948481}
+      \strng{fullhash}{1b27191b9fc28f6626c696777ba858d5}
+      \strng{bibnamehash}{a738364c3e52c207ca122b03ff948481}
+      \strng{authorbibnamehash}{a738364c3e52c207ca122b03ff948481}
+      \strng{authornamehash}{a738364c3e52c207ca122b03ff948481}
+      \strng{authorfullhash}{1b27191b9fc28f6626c696777ba858d5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{7970}
+      \field{title}{Accurate medium-range global weather forecasting with 3D neural networks}
+      \field{volume}{619}
+      \field{year}{2023}
+      \field{pages}{533\bibrangedash 538}
+      \range{pages}{6}
+    \endentry
+    \entry{lam2023learning}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{5}{}{%
+        {{hash=1fc5717e2ceebd1f57d66fd797f6f74e}{%
+           family={Lam},
+           familyi={L\bibinitperiod},
+           given={Remi},
+           giveni={R\bibinitperiod}}}%
+        {{hash=cfe62c9365c523ba7d4f7fd1147cff41}{%
+           family={Sanchez-Gonzalez},
+           familyi={S\bibinithyphendelim G\bibinitperiod},
+           given={Alvaro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=42d2fec26cb0bf53d710afb65898039d}{%
+           family={Willson},
+           familyi={W\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ff245bcc18be7f7764b2b0e216953876}{%
+           family={Wiratunga},
+           familyi={W\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=2687d58e59afed22249974d723704f56}{%
+           family={Ewalds},
+           familyi={E\bibinitperiod},
+           given={Timo},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Association for the Advancement of Science}%
+      }
+      \strng{namehash}{5f2e4c632a27fd34473e46d2272ab599}
+      \strng{fullhash}{3906475f7a275314e578281099be1005}
+      \strng{bibnamehash}{5f2e4c632a27fd34473e46d2272ab599}
+      \strng{authorbibnamehash}{5f2e4c632a27fd34473e46d2272ab599}
+      \strng{authornamehash}{5f2e4c632a27fd34473e46d2272ab599}
+      \strng{authorfullhash}{3906475f7a275314e578281099be1005}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{6677}
+      \field{title}{Learning skillful medium-range global weather forecasting}
+      \field{volume}{382}
+      \field{year}{2023}
+      \field{pages}{1416\bibrangedash 1421}
+      \range{pages}{6}
+    \endentry
+    \entry{pourtaghi2016investigation}{article}{}
+      \name{author}{4}{}{%
+        {{hash=57ed33909e95e29c53c4c13cec2f6e7d}{%
+           family={Pourtaghi},
+           familyi={P\bibinitperiod},
+           given={Zohre\bibnamedelima Sadat},
+           giveni={Z\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=da101be54fb551e2472cbaf2a8fa242a}{%
+           family={Pourghasemi},
+           familyi={P\bibinitperiod},
+           given={Hamid\bibnamedelima Reza},
+           giveni={H\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=55b10332547170ba55dc9156dc749091}{%
+           family={Aretano},
+           familyi={A\bibinitperiod},
+           given={Roberta},
+           giveni={R\bibinitperiod}}}%
+        {{hash=db422e7e82172df17a20f84b0019df34}{%
+           family={Semeraro},
+           familyi={S\bibinitperiod},
+           given={Teodoro},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{d37fd40146c1c9d2968bdb85920c598c}
+      \strng{fullhash}{f56d8c9fc984e2e8c53b554dd3102d94}
+      \strng{bibnamehash}{d37fd40146c1c9d2968bdb85920c598c}
+      \strng{authorbibnamehash}{d37fd40146c1c9d2968bdb85920c598c}
+      \strng{authornamehash}{d37fd40146c1c9d2968bdb85920c598c}
+      \strng{authorfullhash}{f56d8c9fc984e2e8c53b554dd3102d94}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ecological indicators}
+      \field{title}{Investigation of general indicators influencing on forest fire and its susceptibility modeling using different data mining techniques}
+      \field{volume}{64}
+      \field{year}{2016}
+      \field{pages}{72\bibrangedash 84}
+      \range{pages}{13}
+    \endentry
+    \entry{forkel2017data}{article}{}
+      \name{author}{6}{}{%
+        {{hash=410fc2169896f597f650d7f97fc946fd}{%
+           family={Forkel},
+           familyi={F\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7439567ab55ab140bdc08bfd59089be1}{%
+           family={Dorigo},
+           familyi={D\bibinitperiod},
+           given={Wouter},
+           giveni={W\bibinitperiod}}}%
+        {{hash=a21763e81c6d4490132b38548ffb2d33}{%
+           family={Lasslop},
+           familyi={L\bibinitperiod},
+           given={Gitta},
+           giveni={G\bibinitperiod}}}%
+        {{hash=447a7644df3d7a0b890e391ad74bcadd}{%
+           family={Teubner},
+           familyi={T\bibinitperiod},
+           given={Irene},
+           giveni={I\bibinitperiod}}}%
+        {{hash=cc4c5d51998f584b476f636dcdb45b12}{%
+           family={Chuvieco},
+           familyi={C\bibinitperiod},
+           given={Emilio},
+           giveni={E\bibinitperiod}}}%
+        {{hash=40cc89cdd058012f4d4658b4da7dd7b6}{%
+           family={Thonicke},
+           familyi={T\bibinitperiod},
+           given={Kirsten},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Copernicus Publications Göttingen, Germany}%
+      }
+      \strng{namehash}{db908d0681f45b34c3e29ae3c1c3702f}
+      \strng{fullhash}{c2db4c763c278cc7f552d95a45f217e0}
+      \strng{bibnamehash}{db908d0681f45b34c3e29ae3c1c3702f}
+      \strng{authorbibnamehash}{db908d0681f45b34c3e29ae3c1c3702f}
+      \strng{authornamehash}{db908d0681f45b34c3e29ae3c1c3702f}
+      \strng{authorfullhash}{c2db4c763c278cc7f552d95a45f217e0}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Geoscientific Model Development}
+      \field{number}{12}
+      \field{title}{A data-driven approach to identify controls on global fire activity from satellite and climate observations (SOFIA V1)}
+      \field{volume}{10}
+      \field{year}{2017}
+      \field{pages}{4443\bibrangedash 4476}
+      \range{pages}{34}
+    \endentry
+    \entry{reichstein2019deep}{article}{}
+      \name{author}{7}{}{%
+        {{hash=899b62bc85b262ae71ad2ad7071a968d}{%
+           family={Reichstein},
+           familyi={R\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=01c50c5ae75cebee86dca145c4ab7fe2}{%
+           family={Camps-Valls},
+           familyi={C\bibinithyphendelim V\bibinitperiod},
+           given={Gustau},
+           giveni={G\bibinitperiod}}}%
+        {{hash=aae3b59b841fe1ae20159ea4a528982e}{%
+           family={Stevens},
+           familyi={S\bibinitperiod},
+           given={Bjorn},
+           giveni={B\bibinitperiod}}}%
+        {{hash=00a3f1c57008eb4994c9da85847bb146}{%
+           family={Jung},
+           familyi={J\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6b9b85151721b3f4e589ca68bb6a1d73}{%
+           family={Denzler},
+           familyi={D\bibinitperiod},
+           given={Joachim},
+           giveni={J\bibinitperiod}}}%
+        {{hash=922b86d3829d3e9b63a0d133f45328c0}{%
+           family={Carvalhais},
+           familyi={C\bibinitperiod},
+           given={Nuno},
+           giveni={N\bibinitperiod}}}%
+        {{hash=34dbe3856a5c8310c94302cd5cbdb246}{%
+           family={Prabhat},
+           familyi={P\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group UK London}%
+      }
+      \strng{namehash}{90e59004d5fd322fab4329c2f66dd36c}
+      \strng{fullhash}{86b39b029316952d435816227bd07d51}
+      \strng{bibnamehash}{90e59004d5fd322fab4329c2f66dd36c}
+      \strng{authorbibnamehash}{90e59004d5fd322fab4329c2f66dd36c}
+      \strng{authornamehash}{90e59004d5fd322fab4329c2f66dd36c}
+      \strng{authorfullhash}{86b39b029316952d435816227bd07d51}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{7743}
+      \field{title}{Deep learning and process understanding for data-driven Earth system science}
+      \field{volume}{566}
+      \field{year}{2019}
+      \field{pages}{195\bibrangedash 204}
+      \range{pages}{10}
+    \endentry
+    \entry{camps2021deep}{book}{}
+      \name{author}{4}{}{%
+        {{hash=01c50c5ae75cebee86dca145c4ab7fe2}{%
+           family={Camps-Valls},
+           familyi={C\bibinithyphendelim V\bibinitperiod},
+           given={Gustau},
+           giveni={G\bibinitperiod}}}%
+        {{hash=eee762a7909e802447dc52c3bc9f5b47}{%
+           family={Tuia},
+           familyi={T\bibinitperiod},
+           given={Devis},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e5e6aebfefcbe0d7c5db556334617b20}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Xiao\bibnamedelima Xiang},
+           giveni={X\bibinitperiod\bibinitdelim X\bibinitperiod}}}%
+        {{hash=899b62bc85b262ae71ad2ad7071a968d}{%
+           family={Reichstein},
+           familyi={R\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{ebc7095dee179fc7d807dfa3afab93c0}
+      \strng{fullhash}{6c89594cc55d0c071848b45ce0ce1a7c}
+      \strng{bibnamehash}{ebc7095dee179fc7d807dfa3afab93c0}
+      \strng{authorbibnamehash}{ebc7095dee179fc7d807dfa3afab93c0}
+      \strng{authornamehash}{ebc7095dee179fc7d807dfa3afab93c0}
+      \strng{authorfullhash}{6c89594cc55d0c071848b45ce0ce1a7c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Deep learning for the Earth Sciences: A comprehensive approach to remote sensing, climate science and geosciences}
+      \field{year}{2021}
+    \endentry
+    \entry{cheng2008integrated}{article}{}
+      \name{author}{2}{}{%
+        {{hash=79f08c0027786f80ab7b6ff360f05407}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod}}}%
+        {{hash=32b410695f71a155719c1014cdc54495}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jiaqiu},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{232677c80e57d8c1b884b893de431b29}
+      \strng{fullhash}{232677c80e57d8c1b884b893de431b29}
+      \strng{bibnamehash}{232677c80e57d8c1b884b893de431b29}
+      \strng{authorbibnamehash}{232677c80e57d8c1b884b893de431b29}
+      \strng{authornamehash}{232677c80e57d8c1b884b893de431b29}
+      \strng{authorfullhash}{232677c80e57d8c1b884b893de431b29}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Transactions in GIS}
+      \field{number}{5}
+      \field{title}{Integrated spatio-temporal data mining for forest fire prediction}
+      \field{volume}{12}
+      \field{year}{2008}
+      \field{pages}{591\bibrangedash 611}
+      \range{pages}{21}
+    \endentry
+    \entry{liang2019neural}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a60965b6ce657dbad201df8df25c5d34}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={Hao},
+           giveni={H\bibinitperiod}}}%
+        {{hash=1276b0c695bd412950c2be5e737aeed5}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Meng},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c8da0ab78da6e86dc0023ae0f7bc57b4}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Hailan},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{7f760ea8aafd81acd37ea62161b6de27}
+      \strng{fullhash}{7f760ea8aafd81acd37ea62161b6de27}
+      \strng{bibnamehash}{7f760ea8aafd81acd37ea62161b6de27}
+      \strng{authorbibnamehash}{7f760ea8aafd81acd37ea62161b6de27}
+      \strng{authornamehash}{7f760ea8aafd81acd37ea62161b6de27}
+      \strng{authorfullhash}{7f760ea8aafd81acd37ea62161b6de27}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{A neural network model for wildfire scale prediction using meteorological factors}
+      \field{volume}{7}
+      \field{year}{2019}
+      \field{pages}{176746\bibrangedash 176755}
+      \range{pages}{10}
+    \endentry
+    \entry{natekar2021forest}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=b3952331a312bf9802f10eb80ab25f61}{%
+           family={Natekar},
+           familyi={N\bibinitperiod},
+           given={Saily},
+           giveni={S\bibinitperiod}}}%
+        {{hash=329e7af699ad72051744f0b3b93fd958}{%
+           family={Patil},
+           familyi={P\bibinitperiod},
+           given={Shivani},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6bff5e52553cfb96d86678a7eb5b69ae}{%
+           family={Nair},
+           familyi={N\bibinitperiod},
+           given={Aishwarya},
+           giveni={A\bibinitperiod}}}%
+        {{hash=034eb7b1b141952fb4d4299ab902ae66}{%
+           family={Roychowdhury},
+           familyi={R\bibinitperiod},
+           given={Sukanya},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{f5df07b87b4922ce115e5b1fa153ec0f}
+      \strng{fullhash}{dccdd77c7a95b41d7cf4850836a27679}
+      \strng{bibnamehash}{f5df07b87b4922ce115e5b1fa153ec0f}
+      \strng{authorbibnamehash}{f5df07b87b4922ce115e5b1fa153ec0f}
+      \strng{authornamehash}{f5df07b87b4922ce115e5b1fa153ec0f}
+      \strng{authorfullhash}{dccdd77c7a95b41d7cf4850836a27679}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2021 2nd International Conference for Emerging Technology (INCET)}
+      \field{title}{Forest fire prediction using LSTM}
+      \field{year}{2021}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+    \endentry
+    \entry{chuvieco2014integrating}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=cc4c5d51998f584b476f636dcdb45b12}{%
+           family={Chuvieco},
+           familyi={C\bibinitperiod},
+           given={Emilio},
+           giveni={E\bibinitperiod}}}%
+        {{hash=7d44df572e4a4272a15475039018dae9}{%
+           family={Aguado},
+           familyi={A\bibinitperiod},
+           given={Inmaculada},
+           giveni={I\bibinitperiod}}}%
+        {{hash=bea4fcad7c99344e9772828de782ef87}{%
+           family={Jurdao},
+           familyi={J\bibinitperiod},
+           given={Sara},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c0aceb1db2c5205d0c5a846ede3293e1}{%
+           family={Pettinari},
+           familyi={P\bibinitperiod},
+           given={M\bibnamedelima Lucrecia},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=9e186f1042624e29f8a5026b6fe288d4}{%
+           family={Yebra},
+           familyi={Y\bibinitperiod},
+           given={Marta},
+           giveni={M\bibinitperiod}}}%
+        {{hash=62fc67099c4fa8e8e117be607a442099}{%
+           family={Salas},
+           familyi={S\bibinitperiod},
+           given={Javier},
+           giveni={J\bibinitperiod}}}%
+        {{hash=06b4343c72aa3283e00a9bd761879a48}{%
+           family={Hantson},
+           familyi={H\bibinitperiod},
+           given={Stijn},
+           giveni={S\bibinitperiod}}}%
+        {{hash=aad0c1b79ba9c8d5378d86effbf39f43}{%
+           family={Riva},
+           familyi={R\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod},
+           prefix={de\bibnamedelima la},
+           prefixi={d\bibinitperiod\bibinitdelim l\bibinitperiod}}}%
+        {{hash=04cd34d9cd3b3f590d99307fb29e1f34}{%
+           family={Ibarra},
+           familyi={I\bibinitperiod},
+           given={Paloma},
+           giveni={P\bibinitperiod}}}%
+        {{hash=f61035c1f3d33da1ca81152d2e340b7f}{%
+           family={Rodrigues},
+           familyi={R\bibinitperiod},
+           given={Marcos},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {CSIRO Publishing}%
+      }
+      \strng{namehash}{5a6edcf02daab34af64d71ac6c831e7f}
+      \strng{fullhash}{ef21a790cf7d8d12813875ad6865cc94}
+      \strng{bibnamehash}{5a6edcf02daab34af64d71ac6c831e7f}
+      \strng{authorbibnamehash}{5a6edcf02daab34af64d71ac6c831e7f}
+      \strng{authornamehash}{5a6edcf02daab34af64d71ac6c831e7f}
+      \strng{authorfullhash}{ef21a790cf7d8d12813875ad6865cc94}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International journal of wildland fire}
+      \field{number}{5}
+      \field{title}{Integrating geospatial information into fire risk assessment}
+      \field{volume}{23}
+      \field{year}{2014}
+      \field{pages}{606\bibrangedash 619}
+      \range{pages}{14}
+    \endentry
+    \entry{jin2020ufsp}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=aae2b5cb618b23f4afb379388f7151fc}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={Guangyin},
+           giveni={G\bibinitperiod}}}%
+        {{hash=dbe1f5581cefd191784d004ce6667f62}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Cunchao},
+           giveni={C\bibinitperiod}}}%
+        {{hash=8d33bdda9a7ddf9d22e99f2b5daf64de}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Xiaoxuan},
+           giveni={X\bibinitperiod}}}%
+        {{hash=fd5a91a811aff7cf1a773f5a0080f0e8}{%
+           family={Sha},
+           familyi={S\bibinitperiod},
+           given={Hengyu},
+           giveni={H\bibinitperiod}}}%
+        {{hash=697a3d89f27ce6b5f3731680efdd7133}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Xingchen},
+           giveni={X\bibinitperiod}}}%
+        {{hash=8f545adbbc9597d442aefe758183c125}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Jincai},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{ef61a31035b77807ef24f8e9a7df4f48}
+      \strng{fullhash}{5b0ca19120b71f583e92a75f012ee32e}
+      \strng{bibnamehash}{ef61a31035b77807ef24f8e9a7df4f48}
+      \strng{authorbibnamehash}{ef61a31035b77807ef24f8e9a7df4f48}
+      \strng{authornamehash}{ef61a31035b77807ef24f8e9a7df4f48}
+      \strng{authorfullhash}{5b0ca19120b71f583e92a75f012ee32e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IOP Conference Series: Materials Science and Engineering}
+      \field{number}{1}
+      \field{title}{Ufsp-net: a neural network with spatio-temporal information fusion for urban fire situation prediction}
+      \field{volume}{853}
+      \field{year}{2020}
+      \field{pages}{012050}
+      \range{pages}{1}
+    \endentry
+    \entry{miao2023time}{article}{}
+      \name{author}{8}{}{%
+        {{hash=32713355978cfad720b7786432fd1e30}{%
+           family={Miao},
+           familyi={M\bibinitperiod},
+           given={Xinyu},
+           giveni={X\bibinitperiod}}}%
+        {{hash=2bb35bf59aaca26e59bbdb0d0192f3b3}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Jian},
+           giveni={J\bibinitperiod}}}%
+        {{hash=7b396d839d240ca83baf66da2e1ca9e4}{%
+           family={Mu},
+           familyi={M\bibinitperiod},
+           given={Yunjie},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=1601c4503ced09329cbdff823397ecd1}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Cheng},
+           giveni={C\bibinitperiod}}}%
+        {{hash=4632b50f892455c2819262e13305ba91}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Yunfei},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=f12458352bf48d8ebe2ba46b11310c19}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Jie},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d5534c066472377bd4caf43daddb78ba}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Wentao},
+           giveni={W\bibinitperiod}}}%
+        {{hash=661cc30e5dd7225c2c33e961b272de8e}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Demin},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{1674ab9f4e0a7e1ebcbd1b42ca1d6267}
+      \strng{fullhash}{aff3b0f59805d987f1b8086dde2c5784}
+      \strng{bibnamehash}{1674ab9f4e0a7e1ebcbd1b42ca1d6267}
+      \strng{authorbibnamehash}{1674ab9f4e0a7e1ebcbd1b42ca1d6267}
+      \strng{authornamehash}{1674ab9f4e0a7e1ebcbd1b42ca1d6267}
+      \strng{authorfullhash}{aff3b0f59805d987f1b8086dde2c5784}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Forests}
+      \field{number}{8}
+      \field{title}{Time series forest fire prediction based on improved transformer}
+      \field{volume}{14}
+      \field{year}{2023}
+      \field{pages}{1596}
+      \range{pages}{1}
+    \endentry
+    \entry{cao2024forest}{article}{}
+      \name{author}{7}{}{%
+        {{hash=5fde2ec473a5900f24f02ea9a11359ed}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Yue},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=0537850a4f3bb92f1584777a773c0c60}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Xuanyu},
+           giveni={X\bibinitperiod}}}%
+        {{hash=d7ba18d981d5df31655fd6f8e31ab86b}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Yanqi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=3a38410ee2c7f76ca38c3c0fb4c3f528}{%
+           family={Rao},
+           familyi={R\bibinitperiod},
+           given={Shuyu},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c9d7029f267c51310dc71e6a1fd4de95}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Yihui},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=457f7650dddba8ce13254da30154710d}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Chunpeng},
+           giveni={C\bibinitperiod}}}%
+        {{hash=55bd965f812cd30f23a11a4ce45d1d0b}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Zhengli},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{99981f5b699ae67d73907797925b3d4a}
+      \strng{fullhash}{c08a8b310ab9e82781e1062aac3a4a35}
+      \strng{bibnamehash}{99981f5b699ae67d73907797925b3d4a}
+      \strng{authorbibnamehash}{99981f5b699ae67d73907797925b3d4a}
+      \strng{authornamehash}{99981f5b699ae67d73907797925b3d4a}
+      \strng{authorfullhash}{c08a8b310ab9e82781e1062aac3a4a35}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Forests}
+      \field{number}{7}
+      \field{title}{Forest fire prediction based on time series networks and remote sensing images}
+      \field{volume}{15}
+      \field{year}{2024}
+      \field{pages}{1221}
+      \range{pages}{1}
+    \endentry
+    \entry{hu2020spatial}{article}{}
+      \name{author}{6}{}{%
+        {{hash=daf8a56bdf93c44157c695a410891d9b}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Wen-Shuai},
+           giveni={W\bibinithyphendelim S\bibinitperiod}}}%
+        {{hash=cf4d6df507a033f1320f3c05c5cb7182}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Heng-Chao},
+           giveni={H\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=10499aa620a5eabad6a8ef41fadaa23a}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=be6f1b6df7f1ddfafad18806238fa391}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=7b29cc5f01d86d6776ea05347f0fea80}{%
+           family={Tao},
+           familyi={T\bibinitperiod},
+           given={Ran},
+           giveni={R\bibinitperiod}}}%
+        {{hash=bf5e5f7ed3e7b3445faf336bac2a6aef}{%
+           family={Du},
+           familyi={D\bibinitperiod},
+           given={Qian},
+           giveni={Q\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{372cda8b4d6db838aaf79e0da98a9b0c}
+      \strng{fullhash}{720612e932a185749e43584ae06c432d}
+      \strng{bibnamehash}{372cda8b4d6db838aaf79e0da98a9b0c}
+      \strng{authorbibnamehash}{372cda8b4d6db838aaf79e0da98a9b0c}
+      \strng{authornamehash}{372cda8b4d6db838aaf79e0da98a9b0c}
+      \strng{authorfullhash}{720612e932a185749e43584ae06c432d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Geoscience and Remote Sensing}
+      \field{number}{6}
+      \field{title}{Spatial--spectral feature extraction via deep ConvLSTM neural networks for hyperspectral image classification}
+      \field{volume}{58}
+      \field{year}{2020}
+      \field{pages}{4237\bibrangedash 4250}
+      \range{pages}{14}
+    \endentry
+    \entry{zhang2019forest}{article}{}
+      \name{author}{3}{}{%
+        {{hash=1c6144beeadc23fbd2f85f4b43012052}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Guoli},
+           giveni={G\bibinitperiod}}}%
+        {{hash=780b11cd70b95d518f2400ca7967f673}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Ming},
+           giveni={M\bibinitperiod}}}%
+        {{hash=25b9f35fc4e73c25450ef97e7c37b292}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{5aa9154fea0f8a01e7a70493040d7da0}
+      \strng{fullhash}{5aa9154fea0f8a01e7a70493040d7da0}
+      \strng{bibnamehash}{5aa9154fea0f8a01e7a70493040d7da0}
+      \strng{authorbibnamehash}{5aa9154fea0f8a01e7a70493040d7da0}
+      \strng{authornamehash}{5aa9154fea0f8a01e7a70493040d7da0}
+      \strng{authorfullhash}{5aa9154fea0f8a01e7a70493040d7da0}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Disaster Risk Science}
+      \field{number}{3}
+      \field{title}{Forest fire susceptibility modeling using a convolutional neural network for Yunnan province of China}
+      \field{volume}{10}
+      \field{year}{2019}
+      \field{pages}{386\bibrangedash 403}
+      \range{pages}{18}
+    \endentry
+    \entry{krizhevsky2012imagenet}{article}{}
+      \name{author}{3}{}{%
+        {{hash=c5e3a676e2ac1164b3afcd539c131fc9}{%
+           family={Krizhevsky},
+           familyi={K\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8d569d1d5b8b5a7836017a98b430f959}{%
+           family={Sutskever},
+           familyi={S\bibinitperiod},
+           given={Ilya},
+           giveni={I\bibinitperiod}}}%
+        {{hash=813bd95fe553e6079cd53a567b238287}{%
+           family={Hinton},
+           familyi={H\bibinitperiod},
+           given={Geoffrey\bibnamedelima E},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{1a23c09aa65b3c2ade45ed18d8127375}
+      \strng{fullhash}{1a23c09aa65b3c2ade45ed18d8127375}
+      \strng{bibnamehash}{1a23c09aa65b3c2ade45ed18d8127375}
+      \strng{authorbibnamehash}{1a23c09aa65b3c2ade45ed18d8127375}
+      \strng{authornamehash}{1a23c09aa65b3c2ade45ed18d8127375}
+      \strng{authorfullhash}{1a23c09aa65b3c2ade45ed18d8127375}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in neural information processing systems}
+      \field{title}{Imagenet classification with deep convolutional neural networks}
+      \field{volume}{25}
+      \field{year}{2012}
+    \endentry
+    \entry{zhang2021deep}{article}{}
+      \name{author}{3}{}{%
+        {{hash=1c6144beeadc23fbd2f85f4b43012052}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Guoli},
+           giveni={G\bibinitperiod}}}%
+        {{hash=780b11cd70b95d518f2400ca7967f673}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Ming},
+           giveni={M\bibinitperiod}}}%
+        {{hash=25b9f35fc4e73c25450ef97e7c37b292}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{5aa9154fea0f8a01e7a70493040d7da0}
+      \strng{fullhash}{5aa9154fea0f8a01e7a70493040d7da0}
+      \strng{bibnamehash}{5aa9154fea0f8a01e7a70493040d7da0}
+      \strng{authorbibnamehash}{5aa9154fea0f8a01e7a70493040d7da0}
+      \strng{authornamehash}{5aa9154fea0f8a01e7a70493040d7da0}
+      \strng{authorfullhash}{5aa9154fea0f8a01e7a70493040d7da0}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ecological Indicators}
+      \field{title}{Deep neural networks for global wildfire susceptibility modelling}
+      \field{volume}{127}
+      \field{year}{2021}
+      \field{pages}{107735}
+      \range{pages}{1}
+    \endentry
+    \entry{oak2024novel}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=7c9fa95028e87156b600d562826b40a4}{%
+           family={Oak},
+           familyi={O\bibinitperiod},
+           given={Omkar},
+           giveni={O\bibinitperiod}}}%
+        {{hash=be757ce3b9123cd3ce73235edf4b2938}{%
+           family={Nazre},
+           familyi={N\bibinitperiod},
+           given={Rukmini},
+           giveni={R\bibinitperiod}}}%
+        {{hash=df96a6754b694d92850bdd38ab64e0f6}{%
+           family={Naigaonkar},
+           familyi={N\bibinitperiod},
+           given={Soham},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2a0c733a0bf140feda0eeb768d547963}{%
+           family={Sawant},
+           familyi={S\bibinitperiod},
+           given={Suraj},
+           giveni={S\bibinitperiod}}}%
+        {{hash=aefd2493135c5810b465eeaf6249e110}{%
+           family={Joshi},
+           familyi={J\bibinitperiod},
+           given={Amit},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{cb1040fcb0d84eb80e11a040b29ab3c2}
+      \strng{fullhash}{974e03fc8fbe71abfa200f01be90f3ab}
+      \strng{bibnamehash}{cb1040fcb0d84eb80e11a040b29ab3c2}
+      \strng{authorbibnamehash}{cb1040fcb0d84eb80e11a040b29ab3c2}
+      \strng{authornamehash}{cb1040fcb0d84eb80e11a040b29ab3c2}
+      \strng{authorfullhash}{974e03fc8fbe71abfa200f01be90f3ab}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2024 5th International Conference for Emerging Technology (INCET)}
+      \field{title}{A novel transfer learning based CNN model for wildfire susceptibility prediction}
+      \field{year}{2024}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+    \endentry
+    \entry{nur2022creation}{article}{}
+      \name{author}{3}{}{%
+        {{hash=75b2ef5219d0e924fc24c970c579fe01}{%
+           family={Nur},
+           familyi={N\bibinitperiod},
+           given={Arip\bibnamedelima Syaripudin},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=a352c11289afee6372793c41c188edd8}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Yong\bibnamedelima Je},
+           giveni={Y\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=fb71e312b80dc635573df27e2d840d04}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Chang-Wook},
+           giveni={C\bibinithyphendelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{fbc427f2aa7d7507b97219126f075417}
+      \strng{fullhash}{fbc427f2aa7d7507b97219126f075417}
+      \strng{bibnamehash}{fbc427f2aa7d7507b97219126f075417}
+      \strng{authorbibnamehash}{fbc427f2aa7d7507b97219126f075417}
+      \strng{authornamehash}{fbc427f2aa7d7507b97219126f075417}
+      \strng{authorfullhash}{fbc427f2aa7d7507b97219126f075417}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Remote sensing}
+      \field{number}{17}
+      \field{title}{Creation of wildfire susceptibility maps in plumas national forest using InSAR coherence, deep learning, and metaheuristic optimization approaches}
+      \field{volume}{14}
+      \field{year}{2022}
+      \field{pages}{4416}
+      \range{pages}{1}
+    \endentry
+    \entry{hodges2019wildland}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e4b4825edb5ef2ec30d6f44dfc54eeb8}{%
+           family={Hodges},
+           familyi={H\bibinitperiod},
+           given={Jonathan\bibnamedelima L},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=b4bf18176db4a5a268ca72977d08533e}{%
+           family={Lattimer},
+           familyi={L\bibinitperiod},
+           given={Brian\bibnamedelima Y},
+           giveni={B\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{bdf36a7fce0febda58f7a2eab972934d}
+      \strng{fullhash}{bdf36a7fce0febda58f7a2eab972934d}
+      \strng{bibnamehash}{bdf36a7fce0febda58f7a2eab972934d}
+      \strng{authorbibnamehash}{bdf36a7fce0febda58f7a2eab972934d}
+      \strng{authornamehash}{bdf36a7fce0febda58f7a2eab972934d}
+      \strng{authorfullhash}{bdf36a7fce0febda58f7a2eab972934d}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Fire technology}
+      \field{number}{6}
+      \field{title}{Wildland fire spread modeling using convolutional neural networks}
+      \field{volume}{55}
+      \field{year}{2019}
+      \field{pages}{2115\bibrangedash 2142}
+      \range{pages}{28}
+    \endentry
+    \entry{santopaolo2021forest}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=ef9b4fe3978c3c9a30ce91c2af4a85d1}{%
+           family={Santopaolo},
+           familyi={S\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=56c3cdd77ead9bb19a81094c52b5b304}{%
+           family={Saif},
+           familyi={S\bibinitperiod},
+           given={Syed\bibnamedelima Saad},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=2f499d3d6feaf07c3d853a8c823470e0}{%
+           family={Pietrabissa},
+           familyi={P\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod}}}%
+        {{hash=17e0bab7546de83984fb21d8fbfe5e90}{%
+           family={Giuseppi},
+           familyi={G\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{a59dc350ade9034c562eaa3cb41d87e1}
+      \strng{fullhash}{8b4abeaf00b904535450d3d581a0631e}
+      \strng{bibnamehash}{a59dc350ade9034c562eaa3cb41d87e1}
+      \strng{authorbibnamehash}{a59dc350ade9034c562eaa3cb41d87e1}
+      \strng{authornamehash}{a59dc350ade9034c562eaa3cb41d87e1}
+      \strng{authorfullhash}{8b4abeaf00b904535450d3d581a0631e}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2021 29th Mediterranean conference on control and automation (MED)}
+      \field{title}{Forest fire risk prediction from satellite data with convolutional neural networks}
+      \field{year}{2021}
+      \field{pages}{360\bibrangedash 367}
+      \range{pages}{8}
+    \endentry
+    \entry{allaire2021emulation}{article}{}
+      \name{author}{3}{}{%
+        {{hash=fff1ec29263eaa06e71989118fd014a1}{%
+           family={Allaire},
+           familyi={A\bibinitperiod},
+           given={Frédéric},
+           giveni={F\bibinitperiod}}}%
+        {{hash=ed9e59e5d28647d124a917d882e7cf6d}{%
+           family={Mallet},
+           familyi={M\bibinitperiod},
+           given={Vivien},
+           giveni={V\bibinitperiod}}}%
+        {{hash=10a4c998a49d100d15a450a87266dffc}{%
+           family={Filippi},
+           familyi={F\bibinitperiod},
+           given={Jean-Baptiste},
+           giveni={J\bibinithyphendelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{473744e6d981f0825a7df86bab1207f6}
+      \strng{fullhash}{473744e6d981f0825a7df86bab1207f6}
+      \strng{bibnamehash}{473744e6d981f0825a7df86bab1207f6}
+      \strng{authorbibnamehash}{473744e6d981f0825a7df86bab1207f6}
+      \strng{authornamehash}{473744e6d981f0825a7df86bab1207f6}
+      \strng{authorfullhash}{473744e6d981f0825a7df86bab1207f6}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Neural networks}
+      \field{title}{Emulation of wildland fire spread simulation using deep learning}
+      \field{volume}{141}
+      \field{year}{2021}
+      \field{pages}{184\bibrangedash 198}
+      \range{pages}{15}
+    \endentry
+    \entry{li2023predicting}{article}{}
+      \name{author}{6}{}{%
+        {{hash=a8c5101fe1503eda3c572b67517dc4bc}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Xingdong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=20e2c557d724dbd3fd16ca0bc0fca12c}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xinyu},
+           giveni={X\bibinitperiod}}}%
+        {{hash=17e67c824f7e0f315e6eb90da9f7f09d}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Shufa},
+           giveni={S\bibinitperiod}}}%
+        {{hash=59ba87fba9476a0abd64edd21f9ca954}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yangwei},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=a5519cd76ba772ec033a38561a0af12a}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Sanping},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7f7153192e6ee975b085c4c926a976ca}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Dandan},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{3771a8a2874ced55d487d95a008ff909}
+      \strng{fullhash}{f8564f48f6ec9f387ffd00b994153318}
+      \strng{bibnamehash}{3771a8a2874ced55d487d95a008ff909}
+      \strng{authorbibnamehash}{3771a8a2874ced55d487d95a008ff909}
+      \strng{authornamehash}{3771a8a2874ced55d487d95a008ff909}
+      \strng{authorfullhash}{f8564f48f6ec9f387ffd00b994153318}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Fire Technology}
+      \field{number}{5}
+      \field{title}{Predicting the wildland fire spread using a mixed-input CNN model with both channel and spatial attention mechanisms}
+      \field{volume}{59}
+      \field{year}{2023}
+      \field{pages}{2683\bibrangedash 2717}
+      \range{pages}{35}
+    \endentry
+    \entry{jiang2022modeling}{article}{}
+      \name{author}{8}{}{%
+        {{hash=df25ed947ef8034c29db9711b481f0e5}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Wenyu},
+           giveni={W\bibinitperiod}}}%
+        {{hash=60af9bc009f709103e587bb92cee1cda}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Fei},
+           giveni={F\bibinitperiod}}}%
+        {{hash=85a52d449e83ddb453e99358aa9dea6f}{%
+           family={Su},
+           familyi={S\bibinitperiod},
+           given={Guofeng},
+           giveni={G\bibinitperiod}}}%
+        {{hash=86d8cd66cb62928ca1ec636d8cd2e11c}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Xin},
+           giveni={X\bibinitperiod}}}%
+        {{hash=2fed44ff08ee3a62d86b009694059df7}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Guanning},
+           giveni={G\bibinitperiod}}}%
+        {{hash=058da2b76c3bb87ef6285290539dfe3d}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Xinxin},
+           giveni={X\bibinitperiod}}}%
+        {{hash=aa69c3b06b345fb07acdd7c525c45997}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Ting},
+           giveni={T\bibinitperiod}}}%
+        {{hash=0f239f598987de4b16590bc0f5f1b360}{%
+           family={Meng},
+           familyi={M\bibinitperiod},
+           given={Qingxiang},
+           giveni={Q\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{9951ea9fed2d3627916049845abd7b46}
+      \strng{fullhash}{ccc7172f23b105af5664cdbe78cb81db}
+      \strng{bibnamehash}{9951ea9fed2d3627916049845abd7b46}
+      \strng{authorbibnamehash}{9951ea9fed2d3627916049845abd7b46}
+      \strng{authornamehash}{9951ea9fed2d3627916049845abd7b46}
+      \strng{authorfullhash}{ccc7172f23b105af5664cdbe78cb81db}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Fire}
+      \field{number}{6}
+      \field{title}{Modeling wildfire spread with an irregular graph network}
+      \field{volume}{5}
+      \field{year}{2022}
+      \field{pages}{185}
+      \range{pages}{1}
+    \endentry
+    \entry{li2024wildfire}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=1212cea1291f5abedfa05cadf1cadc0d}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Bronte\bibnamedelima Sihan},
+           giveni={B\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=034f5811c96f5d3be718c5480e13a4a8}{%
+           family={Rad},
+           familyi={R\bibinitperiod},
+           given={Ryan},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{5807689c29fe7747f89be44f479fcf53}
+      \strng{fullhash}{5807689c29fe7747f89be44f479fcf53}
+      \strng{bibnamehash}{5807689c29fe7747f89be44f479fcf53}
+      \strng{authorbibnamehash}{5807689c29fe7747f89be44f479fcf53}
+      \strng{authornamehash}{5807689c29fe7747f89be44f479fcf53}
+      \strng{authorfullhash}{5807689c29fe7747f89be44f479fcf53}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2024 IEEE Conference on Artificial Intelligence (CAI)}
+      \field{title}{Wildfire spread prediction in North America using satellite imagery and vision transformer}
+      \field{year}{2024}
+      \field{pages}{1536\bibrangedash 1541}
+      \range{pages}{6}
+    \endentry
+    \entry{prapas2023televit}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=99e840dffe8c09bd9ff8d0df505e25d2}{%
+           family={Prapas},
+           familyi={P\bibinitperiod},
+           given={Ioannis},
+           giveni={I\bibinitperiod}}}%
+        {{hash=f6a6a2c0223e31dafb1d89221e85fdf3}{%
+           family={Bountos},
+           familyi={B\bibinitperiod},
+           given={Nikolaos-Ioannis},
+           giveni={N\bibinithyphendelim I\bibinitperiod}}}%
+        {{hash=55a00ae5171e0cd33963666f78caab29}{%
+           family={Kondylatos},
+           familyi={K\bibinitperiod},
+           given={Spyros},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a288452f22d76244e6607a276cf8f5fd}{%
+           family={Michail},
+           familyi={M\bibinitperiod},
+           given={Dimitrios},
+           giveni={D\bibinitperiod}}}%
+        {{hash=01c50c5ae75cebee86dca145c4ab7fe2}{%
+           family={Camps-Valls},
+           familyi={C\bibinithyphendelim V\bibinitperiod},
+           given={Gustau},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ca2f29a5355696aad930e4f0e34cdbbd}{%
+           family={Papoutsis},
+           familyi={P\bibinitperiod},
+           given={Ioannis},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee042978a3885cbfd5e83524ea47f416}
+      \strng{fullhash}{9ceff5a515687e241b37cf9868a5ed48}
+      \strng{bibnamehash}{ee042978a3885cbfd5e83524ea47f416}
+      \strng{authorbibnamehash}{ee042978a3885cbfd5e83524ea47f416}
+      \strng{authornamehash}{ee042978a3885cbfd5e83524ea47f416}
+      \strng{authorfullhash}{9ceff5a515687e241b37cf9868a5ed48}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the IEEE/CVF international conference on computer vision}
+      \field{title}{Televit: Teleconnection-driven transformers improve subseasonal to seasonal wildfire forecasting}
+      \field{year}{2023}
+      \field{pages}{3754\bibrangedash 3759}
+      \range{pages}{6}
+    \endentry
+    \entry{prapas2021deep}{article}{}
+      \name{author}{8}{}{%
+        {{hash=99e840dffe8c09bd9ff8d0df505e25d2}{%
+           family={Prapas},
+           familyi={P\bibinitperiod},
+           given={Ioannis},
+           giveni={I\bibinitperiod}}}%
+        {{hash=55a00ae5171e0cd33963666f78caab29}{%
+           family={Kondylatos},
+           familyi={K\bibinitperiod},
+           given={Spyros},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ca2f29a5355696aad930e4f0e34cdbbd}{%
+           family={Papoutsis},
+           familyi={P\bibinitperiod},
+           given={Ioannis},
+           giveni={I\bibinitperiod}}}%
+        {{hash=01c50c5ae75cebee86dca145c4ab7fe2}{%
+           family={Camps-Valls},
+           familyi={C\bibinithyphendelim V\bibinitperiod},
+           given={Gustau},
+           giveni={G\bibinitperiod}}}%
+        {{hash=30fbcd9afc8aee2b4b2febc896c553c4}{%
+           family={Ronco},
+           familyi={R\bibinitperiod},
+           given={Michele},
+           giveni={M\bibinitperiod}}}%
+        {{hash=468dcaaf626652ad1045f3d33ec6de65}{%
+           family={Fernández-Torres},
+           familyi={F\bibinithyphendelim T\bibinitperiod},
+           given={Miguel-Ángel},
+           giveni={M\bibinithyphendelim Á\bibinitperiod}}}%
+        {{hash=f09bc5386023ce45d841a0636fe07a2f}{%
+           family={Guillem},
+           familyi={G\bibinitperiod},
+           given={Maria\bibnamedelima Piles},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=922b86d3829d3e9b63a0d133f45328c0}{%
+           family={Carvalhais},
+           familyi={C\bibinitperiod},
+           given={Nuno},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee042978a3885cbfd5e83524ea47f416}
+      \strng{fullhash}{6c5a4415434a8c9a624a46a02d18d31e}
+      \strng{bibnamehash}{ee042978a3885cbfd5e83524ea47f416}
+      \strng{authorbibnamehash}{ee042978a3885cbfd5e83524ea47f416}
+      \strng{authornamehash}{ee042978a3885cbfd5e83524ea47f416}
+      \strng{authorfullhash}{6c5a4415434a8c9a624a46a02d18d31e}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2111.02736}
+      \field{title}{Deep learning methods for daily wildfire danger forecasting}
+      \field{year}{2021}
+    \endentry
+    \entry{xu2025deep}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=99ad1bae6aa000a9e0c0ae4d83693aaf}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Zhengsen},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=099a58f50432fae0961d03bb2073f8ca}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=556cdadde7d5a829e1d37403e019514c}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Sibo},
+           giveni={S\bibinitperiod}}}%
+        {{hash=44ab134288f096dbc613e3b03b103481}{%
+           family={Rui},
+           familyi={R\bibinitperiod},
+           given={Xue},
+           giveni={X\bibinitperiod}}}%
+        {{hash=26500c0e7c5f37a79d71416c4c641ba2}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=e72a86b9bd6f564b9c35592a7a4979be}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Hongjie},
+           giveni={H\bibinitperiod}}}%
+        {{hash=f1ffb3644b87b50487843ecf5ec5e207}{%
+           family={Guan},
+           familyi={G\bibinitperiod},
+           given={Haiyan},
+           giveni={H\bibinitperiod}}}%
+        {{hash=085952d1b4f57fde835dfeae903a0d0c}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Aryan},
+           giveni={A\bibinitperiod}}}%
+        {{hash=29ed783e31dbeafd85239cd9e60883ff}{%
+           family={Erxleben},
+           familyi={E\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+        {{hash=71b7b59802ef7704a65b6d0b7b8ef6f6}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Ryan},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{243b26596f5f9c264699dfb4ae7e05dd}
+      \strng{fullhash}{5891bf7703f8ae3ba628103cba222c36}
+      \strng{bibnamehash}{243b26596f5f9c264699dfb4ae7e05dd}
+      \strng{authorbibnamehash}{243b26596f5f9c264699dfb4ae7e05dd}
+      \strng{authornamehash}{243b26596f5f9c264699dfb4ae7e05dd}
+      \strng{authorfullhash}{5891bf7703f8ae3ba628103cba222c36}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ISPRS Journal of Photogrammetry and Remote Sensing}
+      \field{title}{Deep learning for wildfire risk prediction: Integrating remote sensing and environmental data}
+      \field{volume}{227}
+      \field{year}{2025}
+      \field{pages}{632\bibrangedash 677}
+      \range{pages}{46}
+    \endentry
+    \entry{huot2020deep}{article}{}
+      \name{author}{9}{}{%
+        {{hash=79c62833e5e119be60f8e26baab01c2b}{%
+           family={Huot},
+           familyi={H\bibinitperiod},
+           given={Fantine},
+           giveni={F\bibinitperiod}}}%
+        {{hash=327b0dfc1ac40074ef640f0bae6cf7e6}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={R\bibnamedelima Lily},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=d68dde26344ba3ba6d7e9fa3ddbfe621}{%
+           family={Ihme},
+           familyi={I\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=07a750250bc37c9181998579542af8c2}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Qing},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=f0f0a7a4cf1573ad90531516164995bb}{%
+           family={Burge},
+           familyi={B\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b78157b006babd8b417cccc0ea8f3e41}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Tianjian},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c9513728913800070380f8bb5e9a193f}{%
+           family={Hickey},
+           familyi={H\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f73955f2c7410c2bbc9d296ab2e7eb89}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yi-Fan},
+           giveni={Y\bibinithyphendelim F\bibinitperiod}}}%
+        {{hash=fec5ecb2986d46cd1d53ab2f051ec153}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e5a489b5b92aa8ce1eec1fc013d860a}
+      \strng{fullhash}{9d39214812c70596df1ab7e8c68cceec}
+      \strng{bibnamehash}{4e5a489b5b92aa8ce1eec1fc013d860a}
+      \strng{authorbibnamehash}{4e5a489b5b92aa8ce1eec1fc013d860a}
+      \strng{authornamehash}{4e5a489b5b92aa8ce1eec1fc013d860a}
+      \strng{authorfullhash}{9d39214812c70596df1ab7e8c68cceec}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2010.07445}
+      \field{title}{Deep learning models for predicting wildfires from historical remote-sensing data}
+      \field{year}{2020}
+    \endentry
+    \entry{zhang2022dynamic}{article}{}
+      \name{author}{3}{}{%
+        {{hash=1c6144beeadc23fbd2f85f4b43012052}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Guoli},
+           giveni={G\bibinitperiod}}}%
+        {{hash=780b11cd70b95d518f2400ca7967f673}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Ming},
+           giveni={M\bibinitperiod}}}%
+        {{hash=25b9f35fc4e73c25450ef97e7c37b292}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{5aa9154fea0f8a01e7a70493040d7da0}
+      \strng{fullhash}{5aa9154fea0f8a01e7a70493040d7da0}
+      \strng{bibnamehash}{5aa9154fea0f8a01e7a70493040d7da0}
+      \strng{authorbibnamehash}{5aa9154fea0f8a01e7a70493040d7da0}
+      \strng{authornamehash}{5aa9154fea0f8a01e7a70493040d7da0}
+      \strng{authorfullhash}{5aa9154fea0f8a01e7a70493040d7da0}
+      \field{extraname}{3}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ecological Applications}
+      \field{number}{5}
+      \field{title}{Dynamic prediction of global monthly burned area with hybrid deep neural networks}
+      \field{volume}{32}
+      \field{year}{2022}
+      \field{pages}{e2610}
+      \range{pages}{-1}
+    \endentry
+    \entry{marjani2024cnn}{article}{}
+      \name{author}{3}{}{%
+        {{hash=2635fd937a7c4480401d32322f138a4f}{%
+           family={Marjani},
+           familyi={M\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=46feafaa881235f4390e75e00c9d3eac}{%
+           family={Mahdianpari},
+           familyi={M\bibinitperiod},
+           given={Masoud},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0796792631bfeb9279f6e3d470c617d2}{%
+           family={Mohammadimanesh},
+           familyi={M\bibinitperiod},
+           given={Fariba},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{4934c7c4195295f8849eec538e42a45b}
+      \strng{fullhash}{4934c7c4195295f8849eec538e42a45b}
+      \strng{bibnamehash}{4934c7c4195295f8849eec538e42a45b}
+      \strng{authorbibnamehash}{4934c7c4195295f8849eec538e42a45b}
+      \strng{authornamehash}{4934c7c4195295f8849eec538e42a45b}
+      \strng{authorfullhash}{4934c7c4195295f8849eec538e42a45b}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Remote Sensing}
+      \field{number}{8}
+      \field{title}{CNN-BiLSTM: A novel deep learning model for near-real-time daily wildfire spread prediction}
+      \field{volume}{16}
+      \field{year}{2024}
+      \field{pages}{1467}
+      \range{pages}{1}
+    \endentry
+    \entry{burge2020convolutional}{article}{}
+      \name{author}{4}{}{%
+        {{hash=f0f0a7a4cf1573ad90531516164995bb}{%
+           family={Burge},
+           familyi={B\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=cb127a0fb20e15f52acc095565b34aa3}{%
+           family={Bonanni},
+           familyi={B\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d68dde26344ba3ba6d7e9fa3ddbfe621}{%
+           family={Ihme},
+           familyi={I\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ae9afabfefebd0502299d97039082fcf}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Lily},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc69513f30f1804f9748c0689f1e279a}
+      \strng{fullhash}{e820d8a44b63e16aa57a9c6bd83bc09b}
+      \strng{bibnamehash}{dc69513f30f1804f9748c0689f1e279a}
+      \strng{authorbibnamehash}{dc69513f30f1804f9748c0689f1e279a}
+      \strng{authornamehash}{dc69513f30f1804f9748c0689f1e279a}
+      \strng{authorfullhash}{e820d8a44b63e16aa57a9c6bd83bc09b}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2012.06679}
+      \field{title}{Convolutional LSTM neural networks for modeling wildland fire dynamics}
+      \field{year}{2020}
+    \endentry
+    \entry{ji2024global}{article}{}
+      \name{author}{5}{}{%
+        {{hash=15a04ad03e81a51da7a705cd94e22b1e}{%
+           family={Ji},
+           familyi={J\bibinitperiod},
+           given={Yuheng},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=50e578209e59a4d498fdb91091525255}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod}}}%
+        {{hash=b9861eea238c0b32fbcc0b0468aa43fa}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Qingliang},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=caf0c6e7d739f7fe6e5c0c850d526363}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Taihui},
+           giveni={T\bibinitperiod}}}%
+        {{hash=0c9e871487588b60e3bc831c9171f216}{%
+           family={Bai},
+           familyi={B\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{934460b558e318a2ab32218e8c8b1a47}
+      \strng{fullhash}{0e102201ae1867bc96b0307c6923412a}
+      \strng{bibnamehash}{934460b558e318a2ab32218e8c8b1a47}
+      \strng{authorbibnamehash}{934460b558e318a2ab32218e8c8b1a47}
+      \strng{authornamehash}{934460b558e318a2ab32218e8c8b1a47}
+      \strng{authorfullhash}{0e102201ae1867bc96b0307c6923412a}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Forests}
+      \field{number}{1}
+      \field{title}{Global wildfire danger predictions based on deep learning taking into account static and dynamic variables}
+      \field{volume}{15}
+      \field{year}{2024}
+      \field{pages}{216}
+      \range{pages}{1}
+    \endentry
+    \entry{he2024deep}{article}{}
+      \name{author}{7}{}{%
+        {{hash=5912139e80db1e70b7e65e49fe5fab76}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Zhonghua},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=e9f00a76975745047785483d27078de8}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={Gaofeng},
+           giveni={G\bibinitperiod}}}%
+        {{hash=a54e82ec44255de14e732c507bf88572}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Zhengquan},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=47ffbd18012b6c9b30cfcbf505db7c2e}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Shaohong},
+           giveni={S\bibinitperiod}}}%
+        {{hash=55f1dfccfaaf8787bbc247852466b1a0}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Ling},
+           giveni={L\bibinitperiod}}}%
+        {{hash=09e1a64c667557dd7866bc4e66d193ce}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Xiang},
+           giveni={X\bibinitperiod}}}%
+        {{hash=2f9f545610ccd679543b2b5f8439df50}{%
+           family={Zeng},
+           familyi={Z\bibinitperiod},
+           given={Zhao-Cheng},
+           giveni={Z\bibinithyphendelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{22dce53622d58fa5befb811b8a158622}
+      \strng{fullhash}{378ebfe75482b562b22f8ab3b30b5f01}
+      \strng{bibnamehash}{22dce53622d58fa5befb811b8a158622}
+      \strng{authorbibnamehash}{22dce53622d58fa5befb811b8a158622}
+      \strng{authornamehash}{22dce53622d58fa5befb811b8a158622}
+      \strng{authorfullhash}{378ebfe75482b562b22f8ab3b30b5f01}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ecological Indicators}
+      \field{title}{Deep learning modeling of human activity affected wildfire risk by incorporating structural features: a case study in eastern China}
+      \field{volume}{160}
+      \field{year}{2024}
+      \field{pages}{111946}
+      \range{pages}{1}
+    \endentry
+    \entry{kondylatos2022wildfire}{article}{}
+      \name{author}{8}{}{%
+        {{hash=55a00ae5171e0cd33963666f78caab29}{%
+           family={Kondylatos},
+           familyi={K\bibinitperiod},
+           given={Spyros},
+           giveni={S\bibinitperiod}}}%
+        {{hash=99e840dffe8c09bd9ff8d0df505e25d2}{%
+           family={Prapas},
+           familyi={P\bibinitperiod},
+           given={Ioannis},
+           giveni={I\bibinitperiod}}}%
+        {{hash=30fbcd9afc8aee2b4b2febc896c553c4}{%
+           family={Ronco},
+           familyi={R\bibinitperiod},
+           given={Michele},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ca2f29a5355696aad930e4f0e34cdbbd}{%
+           family={Papoutsis},
+           familyi={P\bibinitperiod},
+           given={Ioannis},
+           giveni={I\bibinitperiod}}}%
+        {{hash=01c50c5ae75cebee86dca145c4ab7fe2}{%
+           family={Camps-Valls},
+           familyi={C\bibinithyphendelim V\bibinitperiod},
+           given={Gustau},
+           giveni={G\bibinitperiod}}}%
+        {{hash=531ddf562e427a45904a5ac73ce2af2f}{%
+           family={Piles},
+           familyi={P\bibinitperiod},
+           given={María},
+           giveni={M\bibinitperiod}}}%
+        {{hash=468dcaaf626652ad1045f3d33ec6de65}{%
+           family={Fernández-Torres},
+           familyi={F\bibinithyphendelim T\bibinitperiod},
+           given={Miguel-Ángel},
+           giveni={M\bibinithyphendelim Á\bibinitperiod}}}%
+        {{hash=922b86d3829d3e9b63a0d133f45328c0}{%
+           family={Carvalhais},
+           familyi={C\bibinitperiod},
+           given={Nuno},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{7d5afb3d2d80eeb1fc0fa18e47132a4b}
+      \strng{fullhash}{d26dffc950f053cdd0f0bf854d3a342e}
+      \strng{bibnamehash}{7d5afb3d2d80eeb1fc0fa18e47132a4b}
+      \strng{authorbibnamehash}{7d5afb3d2d80eeb1fc0fa18e47132a4b}
+      \strng{authornamehash}{7d5afb3d2d80eeb1fc0fa18e47132a4b}
+      \strng{authorfullhash}{d26dffc950f053cdd0f0bf854d3a342e}
+      \field{extraname}{2}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Geophysical Research Letters}
+      \field{number}{17}
+      \field{title}{Wildfire danger prediction and understanding with deep learning}
+      \field{volume}{49}
+      \field{year}{2022}
+      \field{pages}{e2022GL099368}
+      \range{pages}{-1}
+    \endentry
+    \entry{prapas2022firecube}{article}{}
+      \name{author}{3}{}{%
+        {{hash=99e840dffe8c09bd9ff8d0df505e25d2}{%
+           family={Prapas},
+           familyi={P\bibinitperiod},
+           given={Ioannis},
+           giveni={I\bibinitperiod}}}%
+        {{hash=55a00ae5171e0cd33963666f78caab29}{%
+           family={Kondylatos},
+           familyi={K\bibinitperiod},
+           given={Spyros},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ca2f29a5355696aad930e4f0e34cdbbd}{%
+           family={Papoutsis},
+           familyi={P\bibinitperiod},
+           given={Ioannis},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{bedf961fc99f4b5f115d6269bbb10117}
+      \strng{fullhash}{bedf961fc99f4b5f115d6269bbb10117}
+      \strng{bibnamehash}{bedf961fc99f4b5f115d6269bbb10117}
+      \strng{authorbibnamehash}{bedf961fc99f4b5f115d6269bbb10117}
+      \strng{authornamehash}{bedf961fc99f4b5f115d6269bbb10117}
+      \strng{authorfullhash}{bedf961fc99f4b5f115d6269bbb10117}
+      \field{extraname}{1}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{URL: https://doi.org/10.5281/zenodo}
+      \field{title}{FireCube: A daily datacube for the modeling and analysis of wildfires in Greece}
+      \field{volume}{6475592}
+      \field{year}{2022}
+    \endentry
+    \entry{prapas2022firecube_dataset}{dataset}{}
+      \name{author}{3}{}{%
+        {{hash=6393b5db979b39cc41f6a9d91fcfd70f}{%
+           family={Prapas},
+           familyi={P\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=96165c5d4860ff6e80a727392a06a0ff}{%
+           family={Kondylatos},
+           familyi={K\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=042a688a97cd4d0264d2207605b02dde}{%
+           family={Papoutsis},
+           familyi={P\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Zenodo}%
+      }
+      \strng{namehash}{a5cd60f8a90829e2ba5692cbbbd338b1}
+      \strng{fullhash}{a5cd60f8a90829e2ba5692cbbbd338b1}
+      \strng{bibnamehash}{a5cd60f8a90829e2ba5692cbbbd338b1}
+      \strng{authorbibnamehash}{a5cd60f8a90829e2ba5692cbbbd338b1}
+      \strng{authornamehash}{a5cd60f8a90829e2ba5692cbbbd338b1}
+      \strng{authorfullhash}{a5cd60f8a90829e2ba5692cbbbd338b1}
+      \field{extraname}{2}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{FireCube}: A Daily Datacube for the Modeling and Analysis of Wildfires in Greece (1.0)}
+      \field{type}{Data set}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.5281/zenodo.6475592
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.5281/zenodo.6475592
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.5281/zenodo.6475592
+      \endverb
+    \endentry
+    \entry{san2013european}{article}{}
+      \name{author}{4}{}{%
+        {{hash=acbee85f990db55c52360f79f631a86e}{%
+           family={San-Miguel-Ayanz},
+           familyi={S\bibinithyphendelim M\bibinithyphendelim A\bibinitperiod},
+           given={Jesús},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b21d472b35a5c44a458ce055501d91cb}{%
+           family={Schulte},
+           familyi={S\bibinitperiod},
+           given={Ernst},
+           giveni={E\bibinitperiod}}}%
+        {{hash=1d3ed1f5b3b54bfee9a0c34f7b5bdf62}{%
+           family={Schmuck},
+           familyi={S\bibinitperiod},
+           given={Guido},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ded2e17f16b2e8e342bb7b465c5b7f2b}{%
+           family={Camia},
+           familyi={C\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{7bac47e235c0f316d7593133aa6bf979}
+      \strng{fullhash}{f9ba8ecc56947125be61b13bb467e7e3}
+      \strng{bibnamehash}{7bac47e235c0f316d7593133aa6bf979}
+      \strng{authorbibnamehash}{7bac47e235c0f316d7593133aa6bf979}
+      \strng{authornamehash}{7bac47e235c0f316d7593133aa6bf979}
+      \strng{authorfullhash}{f9ba8ecc56947125be61b13bb467e7e3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Forest Policy and Economics}
+      \field{title}{The European Forest Fire Information System in the context of environmental policies of the European Union}
+      \field{volume}{29}
+      \field{year}{2013}
+      \field{pages}{19\bibrangedash 25}
+      \range{pages}{7}
+    \endentry
+    \entry{giglio2016collection}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a67cd59b332075244b9040d7fe226ab6}{%
+           family={Giglio},
+           familyi={G\bibinitperiod},
+           given={Louis},
+           giveni={L\bibinitperiod}}}%
+        {{hash=8e948c23e79a8d162c76b5547ee1fff3}{%
+           family={Schroeder},
+           familyi={S\bibinitperiod},
+           given={Wilfrid},
+           giveni={W\bibinitperiod}}}%
+        {{hash=f1e79a130f7c7be262476ca3509c403c}{%
+           family={Justice},
+           familyi={J\bibinitperiod},
+           given={Christopher\bibnamedelima O},
+           giveni={C\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{ede324a2e8d2cfefcfa1394b12102a18}
+      \strng{fullhash}{ede324a2e8d2cfefcfa1394b12102a18}
+      \strng{bibnamehash}{ede324a2e8d2cfefcfa1394b12102a18}
+      \strng{authorbibnamehash}{ede324a2e8d2cfefcfa1394b12102a18}
+      \strng{authornamehash}{ede324a2e8d2cfefcfa1394b12102a18}
+      \strng{authorfullhash}{ede324a2e8d2cfefcfa1394b12102a18}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Remote sensing of environment}
+      \field{title}{The collection 6 MODIS active fire detection algorithm and fire products}
+      \field{volume}{178}
+      \field{year}{2016}
+      \field{pages}{31\bibrangedash 41}
+      \range{pages}{11}
+    \endentry
+    \entry{giannaros2022meteorological}{article}{}
+      \name{author}{7}{}{%
+        {{hash=37f41f9644d36cfe520623144d247bfd}{%
+           family={Giannaros},
+           familyi={G\bibinitperiod},
+           given={Theodore\bibnamedelima M},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=355e4459554d4f57db9889811592624d}{%
+           family={Papavasileiou},
+           familyi={P\bibinitperiod},
+           given={Georgios},
+           giveni={G\bibinitperiod}}}%
+        {{hash=84f796f52143fb7015eefde4b6721d69}{%
+           family={Lagouvardos},
+           familyi={L\bibinitperiod},
+           given={Konstantinos},
+           giveni={K\bibinitperiod}}}%
+        {{hash=a76230bccf7cd0c8e03e82d8d43ad857}{%
+           family={Kotroni},
+           familyi={K\bibinitperiod},
+           given={Vassiliki},
+           giveni={V\bibinitperiod}}}%
+        {{hash=e21eefc83446503c7ae1139ff20e3c8e}{%
+           family={Dafis},
+           familyi={D\bibinitperiod},
+           given={Stavros},
+           giveni={S\bibinitperiod}}}%
+        {{hash=290ac3f41275f766cf66efd8bb7375b5}{%
+           family={Karagiannidis},
+           familyi={K\bibinitperiod},
+           given={Athanasios},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7eefd6b22a446108cddacebb7199a25f}{%
+           family={Dragozi},
+           familyi={D\bibinitperiod},
+           given={Eleni},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{4d3309ff90ee6c6e1223d4c799ef8f31}
+      \strng{fullhash}{168b62ca32ffcea3ad9bbc8147114ecb}
+      \strng{bibnamehash}{4d3309ff90ee6c6e1223d4c799ef8f31}
+      \strng{authorbibnamehash}{4d3309ff90ee6c6e1223d4c799ef8f31}
+      \strng{authornamehash}{4d3309ff90ee6c6e1223d4c799ef8f31}
+      \strng{authorfullhash}{168b62ca32ffcea3ad9bbc8147114ecb}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Atmosphere}
+      \field{number}{3}
+      \field{title}{Meteorological analysis of the 2021 extreme wildfires in Greece: lessons learned and implications for early warning of the potential for pyroconvection}
+      \field{volume}{13}
+      \field{year}{2022}
+      \field{pages}{475}
+      \range{pages}{1}
+    \endentry
+    \entry{prapas2022training}{dataset}{}
+      \name{author}{3}{}{%
+        {{hash=6393b5db979b39cc41f6a9d91fcfd70f}{%
+           family={Prapas},
+           familyi={P\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=96165c5d4860ff6e80a727392a06a0ff}{%
+           family={Kondylatos},
+           familyi={K\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=042a688a97cd4d0264d2207605b02dde}{%
+           family={Papoutsis},
+           familyi={P\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Zenodo}%
+      }
+      \strng{namehash}{a5cd60f8a90829e2ba5692cbbbd338b1}
+      \strng{fullhash}{a5cd60f8a90829e2ba5692cbbbd338b1}
+      \strng{bibnamehash}{a5cd60f8a90829e2ba5692cbbbd338b1}
+      \strng{authorbibnamehash}{a5cd60f8a90829e2ba5692cbbbd338b1}
+      \strng{authornamehash}{a5cd60f8a90829e2ba5692cbbbd338b1}
+      \strng{authorfullhash}{a5cd60f8a90829e2ba5692cbbbd338b1}
+      \field{extraname}{3}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Training data for submitted paper "{Wildfire Danger Prediction and Understanding with Deep Learning}"}
+      \field{type}{Data set}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.5281/zenodo.6528394
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.5281/zenodo.6528394
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.5281/zenodo.6528394
+      \endverb
+    \endentry
+    \entry{bengio2017deep}{book}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{hash=40a8e4774982146adc2688546f54efb2}{%
+           family={Bengio},
+           familyi={B\bibinitperiod},
+           given={Yoshua},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=5d2585c11210cf1d4512e6e0a03ec315}{%
+           family={Goodfellow},
+           familyi={G\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+        {{hash=ccec1ccd2e1aa86960eb2e872c6b7020}{%
+           family={Courville},
+           familyi={C\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MIT press Cambridge, MA, USA}%
+      }
+      \strng{namehash}{29aba5694fdd73ed5462e25ff5204188}
+      \strng{fullhash}{29aba5694fdd73ed5462e25ff5204188}
+      \strng{bibnamehash}{29aba5694fdd73ed5462e25ff5204188}
+      \strng{authorbibnamehash}{29aba5694fdd73ed5462e25ff5204188}
+      \strng{authornamehash}{29aba5694fdd73ed5462e25ff5204188}
+      \strng{authorfullhash}{29aba5694fdd73ed5462e25ff5204188}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Deep learning}
+      \field{volume}{1}
+      \field{year}{2017}
+    \endentry
+    \entry{liu2021swin}{inproceedings}{}
+      \name{author}{8}{}{%
+        {{hash=19aabf2deb737584450693431af51cc3}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Ze},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=3c6a54dc09fe06657a89a749043b2133}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Yutong},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=5fde2ec473a5900f24f02ea9a11359ed}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Yue},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=f19295c2c8bee05248e05cdbfd48b247}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Han},
+           giveni={H\bibinitperiod}}}%
+        {{hash=1d41b11667193fc2d6d720337c963955}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Yixuan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=fcdb4c7704baa79893b29d652aecc77f}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zheng},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=eb40fa909f02eebf8c76aedeab111038}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5635e5718e86c9052afcaa71d2097959}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Baining},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{009ce81df9957b336af5b72e75724e0c}
+      \strng{fullhash}{4573863b62d52acb9c29e180e6f47f26}
+      \strng{bibnamehash}{009ce81df9957b336af5b72e75724e0c}
+      \strng{authorbibnamehash}{009ce81df9957b336af5b72e75724e0c}
+      \strng{authornamehash}{009ce81df9957b336af5b72e75724e0c}
+      \strng{authorfullhash}{4573863b62d52acb9c29e180e6f47f26}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the IEEE/CVF international conference on computer vision}
+      \field{title}{Swin transformer: Hierarchical vision transformer using shifted windows}
+      \field{year}{2021}
+      \field{pages}{10012\bibrangedash 10022}
+      \range{pages}{11}
+    \endentry
+    \entry{vaswani2017attention}{article}{}
+      \name{author}{8}{}{%
+        {{hash=7f28e84700536646dd6620a0db07ad09}{%
+           family={Vaswani},
+           familyi={V\bibinitperiod},
+           given={Ashish},
+           giveni={A\bibinitperiod}}}%
+        {{hash=62efade83d70f0323fe248755e6c90c5}{%
+           family={Shazeer},
+           familyi={S\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod}}}%
+        {{hash=06649ebab1ea5cac0250746a19764975}{%
+           family={Parmar},
+           familyi={P\bibinitperiod},
+           given={Niki},
+           giveni={N\bibinitperiod}}}%
+        {{hash=831027ee0ebf22375e2a86afc1881909}{%
+           family={Uszkoreit},
+           familyi={U\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2fd2982e30ebcec93ec1cf76e0d797fd}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Llion},
+           giveni={L\bibinitperiod}}}%
+        {{hash=27b07e4eacbf4ef7a1438e3badb7dd8d}{%
+           family={Gomez},
+           familyi={G\bibinitperiod},
+           given={Aidan\bibnamedelima N},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=540fcd72e1fa4bbed46604f4e6cff817}{%
+           family={Kaiser},
+           familyi={K\bibinitperiod},
+           given={{Ł}ukasz},
+           giveni={Ł\bibinitperiod}}}%
+        {{hash=95595a0fefb86187cbc36e551017d332}{%
+           family={Polosukhin},
+           familyi={P\bibinitperiod},
+           given={Illia},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{fullhash}{cb26e47f6b8133865271fc8483132297}
+      \strng{bibnamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authorbibnamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authornamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authorfullhash}{cb26e47f6b8133865271fc8483132297}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in neural information processing systems}
+      \field{title}{Attention is all you need}
+      \field{volume}{30}
+      \field{year}{2017}
+    \endentry
+    \entry{dosovitskiy2020image}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=72308762399d6ab62bbd9391c64c7bfd}{%
+           family={Dosovitskiy},
+           familyi={D\bibinitperiod},
+           given={Alexey},
+           giveni={A\bibinitperiod}}}%
+        {{hash=836254958eac09b30d45dd67a75ce4fa}{%
+           family={Beyer},
+           familyi={B\bibinitperiod},
+           given={Lucas},
+           giveni={L\bibinitperiod}}}%
+        {{hash=6807e3c00242c6bf6a3179905040471b}{%
+           family={Kolesnikov},
+           familyi={K\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b398fca6879fde89a032b8e7de2f26b5}{%
+           family={Weissenborn},
+           familyi={W\bibinitperiod},
+           given={Dirk},
+           giveni={D\bibinitperiod}}}%
+        {{hash=00b950307c7d096765bb6df00c7c5c3a}{%
+           family={Zhai},
+           familyi={Z\bibinitperiod},
+           given={Xiaohua},
+           giveni={X\bibinitperiod}}}%
+        {{hash=1a47640139e63b9b5969c969dfe95def}{%
+           family={Unterthiner},
+           familyi={U\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=965baf6fa5686a42b1564330c5e11f2f}{%
+           family={Dehghani},
+           familyi={D\bibinitperiod},
+           given={Mostafa},
+           giveni={M\bibinitperiod}}}%
+        {{hash=06829adce8713f0ace444279dcd7328f}{%
+           family={Minderer},
+           familyi={M\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c95269b4a2e23e1e526be521c7ec6ad4}{%
+           family={Heigold},
+           familyi={H\bibinitperiod},
+           given={Georg},
+           giveni={G\bibinitperiod}}}%
+        {{hash=450963f966620925cb8fecd32f7a6ee1}{%
+           family={Gelly},
+           familyi={G\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{d96316bc7578db680aba71d4226354c8}
+      \strng{fullhash}{e2f7b82b6bcaba0b27eef166b225c54a}
+      \strng{bibnamehash}{d96316bc7578db680aba71d4226354c8}
+      \strng{authorbibnamehash}{d96316bc7578db680aba71d4226354c8}
+      \strng{authornamehash}{d96316bc7578db680aba71d4226354c8}
+      \strng{authorfullhash}{e2f7b82b6bcaba0b27eef166b225c54a}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2010.11929}
+      \field{title}{An image is worth 16x16 words: Transformers for image recognition at scale}
+      \field{year}{2020}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

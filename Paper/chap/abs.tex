@@ -1,0 +1,16 @@
+\fancyheadlineonly
+
+\begin{cabstract}
+\kaishu
+
+全球气候变暖背景下，极端干旱与高温事件频发，增加了全球范围内野火的频率和强度。精准预测野火风险并揭示火灾背后的驱动因素，有助于深入理解气候机制，也能为野火应急管理提供关键支撑。利用深度学习模型进行野火时空预测是目前野火预测领域的趋势，针对现有方法在模型架构与物理可解释性方面的不足，本文提出了一种基于物理信息启发（Physics-informed）的双分支 Swin Transformer 野火风险预测模型，通过优化模型架构，注入物理信息并开展可解释性分析，系统提升了对野火风险的预测能力。本研究基于覆盖希腊及周边地区（2009-2021年）的 FireCube 数据集，将预测任务定义为逐像素的时空二分类问题。在架构设计上，本文构建了双分支网络模型，使用Swin Transformer 2D处理静态变量，Swin Transformer 3D处理动态变量，以同时捕捉更大范围内的气象与地形特征，并通过地理感知交叉注意力机制进行融合。我们创新性地将物理信息融入神经网络中，把饱和水汽压差（VPD）作为重构特征输入网络，并将风场矢量作为动力学偏置注入特征融合模块，实现了物理信息启发的数据重构与注意力偏置。实验结果表明最优模型在总体准确率（OA）、精确率（Precision）、召回率（Recall）和核心指标 F1-Score 上分别取得了95.93\%、84.55\%、84.49\%和84.52\%的准确率，显著优于基线模型，并且物理信息的注入对模型的性能有明显提高。进一步的 SHAP 归因分析揭示了动态变量在野火发生中的主导作用（土地覆盖等静态变量贡献较小），其中最大风速与重构的饱和水汽压差贡献度最高。注意力模块的可视化结果也直观验证了动态与静态特征融合及物理偏置的有效性，其表现符合野火蔓延的客观动力学规律。本研究提出的方法为大尺度野火时空预测提供了兼具高精度与高解释性的新范式，也为模型优化与灾害预警提供了科学依据。
+
+\end{cabstract}
+
+\begin{eabstract}
+While deep learning models are increasingly used for spatio-temporal wildfire prediction, they frequently lack physical interpretability. This study proposes a physics-informed dual-branch Swin Transformer model for pixel-wise wildfire risk classification, evaluated on the 2009–2021 FireCube dataset for Greece. The architecture processes static and dynamic variables through 2D and 3D Swin Transformer, merging them via geographic cross-attention. We explicitly integrate physical mechanisms by inputting vapor pressure deficit (VPD) as a reconstructed feature and embedding wind vectors as a dynamic bias into the attention module. Experimental results yield an overall accuracy of 95.93\% and an F1-Score of 84.52\%, outperforming baseline methods. SHAP analysis demonstrates that dynamic meteorological factors (maximum wind speed and VPD) primarily drive ignition, outranking static variables. The attention module visualizations further confirm that the model effectively captures the physical laws of wildfire spread, offering a highly interpretable and accurate tool for early warning systems.
+% vim:ts=4:sw=4
+
+\end{eabstract}
+
+\fancyempty

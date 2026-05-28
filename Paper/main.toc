@@ -1,0 +1,41 @@
+\contentsline {chapter}{\numberline {\textbf {1}\hspace {.3em}}引言}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}研究背景}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}深度学习在野火风险时空预测中的应用}{2}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}图像语义分割与分类}{3}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}时空预测}{3}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}本论文主要内容及结构}{5}{section.1.3}%
+\contentsline {chapter}{\numberline {\textbf {2}\hspace {.3em}}FireCube数据集及变量分析}{6}{chapter.2}%
+\contentsline {section}{\numberline {2.1}区域概况及时空数据构建}{6}{section.2.1}%
+\contentsline {section}{\numberline {2.2}采样方式及训练数据}{6}{section.2.2}%
+\contentsline {section}{\numberline {2.3}特征变量分析}{11}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}静态变量分析}{11}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}动态变量分析}{12}{subsection.2.3.2}%
+\contentsline {chapter}{\numberline {\textbf {3}\hspace {.3em}}基于物理信息启发的双分支Swin Transformer预测模型的架构设计}{16}{chapter.3}%
+\contentsline {section}{\numberline {3.1}总体架构设计思路}{16}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Swin Transformer基础原理}{16}{section.3.2}%
+\contentsline {section}{\numberline {3.3}双分支Swin Transformer预测模型}{20}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}气象动力学特征提取模块：Swin Transformer 3D}{20}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}静态地貌特征编码模块：Swin Transformer 2D}{22}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}特征融合模块：地理感知交叉注意力机制（Geographic Cross-Attention）}{23}{section.3.4}%
+\contentsline {section}{\numberline {3.5}物理信息启发的数据重构与注意力偏置}{24}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}基于热力学先验的饱和水汽压差（VPD）特征重构}{24}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}风场矢量作为动力学偏置注入注意力网络}{25}{subsection.3.5.2}%
+\contentsline {chapter}{\numberline {\textbf {4}\hspace {.3em}}实验结果与评估}{27}{chapter.4}%
+\contentsline {section}{\numberline {4.1}数据集预处理及实验设置}{27}{section.4.1}%
+\contentsline {section}{\numberline {4.2}实验设置与评价指标}{28}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}实验组别设置}{28}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}评估指标}{28}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}模型训练与收敛性验证}{29}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}总体预测性能对比}{29}{section.4.3}%
+\contentsline {chapter}{\numberline {\textbf {5}\hspace {.3em}}可解释性分析}{32}{chapter.5}%
+\contentsline {section}{\numberline {5.1}基于SHAP的归因分析}{32}{section.5.1}%
+\contentsline {section}{\numberline {5.2}对于特征融合模块Geo-CA的空间交叉注意力分析}{34}{section.5.2}%
+\contentsline {chapter}{\numberline {\textbf {6}\hspace {.3em}}总结与讨论}{37}{chapter.6}%
+\contentsline {section}{\numberline {6.1}总结}{37}{section.6.1}%
+\contentsline {section}{\numberline {6.2}局限性及未来展望}{37}{section.6.2}%
+\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}模型核心模块代码实现}{39}{appendix.A}%
+\contentsline {section}{\numberline {A.1}动态气象分支与静态地形分支算法实现}{39}{section.A.1}%
+\contentsline {section}{\numberline {A.2}地理感知交叉注意力机制融合模块算法实现}{41}{section.A.2}%
+\contentsline {chapter}{参考文献}{43}{appendix*.25}%
+\contentsline {chapter}{致谢}{47}{appendix*.26}%
+\contentsfinish 
