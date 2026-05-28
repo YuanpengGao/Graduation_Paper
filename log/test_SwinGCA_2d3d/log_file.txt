@@ -1,0 +1,807 @@
+2026-05-07 17:54:05,649 - Trainer - INFO - Parameters ...
+2026-05-07 17:54:05,649 - Trainer - INFO - Namespace(model='DualBranchSwin2d3d', batch_size=256, n_workers=10, pin_memory=True, seed=0, name='test', gpu_id='0,1', val_year=2019, negative='clc', nan_fill=0.0, is_aug=True, is_scale=True, is_shuffle=True, lag=10, neg_pos_ratio_train=2, neg_pos_ratio_val=None, n_epochs=40, lr=3e-05, optimizer='AdamW', weight_decay=0.03, drop_out=0.3, PE=True, lr_scheduler='StepLR', lr_step_size=12, lr_decay=0.1, e_save=2, data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh', 'era5_max_wind_u10', 'era5_max_wind_v10'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-07 17:54:08,481 - Trainer - INFO - loading dataset ...
+2026-05-07 17:54:09,027 - Trainer - INFO - # training samples: 40554
+2026-05-07 17:54:09,027 - Trainer - INFO - # evaluation samples: 6430
+2026-05-07 17:54:09,029 - Trainer - INFO - 
+loading the model ...
+2026-05-07 17:54:09,574 - Trainer - INFO - model parameters: 1990003
+2026-05-07 17:54:09,574 - Trainer - INFO - get criterion ...
+2026-05-07 17:54:09,575 - Trainer - INFO - get optimizer and learning rate scheduler ...
+2026-05-07 17:54:09,575 - Trainer - INFO - training on FireCube dataset ...
+
+2026-05-07 17:54:09,777 - Trainer - INFO - ################# Epoch (1/40) #################
+2026-05-07 17:55:06,478 - Trainer - INFO - -----------------   Training   -----------------
+class Background     weight: 0.6667, precision: 0.8295, accuracy: 0.8732, F1: 0.8508 IoU: 0.7403 
+class Wildfire       weight: 0.3333, precision: 0.7165, accuracy: 0.6411, F1: 0.6767 IoU: 0.5114 
+
+Training Precision       : 0.7165
+Training Recall          : 0.6411
+Training F1-Score        : 0.6767
+Training AUROC           : 0.8745
+Training OA              : 0.7958
+2026-05-07 17:55:11,278 - Trainer - INFO - -----------------   Validation   -----------------
+class Background     weight: 0.7978, precision: 0.8868, accuracy: 0.8505, F1: 0.8683 IoU: 0.7672 
+class Wildfire       weight: 0.2022, precision: 0.4921, accuracy: 0.5715, F1: 0.5288 IoU: 0.3595 
+
+Validation Precision       : 0.4921
+Validation Recall          : 0.5715
+Validation F1-Score        : 0.5288
+Validation AUROC           : 0.7957
+Validation OA              : 0.7941
+2026-05-07 17:55:11,282 - Trainer - INFO - saving model to ./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55/test/model_checkpoints/best_loss_model.pth
+2026-05-07 17:55:11,401 - Trainer - INFO - saving model to ./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55/test/model_checkpoints/epoch_1_model.pth
+2026-05-07 17:55:11,452 - Trainer - INFO - ################# Epoch (2/40) #################
+2026-05-07 17:56:05,237 - Trainer - INFO - -----------------   Training   -----------------
+class Background     weight: 0.6667, precision: 0.9212, accuracy: 0.8828, F1: 0.9016 IoU: 0.8208 
+class Wildfire       weight: 0.3333, precision: 0.7837, accuracy: 0.8489, F1: 0.8150 IoU: 0.6877 
+
+Training Precision       : 0.7837
+Training Recall          : 0.8489
+Training F1-Score        : 0.8150
+Training AUROC           : 0.9336
+Training OA              : 0.8715
+2026-05-07 17:56:09,866 - Trainer - INFO - -----------------   Validation   -----------------
+class Background     weight: 0.7978, precision: 0.9080, accuracy: 0.8809, F1: 0.8942 IoU: 0.8087 
+class Wildfire       weight: 0.2022, precision: 0.5795, accuracy: 0.6477, F1: 0.6117 IoU: 0.4406 
+
+Validation Precision       : 0.5795
+Validation Recall          : 0.6477
+Validation F1-Score        : 0.6117
+Validation AUROC           : 0.8363
+Validation OA              : 0.8337
+2026-05-07 17:56:09,867 - Trainer - INFO - saving model to ./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55/test/model_checkpoints/best_loss_model.pth
+2026-05-07 17:56:10,011 - Trainer - INFO - ################# Epoch (3/40) #################
+2026-05-07 17:57:03,398 - Trainer - INFO - -----------------   Training   -----------------
+class Background     weight: 0.6667, precision: 0.9180, accuracy: 0.9018, F1: 0.9098 IoU: 0.8345 
+class Wildfire       weight: 0.3333, precision: 0.8102, accuracy: 0.8389, F1: 0.8243 IoU: 0.7011 
+
+Training Precision       : 0.8102
+Training Recall          : 0.8389
+Training F1-Score        : 0.8243
+Training AUROC           : 0.9432
+Training OA              : 0.8808
+2026-05-07 17:57:08,612 - Trainer - INFO - -----------------   Validation   -----------------
+class Background     weight: 0.7978, precision: 0.9234, accuracy: 0.8860, F1: 0.9043 IoU: 0.8253 
+class Wildfire       weight: 0.2022, precision: 0.6121, accuracy: 0.7100, F1: 0.6574 IoU: 0.4897 
+
+Validation Precision       : 0.6121
+Validation Recall          : 0.7100
+Validation F1-Score        : 0.6574
+Validation AUROC           : 0.8464
+Validation OA              : 0.8504
+2026-05-07 17:57:08,613 - Trainer - INFO - saving model to ./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55/test/model_checkpoints/best_loss_model.pth
+2026-05-07 17:57:08,744 - Trainer - INFO - saving model to ./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55/test/model_checkpoints/epoch_3_model.pth
+2026-05-07 17:57:08,766 - Trainer - INFO - ################# Epoch (4/40) #################
+2026-05-07 17:58:02,320 - Trainer - INFO - -----------------   Training   -----------------
+class Background     weight: 0.6667, precision: 0.9229, accuracy: 0.9100, F1: 0.9164 IoU: 0.8457 
+class Wildfire       weight: 0.3333, precision: 0.8248, accuracy: 0.8479, F1: 0.8362 IoU: 0.7185 
+
+Training Precision       : 0.8248
+Training Recall          : 0.8479
+Training F1-Score        : 0.8362
+Training AUROC           : 0.9495
+Training OA              : 0.8893
+2026-05-07 17:58:07,323 - Trainer - INFO - -----------------   Validation   -----------------
+class Background     weight: 0.7978, precision: 0.9079, accuracy: 0.9281, F1: 0.9179 IoU: 0.8482 
+class Wildfire       weight: 0.2022, precision: 0.6889, accuracy: 0.6285, F1: 0.6573 IoU: 0.4895 
+
+Validation Precision       : 0.6889
+Validation Recall          : 0.6285
+Validation F1-Score        : 0.6573
+Validation AUROC           : 0.8691
+Validation OA              : 0.8675
+2026-05-07 17:58:07,323 - Trainer - INFO - saving model to ./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55/test/model_checkpoints/best_loss_model.pth
+2026-05-07 17:58:07,479 - Trainer - INFO - ################# Epoch (5/40) #################
+2026-05-07 17:59:00,817 - Trainer - INFO - -----------------   Training   -----------------
+class Background     weight: 0.6667, precision: 0.9245, accuracy: 0.9158, F1: 0.9202 IoU: 0.8521 
+class Wildfire       weight: 0.3333, precision: 0.8347, accuracy: 0.8505, F1: 0.8425 IoU: 0.7279 
+
+Training Precision       : 0.8347
+Training Recall          : 0.8505
+Training F1-Score        : 0.8425
+Training AUROC           : 0.9529
+Training OA              : 0.8940
+2026-05-07 17:59:05,628 - Trainer - INFO - -----------------   Validation   -----------------
+class Background     weight: 0.7978, precision: 0.9061, accuracy: 0.9288, F1: 0.9173 IoU: 0.8473 
+class Wildfire       weight: 0.2022, precision: 0.6883, accuracy: 0.6200, F1: 0.6524 IoU: 0.4841 
+
+Validation Precision       : 0.6883
+Validation Recall          : 0.6200
+Validation F1-Score        : 0.6524
+Validation AUROC           : 0.8719
+Validation OA              : 0.8664
+2026-05-07 17:59:05,729 - Trainer - INFO - saving model to ./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55/test/model_checkpoints/epoch_5_model.pth
+2026-05-07 17:59:05,763 - Trainer - INFO - ################# Epoch (6/40) #################
+2026-05-07 17:59:59,361 - Trainer - INFO - -----------------   Training   -----------------
+class Background     weight: 0.6667, precision: 0.9265, accuracy: 0.9215, F1: 0.9240 IoU: 0.8587 
+class Wildfire       weight: 0.3333, precision: 0.8447, accuracy: 0.8538, F1: 0.8492 IoU: 0.7380 
+
+Training Precision       : 0.8447
+Training Recall          : 0.8538
+Training F1-Score        : 0.8492
+Training AUROC           : 0.9566
+Training OA              : 0.8989
+2026-05-07 18:00:04,215 - Trainer - INFO - -----------------   Validation   -----------------
+class Background     weight: 0.7978, precision: 0.8994, accuracy: 0.9378, F1: 0.9182 IoU: 0.8488 
+class Wildfire       weight: 0.2022, precision: 0.7049, accuracy: 0.5862, F1: 0.6401 IoU: 0.4707 
+
+Validation Precision       : 0.7049
+Validation Recall          : 0.5862
+Validation F1-Score        : 0.6401
+Validation AUROC           : 0.8903
+Validation OA              : 0.8667
+2026-05-07 18:00:04,215 - Trainer - INFO - saving model to ./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55/test/model_checkpoints/best_loss_model.pth
+2026-05-07 18:00:04,351 - Trainer - INFO - ################# Epoch (7/40) #################
+2026-05-07 18:00:57,872 - Trainer - INFO - -----------------   Training   -----------------
+class Background     weight: 0.6667, precision: 0.9291, accuracy: 0.9244, F1: 0.9267 IoU: 0.8634 
+class Wildfire       weight: 0.3333, precision: 0.8502, accuracy: 0.8589, F1: 0.8545 IoU: 0.7460 
+
+Training Precision       : 0.8502
+Training Recall          : 0.8589
+Training F1-Score        : 0.8545
+Training AUROC           : 0.9589
+Training OA              : 0.9025
+2026-05-07 18:01:02,477 - Trainer - INFO - -----------------   Validation   -----------------
+class Background     weight: 0.7978, precision: 0.8933, accuracy: 0.9431, F1: 0.9175 IoU: 0.8476 
+class Wildfire       weight: 0.2022, precision: 0.7120, accuracy: 0.5554, F1: 0.6240 IoU: 0.4535 
+
+Validation Precision       : 0.7120
+Validation Recall          : 0.5554
+Validation F1-Score        : 0.6240
+Validation AUROC           : 0.8983
+Validation OA              : 0.8647
+2026-05-07 18:01:02,478 - Trainer - INFO - saving model to ./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55/test/model_checkpoints/best_loss_model.pth
+2026-05-07 18:01:02,618 - Trainer - INFO - saving model to ./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55/test/model_checkpoints/epoch_7_model.pth
+2026-05-07 18:01:02,640 - Trainer - INFO - ################# Epoch (8/40) #################
+2026-05-07 18:01:56,399 - Trainer - INFO - -----------------   Training   -----------------
+class Background     weight: 0.6667, precision: 0.9298, accuracy: 0.9262, F1: 0.9280 IoU: 0.8657 
+class Wildfire       weight: 0.3333, precision: 0.8535, accuracy: 0.8602, F1: 0.8568 IoU: 0.7495 
+
+Training Precision       : 0.8535
+Training Recall          : 0.8602
+Training F1-Score        : 0.8568
+Training AUROC           : 0.9610
+Training OA              : 0.9042
+2026-05-07 18:02:00,874 - Trainer - INFO - -----------------   Validation   -----------------
+class Background     weight: 0.7978, precision: 0.8872, accuracy: 0.9548, F1: 0.9197 IoU: 0.8514 
+class Wildfire       weight: 0.2022, precision: 0.7448, accuracy: 0.5208, F1: 0.6129 IoU: 0.4419 
+
+Validation Precision       : 0.7448
+Validation Recall          : 0.5208
+Validation F1-Score        : 0.6129
+Validation AUROC           : 0.9117
+Validation OA              : 0.8670
+2026-05-07 18:02:00,875 - Trainer - INFO - saving model to ./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55/test/model_checkpoints/best_loss_model.pth
+2026-05-07 18:02:01,018 - Trainer - INFO - ################# Epoch (9/40) #################
+2026-05-07 18:02:54,939 - Trainer - INFO - -----------------   Training   -----------------
+class Background     weight: 0.6667, precision: 0.9310, accuracy: 0.9278, F1: 0.9294 IoU: 0.8681 
+class Wildfire       weight: 0.3333, precision: 0.8566, accuracy: 0.8624, F1: 0.8595 IoU: 0.7536 
+
+Training Precision       : 0.8566
+Training Recall          : 0.8624
+Training F1-Score        : 0.8595
+Training AUROC           : 0.9634
+Training OA              : 0.9060
+2026-05-07 18:02:59,775 - Trainer - INFO - -----------------   Validation   -----------------
+class Background     weight: 0.7978, precision: 0.8800, accuracy: 0.9602, F1: 0.9183 IoU: 0.8490 
+class Wildfire       weight: 0.2022, precision: 0.7548, accuracy: 0.4831, F1: 0.5891 IoU: 0.4176 
+
+Validation Precision       : 0.7548
+Validation Recall          : 0.4831
+Validation F1-Score        : 0.5891
+Validation AUROC           : 0.9140
+Validation OA              : 0.8638
+2026-05-07 18:02:59,876 - Trainer - INFO - saving model to ./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55/test/model_checkpoints/epoch_9_model.pth
+2026-05-07 18:02:59,915 - Trainer - INFO - ################# Epoch (10/40) #################
+2026-05-07 18:03:53,578 - Trainer - INFO - -----------------   Training   -----------------
+class Background     weight: 0.6667, precision: 0.9318, accuracy: 0.9292, F1: 0.9305 IoU: 0.8700 
+class Wildfire       weight: 0.3333, precision: 0.8591, accuracy: 0.8640, F1: 0.8615 IoU: 0.7568 
+
+Training Precision       : 0.8591
+Training Recall          : 0.8640
+Training F1-Score        : 0.8615
+Training AUROC           : 0.9643
+Training OA              : 0.9074
+2026-05-07 18:03:58,877 - Trainer - INFO - -----------------   Validation   -----------------
+class Background     weight: 0.7978, precision: 0.8997, accuracy: 0.9423, F1: 0.9205 IoU: 0.8527 
+class Wildfire       weight: 0.2022, precision: 0.7200, accuracy: 0.5854, F1: 0.6457 IoU: 0.4768 
+
+Validation Precision       : 0.7200
+Validation Recall          : 0.5854
+Validation F1-Score        : 0.6457
+Validation AUROC           : 0.9093
+Validation OA              : 0.8701
+2026-05-07 18:03:58,987 - Trainer - INFO - ################# Epoch (11/40) #################
+2026-05-07 18:04:54,024 - Trainer - INFO - -----------------   Training   -----------------
+class Background     weight: 0.6667, precision: 0.9309, accuracy: 0.9308, F1: 0.9309 IoU: 0.8707 
+class Wildfire       weight: 0.3333, precision: 0.8616, accuracy: 0.8619, F1: 0.8618 IoU: 0.7571 
+
+Training Precision       : 0.8616
+Training Recall          : 0.8619
+Training F1-Score        : 0.8618
+Training AUROC           : 0.9652
+Training OA              : 0.9078
+2026-05-07 18:04:59,115 - Trainer - INFO - -----------------   Validation   -----------------
+class Background     weight: 0.7978, precision: 0.9027, accuracy: 0.9600, F1: 0.9305 IoU: 0.8700 
+class Wildfire       weight: 0.2022, precision: 0.7895, accuracy: 0.5915, F1: 0.6763 IoU: 0.5110 
+
+Validation Precision       : 0.7895
+Validation Recall          : 0.5915
+Validation F1-Score        : 0.6763
+Validation AUROC           : 0.9297
+Validation OA              : 0.8855
+2026-05-07 18:04:59,116 - Trainer - INFO - saving model to ./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55/test/model_checkpoints/best_loss_model.pth
+2026-05-07 18:04:59,260 - Trainer - INFO - saving model to ./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55/test/model_checkpoints/epoch_11_model.pth
+2026-05-07 18:04:59,284 - Trainer - INFO - ################# Epoch (12/40) #################
+2026-05-07 18:05:53,801 - Trainer - INFO - -----------------   Training   -----------------
+class Background     weight: 0.6667, precision: 0.9348, accuracy: 0.9324, F1: 0.9336 IoU: 0.8755 
+class Wildfire       weight: 0.3333, precision: 0.8655, accuracy: 0.8699, F1: 0.8677 IoU: 0.7663 
+
+Training Precision       : 0.8655
+Training Recall          : 0.8699
+Training F1-Score        : 0.8677
+Training AUROC           : 0.9667
+Training OA              : 0.9116
+2026-05-07 18:05:59,076 - Trainer - INFO - -----------------   Validation   -----------------
+class Background     weight: 0.7978, precision: 0.9259, accuracy: 0.9359, F1: 0.9309 IoU: 0.8707 
+class Wildfire       weight: 0.2022, precision: 0.7357, accuracy: 0.7046, F1: 0.7198 IoU: 0.5623 
+
+Validation Precision       : 0.7357
+Validation Recall          : 0.7046
+Validation F1-Score        : 0.7198
+Validation AUROC           : 0.9254
+Validation OA              : 0.8891
+2026-05-07 18:05:59,076 - Trainer - INFO - saving model to ./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55/test/model_checkpoints/best_loss_model.pth
+2026-05-07 18:05:59,213 - Trainer - INFO - ################# Epoch (13/40) #################
+2026-05-07 18:06:54,014 - Trainer - INFO - -----------------   Training   -----------------
+class Background     weight: 0.6667, precision: 0.9374, accuracy: 0.9338, F1: 0.9356 IoU: 0.8790 
+class Wildfire       weight: 0.3333, precision: 0.8686, accuracy: 0.8754, F1: 0.8720 IoU: 0.7730 
+
+Training Precision       : 0.8686
+Training Recall          : 0.8754
+Training F1-Score        : 0.8720
+Training AUROC           : 0.9683
+Training OA              : 0.9143
+2026-05-07 18:06:59,261 - Trainer - INFO - -----------------   Validation   -----------------
+class Background     weight: 0.7978, precision: 0.9232, accuracy: 0.9374, F1: 0.9303 IoU: 0.8696 
+class Wildfire       weight: 0.2022, precision: 0.7371, accuracy: 0.6923, F1: 0.7140 IoU: 0.5552 
+
+Validation Precision       : 0.7371
+Validation Recall          : 0.6923
+Validation F1-Score        : 0.7140
+Validation AUROC           : 0.9274
+Validation OA              : 0.8879
+2026-05-07 18:06:59,362 - Trainer - INFO - saving model to ./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55/test/model_checkpoints/epoch_13_model.pth
+2026-05-07 18:06:59,406 - Trainer - INFO - ################# Epoch (14/40) #################
+2026-05-07 18:07:53,512 - Trainer - INFO - -----------------   Training   -----------------
+class Background     weight: 0.6667, precision: 0.9364, accuracy: 0.9352, F1: 0.9358 IoU: 0.8793 
+class Wildfire       weight: 0.3333, precision: 0.8707, accuracy: 0.8730, F1: 0.8718 IoU: 0.7728 
+
+Training Precision       : 0.8707
+Training Recall          : 0.8730
+Training F1-Score        : 0.8718
+Training AUROC           : 0.9689
+Training OA              : 0.9144
+2026-05-07 18:07:58,370 - Trainer - INFO - -----------------   Validation   -----------------
+class Background     weight: 0.7978, precision: 0.9198, accuracy: 0.9429, F1: 0.9312 IoU: 0.8712 
+class Wildfire       weight: 0.2022, precision: 0.7498, accuracy: 0.6754, F1: 0.7106 IoU: 0.5512 
+
+Validation Precision       : 0.7498
+Validation Recall          : 0.6754
+Validation F1-Score        : 0.7106
+Validation AUROC           : 0.9301
+Validation OA              : 0.8888
+2026-05-07 18:07:58,370 - Trainer - INFO - saving model to ./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55/test/model_checkpoints/best_loss_model.pth
+2026-05-07 18:07:58,513 - Trainer - INFO - ################# Epoch (15/40) #################
+2026-05-07 18:08:53,131 - Trainer - INFO - -----------------   Training   -----------------
+class Background     weight: 0.6667, precision: 0.9364, accuracy: 0.9345, F1: 0.9355 IoU: 0.8788 
+class Wildfire       weight: 0.3333, precision: 0.8695, accuracy: 0.8731, F1: 0.8713 IoU: 0.7720 
+
+Training Precision       : 0.8695
+Training Recall          : 0.8731
+Training F1-Score        : 0.8713
+Training AUROC           : 0.9686
+Training OA              : 0.9140
+2026-05-07 18:08:58,122 - Trainer - INFO - -----------------   Validation   -----------------
+class Background     weight: 0.7978, precision: 0.9198, accuracy: 0.9441, F1: 0.9318 IoU: 0.8723 
+class Wildfire       weight: 0.2022, precision: 0.7536, accuracy: 0.6754, F1: 0.7124 IoU: 0.5532 
+
+Validation Precision       : 0.7536
+Validation Recall          : 0.6754
+Validation F1-Score        : 0.7124
+Validation AUROC           : 0.9300
+Validation OA              : 0.8897
+2026-05-07 18:08:58,222 - Trainer - INFO - saving model to ./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55/test/model_checkpoints/epoch_15_model.pth
+2026-05-07 18:08:58,261 - Trainer - INFO - ################# Epoch (16/40) #################
+2026-05-07 18:09:52,084 - Trainer - INFO - -----------------   Training   -----------------
+class Background     weight: 0.6667, precision: 0.9353, accuracy: 0.9350, F1: 0.9352 IoU: 0.8782 
+class Wildfire       weight: 0.3333, precision: 0.8701, accuracy: 0.8706, F1: 0.8704 IoU: 0.7705 
+
+Training Precision       : 0.8701
+Training Recall          : 0.8706
+Training F1-Score        : 0.8704
+Training AUROC           : 0.9688
+Training OA              : 0.9135
+2026-05-07 18:09:57,140 - Trainer - INFO - -----------------   Validation   -----------------
+class Background     weight: 0.7978, precision: 0.9169, accuracy: 0.9487, F1: 0.9326 IoU: 0.8736 
+class Wildfire       weight: 0.2022, precision: 0.7656, accuracy: 0.6608, F1: 0.7093 IoU: 0.5496 
+
+Validation Precision       : 0.7656
+Validation Recall          : 0.6608
+Validation F1-Score        : 0.7093
+Validation AUROC           : 0.9309
+Validation OA              : 0.8905
+2026-05-07 18:09:57,251 - Trainer - INFO - ################# Epoch (17/40) #################
+2026-05-07 18:10:51,181 - Trainer - INFO - -----------------   Training   -----------------
+class Background     weight: 0.6667, precision: 0.9365, accuracy: 0.9342, F1: 0.9353 IoU: 0.8785 
+class Wildfire       weight: 0.3333, precision: 0.8691, accuracy: 0.8732, F1: 0.8711 IoU: 0.7717 
+
+Training Precision       : 0.8691
+Training Recall          : 0.8732
+Training F1-Score        : 0.8711
+Training AUROC           : 0.9690
+Training OA              : 0.9139
+2026-05-07 18:10:56,812 - Trainer - INFO - -----------------   Validation   -----------------
+class Background     weight: 0.7978, precision: 0.9202, accuracy: 0.9423, F1: 0.9311 IoU: 0.8711 
+class Wildfire       weight: 0.2022, precision: 0.7485, accuracy: 0.6777, F1: 0.7113 IoU: 0.5520 
+
+Validation Precision       : 0.7485
+Validation Recall          : 0.6777
+Validation F1-Score        : 0.7113
+Validation AUROC           : 0.9310
+Validation OA              : 0.8888
+2026-05-07 18:10:56,813 - Trainer - INFO - saving model to ./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55/test/model_checkpoints/best_loss_model.pth
+2026-05-07 18:10:56,961 - Trainer - INFO - saving model to ./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55/test/model_checkpoints/epoch_17_model.pth
+2026-05-07 18:10:56,985 - Trainer - INFO - ################# Epoch (18/40) #################
+2026-05-07 18:11:51,242 - Trainer - INFO - -----------------   Training   -----------------
+class Background     weight: 0.6667, precision: 0.9363, accuracy: 0.9355, F1: 0.9359 IoU: 0.8795 
+class Wildfire       weight: 0.3333, precision: 0.8712, accuracy: 0.8728, F1: 0.8720 IoU: 0.7730 
+
+Training Precision       : 0.8712
+Training Recall          : 0.8728
+Training F1-Score        : 0.8720
+Training AUROC           : 0.9693
+Training OA              : 0.9146
+2026-05-07 18:11:56,186 - Trainer - INFO - -----------------   Validation   -----------------
+class Background     weight: 0.7978, precision: 0.9207, accuracy: 0.9439, F1: 0.9321 IoU: 0.8729 
+class Wildfire       weight: 0.2022, precision: 0.7541, accuracy: 0.6792, F1: 0.7147 IoU: 0.5560 
+
+Validation Precision       : 0.7541
+Validation Recall          : 0.6792
+Validation F1-Score        : 0.7147
+Validation AUROC           : 0.9308
+Validation OA              : 0.8904
+2026-05-07 18:11:56,299 - Trainer - INFO - ################# Epoch (19/40) #################
+2026-05-07 18:12:50,937 - Trainer - INFO - -----------------   Training   -----------------
+class Background     weight: 0.6667, precision: 0.9379, accuracy: 0.9349, F1: 0.9364 IoU: 0.8804 
+class Wildfire       weight: 0.3333, precision: 0.8707, accuracy: 0.8762, F1: 0.8734 IoU: 0.7753 
+
+Training Precision       : 0.8707
+Training Recall          : 0.8762
+Training F1-Score        : 0.8734
+Training AUROC           : 0.9693
+Training OA              : 0.9153
+2026-05-07 18:12:55,664 - Trainer - INFO - -----------------   Validation   -----------------
+class Background     weight: 0.7978, precision: 0.9184, accuracy: 0.9495, F1: 0.9337 IoU: 0.8756 
+class Wildfire       weight: 0.2022, precision: 0.7700, accuracy: 0.6669, F1: 0.7148 IoU: 0.5561 
+
+Validation Precision       : 0.7700
+Validation Recall          : 0.6669
+Validation F1-Score        : 0.7148
+Validation AUROC           : 0.9322
+Validation OA              : 0.8924
+2026-05-07 18:12:55,664 - Trainer - INFO - saving model to ./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55/test/model_checkpoints/best_loss_model.pth
+2026-05-07 18:12:55,796 - Trainer - INFO - saving model to ./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55/test/model_checkpoints/epoch_19_model.pth
+2026-05-07 18:12:55,819 - Trainer - INFO - ################# Epoch (20/40) #################
+2026-05-07 18:13:50,432 - Trainer - INFO - -----------------   Training   -----------------
+class Background     weight: 0.6667, precision: 0.9373, accuracy: 0.9359, F1: 0.9366 IoU: 0.8807 
+class Wildfire       weight: 0.3333, precision: 0.8721, accuracy: 0.8748, F1: 0.8734 IoU: 0.7753 
+
+Training Precision       : 0.8721
+Training Recall          : 0.8748
+Training F1-Score        : 0.8734
+Training AUROC           : 0.9693
+Training OA              : 0.9155
+2026-05-07 18:13:55,471 - Trainer - INFO - -----------------   Validation   -----------------
+class Background     weight: 0.7978, precision: 0.9202, accuracy: 0.9421, F1: 0.9310 IoU: 0.8710 
+class Wildfire       weight: 0.2022, precision: 0.7479, accuracy: 0.6777, F1: 0.7111 IoU: 0.5517 
+
+Validation Precision       : 0.7479
+Validation Recall          : 0.6777
+Validation F1-Score        : 0.7111
+Validation AUROC           : 0.9294
+Validation OA              : 0.8886
+2026-05-07 18:13:55,581 - Trainer - INFO - ################# Epoch (21/40) #################
+2026-05-07 18:14:49,907 - Trainer - INFO - -----------------   Training   -----------------
+class Background     weight: 0.6667, precision: 0.9382, accuracy: 0.9352, F1: 0.9367 IoU: 0.8809 
+class Wildfire       weight: 0.3333, precision: 0.8713, accuracy: 0.8768, F1: 0.8740 IoU: 0.7762 
+
+Training Precision       : 0.8713
+Training Recall          : 0.8768
+Training F1-Score        : 0.8740
+Training AUROC           : 0.9699
+Training OA              : 0.9157
+2026-05-07 18:14:54,893 - Trainer - INFO - -----------------   Validation   -----------------
+class Background     weight: 0.7978, precision: 0.9185, accuracy: 0.9450, F1: 0.9316 IoU: 0.8719 
+class Wildfire       weight: 0.2022, precision: 0.7552, accuracy: 0.6692, F1: 0.7096 IoU: 0.5499 
+
+Validation Precision       : 0.7552
+Validation Recall          : 0.6692
+Validation F1-Score        : 0.7096
+Validation AUROC           : 0.9327
+Validation OA              : 0.8893
+2026-05-07 18:14:54,894 - Trainer - INFO - saving model to ./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55/test/model_checkpoints/best_loss_model.pth
+2026-05-07 18:14:55,038 - Trainer - INFO - saving model to ./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55/test/model_checkpoints/epoch_21_model.pth
+2026-05-07 18:14:55,071 - Trainer - INFO - ################# Epoch (22/40) #################
+2026-05-07 18:15:48,901 - Trainer - INFO - -----------------   Training   -----------------
+class Background     weight: 0.6667, precision: 0.9376, accuracy: 0.9358, F1: 0.9367 IoU: 0.8809 
+class Wildfire       weight: 0.3333, precision: 0.8720, accuracy: 0.8755, F1: 0.8738 IoU: 0.7758 
+
+Training Precision       : 0.8720
+Training Recall          : 0.8755
+Training F1-Score        : 0.8738
+Training AUROC           : 0.9696
+Training OA              : 0.9157
+2026-05-07 18:15:53,597 - Trainer - INFO - -----------------   Validation   -----------------
+class Background     weight: 0.7978, precision: 0.9220, accuracy: 0.9450, F1: 0.9334 IoU: 0.8751 
+class Wildfire       weight: 0.2022, precision: 0.7594, accuracy: 0.6846, F1: 0.7201 IoU: 0.5626 
+
+Validation Precision       : 0.7594
+Validation Recall          : 0.6846
+Validation F1-Score        : 0.7201
+Validation AUROC           : 0.9346
+Validation OA              : 0.8924
+2026-05-07 18:15:53,598 - Trainer - INFO - saving model to ./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55/test/model_checkpoints/best_loss_model.pth
+2026-05-07 18:15:53,736 - Trainer - INFO - ################# Epoch (23/40) #################
+2026-05-07 18:16:47,614 - Trainer - INFO - -----------------   Training   -----------------
+class Background     weight: 0.6667, precision: 0.9379, accuracy: 0.9366, F1: 0.9373 IoU: 0.8819 
+class Wildfire       weight: 0.3333, precision: 0.8736, accuracy: 0.8759, F1: 0.8748 IoU: 0.7774 
+
+Training Precision       : 0.8736
+Training Recall          : 0.8759
+Training F1-Score        : 0.8748
+Training AUROC           : 0.9703
+Training OA              : 0.9164
+2026-05-07 18:16:52,401 - Trainer - INFO - -----------------   Validation   -----------------
+class Background     weight: 0.7978, precision: 0.9177, accuracy: 0.9472, F1: 0.9322 IoU: 0.8730 
+class Wildfire       weight: 0.2022, precision: 0.7612, accuracy: 0.6646, F1: 0.7097 IoU: 0.5500 
+
+Validation Precision       : 0.7612
+Validation Recall          : 0.6646
+Validation F1-Score        : 0.7097
+Validation AUROC           : 0.9324
+Validation OA              : 0.8900
+2026-05-07 18:16:52,502 - Trainer - INFO - saving model to ./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55/test/model_checkpoints/epoch_23_model.pth
+2026-05-07 18:16:52,529 - Trainer - INFO - ################# Epoch (24/40) #################
+2026-05-07 18:17:46,621 - Trainer - INFO - -----------------   Training   -----------------
+class Background     weight: 0.6667, precision: 0.9369, accuracy: 0.9366, F1: 0.9368 IoU: 0.8811 
+class Wildfire       weight: 0.3333, precision: 0.8733, accuracy: 0.8739, F1: 0.8736 IoU: 0.7756 
+
+Training Precision       : 0.8733
+Training Recall          : 0.8739
+Training F1-Score        : 0.8736
+Training AUROC           : 0.9697
+Training OA              : 0.9157
+2026-05-07 18:17:51,664 - Trainer - INFO - -----------------   Validation   -----------------
+class Background     weight: 0.7978, precision: 0.9203, accuracy: 0.9456, F1: 0.9328 IoU: 0.8741 
+class Wildfire       weight: 0.2022, precision: 0.7593, accuracy: 0.6769, F1: 0.7157 IoU: 0.5573 
+
+Validation Precision       : 0.7593
+Validation Recall          : 0.6769
+Validation F1-Score        : 0.7157
+Validation AUROC           : 0.9354
+Validation OA              : 0.8913
+2026-05-07 18:17:51,773 - Trainer - INFO - ################# Epoch (25/40) #################
+2026-05-07 18:18:45,338 - Trainer - INFO - -----------------   Training   -----------------
+class Background     weight: 0.6667, precision: 0.9370, accuracy: 0.9364, F1: 0.9367 IoU: 0.8810 
+class Wildfire       weight: 0.3333, precision: 0.8730, accuracy: 0.8742, F1: 0.8736 IoU: 0.7755 
+
+Training Precision       : 0.8730
+Training Recall          : 0.8742
+Training F1-Score        : 0.8736
+Training AUROC           : 0.9699
+Training OA              : 0.9157
+2026-05-07 18:18:50,182 - Trainer - INFO - -----------------   Validation   -----------------
+class Background     weight: 0.7978, precision: 0.9201, accuracy: 0.9456, F1: 0.9327 IoU: 0.8739 
+class Wildfire       weight: 0.2022, precision: 0.7591, accuracy: 0.6762, F1: 0.7152 IoU: 0.5567 
+
+Validation Precision       : 0.7591
+Validation Recall          : 0.6762
+Validation F1-Score        : 0.7152
+Validation AUROC           : 0.9349
+Validation OA              : 0.8911
+2026-05-07 18:18:50,283 - Trainer - INFO - saving model to ./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55/test/model_checkpoints/epoch_25_model.pth
+2026-05-07 18:18:50,324 - Trainer - INFO - ################# Epoch (26/40) #################
+2026-05-07 18:19:44,240 - Trainer - INFO - -----------------   Training   -----------------
+class Background     weight: 0.6667, precision: 0.9372, accuracy: 0.9367, F1: 0.9369 IoU: 0.8814 
+class Wildfire       weight: 0.3333, precision: 0.8735, accuracy: 0.8744, F1: 0.8740 IoU: 0.7762 
+
+Training Precision       : 0.8735
+Training Recall          : 0.8744
+Training F1-Score        : 0.8740
+Training AUROC           : 0.9703
+Training OA              : 0.9159
+2026-05-07 18:19:49,067 - Trainer - INFO - -----------------   Validation   -----------------
+class Background     weight: 0.7978, precision: 0.9223, accuracy: 0.9441, F1: 0.9331 IoU: 0.8745 
+class Wildfire       weight: 0.2022, precision: 0.7566, accuracy: 0.6862, F1: 0.7196 IoU: 0.5621 
+
+Validation Precision       : 0.7566
+Validation Recall          : 0.6862
+Validation F1-Score        : 0.7196
+Validation AUROC           : 0.9347
+Validation OA              : 0.8919
+2026-05-07 18:19:49,178 - Trainer - INFO - ################# Epoch (27/40) #################
+2026-05-07 18:20:43,210 - Trainer - INFO - -----------------   Training   -----------------
+class Background     weight: 0.6667, precision: 0.9382, accuracy: 0.9353, F1: 0.9367 IoU: 0.8810 
+class Wildfire       weight: 0.3333, precision: 0.8714, accuracy: 0.8768, F1: 0.8741 IoU: 0.7763 
+
+Training Precision       : 0.8714
+Training Recall          : 0.8768
+Training F1-Score        : 0.8741
+Training AUROC           : 0.9700
+Training OA              : 0.9158
+2026-05-07 18:20:47,983 - Trainer - INFO - -----------------   Validation   -----------------
+class Background     weight: 0.7978, precision: 0.9203, accuracy: 0.9452, F1: 0.9326 IoU: 0.8737 
+class Wildfire       weight: 0.2022, precision: 0.7580, accuracy: 0.6769, F1: 0.7152 IoU: 0.5566 
+
+Validation Precision       : 0.7580
+Validation Recall          : 0.6769
+Validation F1-Score        : 0.7152
+Validation AUROC           : 0.9339
+Validation OA              : 0.8910
+2026-05-07 18:20:48,084 - Trainer - INFO - saving model to ./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55/test/model_checkpoints/epoch_27_model.pth
+2026-05-07 18:20:48,128 - Trainer - INFO - ################# Epoch (28/40) #################
+2026-05-07 18:21:42,710 - Trainer - INFO - -----------------   Training   -----------------
+class Background     weight: 0.6667, precision: 0.9374, accuracy: 0.9348, F1: 0.9361 IoU: 0.8799 
+class Wildfire       weight: 0.3333, precision: 0.8702, accuracy: 0.8752, F1: 0.8727 IoU: 0.7742 
+
+Training Precision       : 0.8702
+Training Recall          : 0.8752
+Training F1-Score        : 0.8727
+Training AUROC           : 0.9700
+Training OA              : 0.9149
+2026-05-07 18:21:47,795 - Trainer - INFO - -----------------   Validation   -----------------
+class Background     weight: 0.7978, precision: 0.9202, accuracy: 0.9460, F1: 0.9329 IoU: 0.8743 
+class Wildfire       weight: 0.2022, precision: 0.7604, accuracy: 0.6762, F1: 0.7158 IoU: 0.5574 
+
+Validation Precision       : 0.7604
+Validation Recall          : 0.6762
+Validation F1-Score        : 0.7158
+Validation AUROC           : 0.9348
+Validation OA              : 0.8914
+2026-05-07 18:21:47,906 - Trainer - INFO - ################# Epoch (29/40) #################
+2026-05-07 18:22:42,316 - Trainer - INFO - -----------------   Training   -----------------
+class Background     weight: 0.6667, precision: 0.9371, accuracy: 0.9355, F1: 0.9363 IoU: 0.8802 
+class Wildfire       weight: 0.3333, precision: 0.8714, accuracy: 0.8743, F1: 0.8729 IoU: 0.7744 
+
+Training Precision       : 0.8714
+Training Recall          : 0.8743
+Training F1-Score        : 0.8729
+Training AUROC           : 0.9702
+Training OA              : 0.9151
+2026-05-07 18:22:47,332 - Trainer - INFO - -----------------   Validation   -----------------
+class Background     weight: 0.7978, precision: 0.9225, accuracy: 0.9442, F1: 0.9332 IoU: 0.8748 
+class Wildfire       weight: 0.2022, precision: 0.7574, accuracy: 0.6869, F1: 0.7205 IoU: 0.5631 
+
+Validation Precision       : 0.7574
+Validation Recall          : 0.6869
+Validation F1-Score        : 0.7205
+Validation AUROC           : 0.9351
+Validation OA              : 0.8922
+2026-05-07 18:22:47,332 - Trainer - INFO - saving model to ./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55/test/model_checkpoints/best_loss_model.pth
+2026-05-07 18:22:47,490 - Trainer - INFO - saving model to ./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55/test/model_checkpoints/epoch_29_model.pth
+2026-05-07 18:22:47,515 - Trainer - INFO - ################# Epoch (30/40) #################
+2026-05-07 18:23:41,296 - Trainer - INFO - -----------------   Training   -----------------
+class Background     weight: 0.6667, precision: 0.9368, accuracy: 0.9373, F1: 0.9370 IoU: 0.8815 
+class Wildfire       weight: 0.3333, precision: 0.8744, accuracy: 0.8736, F1: 0.8740 IoU: 0.7762 
+
+Training Precision       : 0.8744
+Training Recall          : 0.8736
+Training F1-Score        : 0.8740
+Training AUROC           : 0.9699
+Training OA              : 0.9160
+2026-05-07 18:23:46,113 - Trainer - INFO - -----------------   Validation   -----------------
+class Background     weight: 0.7978, precision: 0.9230, accuracy: 0.9439, F1: 0.9333 IoU: 0.8750 
+class Wildfire       weight: 0.2022, precision: 0.7568, accuracy: 0.6892, F1: 0.7214 IoU: 0.5642 
+
+Validation Precision       : 0.7568
+Validation Recall          : 0.6892
+Validation F1-Score        : 0.7214
+Validation AUROC           : 0.9346
+Validation OA              : 0.8924
+2026-05-07 18:23:46,223 - Trainer - INFO - ################# Epoch (31/40) #################
+2026-05-07 18:24:40,115 - Trainer - INFO - -----------------   Training   -----------------
+class Background     weight: 0.6667, precision: 0.9375, accuracy: 0.9354, F1: 0.9364 IoU: 0.8805 
+class Wildfire       weight: 0.3333, precision: 0.8713, accuracy: 0.8753, F1: 0.8733 IoU: 0.7751 
+
+Training Precision       : 0.8713
+Training Recall          : 0.8753
+Training F1-Score        : 0.8733
+Training AUROC           : 0.9703
+Training OA              : 0.9153
+2026-05-07 18:24:45,399 - Trainer - INFO - -----------------   Validation   -----------------
+class Background     weight: 0.7978, precision: 0.9205, accuracy: 0.9431, F1: 0.9316 IoU: 0.8720 
+class Wildfire       weight: 0.2022, precision: 0.7513, accuracy: 0.6785, F1: 0.7130 IoU: 0.5540 
+
+Validation Precision       : 0.7513
+Validation Recall          : 0.6785
+Validation F1-Score        : 0.7130
+Validation AUROC           : 0.9332
+Validation OA              : 0.8896
+2026-05-07 18:24:45,500 - Trainer - INFO - saving model to ./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55/test/model_checkpoints/epoch_31_model.pth
+2026-05-07 18:24:45,525 - Trainer - INFO - ################# Epoch (32/40) #################
+2026-05-07 18:25:39,341 - Trainer - INFO - -----------------   Training   -----------------
+class Background     weight: 0.6667, precision: 0.9378, accuracy: 0.9365, F1: 0.9371 IoU: 0.8817 
+class Wildfire       weight: 0.3333, precision: 0.8733, accuracy: 0.8757, F1: 0.8745 IoU: 0.7770 
+
+Training Precision       : 0.8733
+Training Recall          : 0.8757
+Training F1-Score        : 0.8745
+Training AUROC           : 0.9698
+Training OA              : 0.9162
+2026-05-07 18:25:44,485 - Trainer - INFO - -----------------   Validation   -----------------
+class Background     weight: 0.7978, precision: 0.9194, accuracy: 0.9444, F1: 0.9317 IoU: 0.8722 
+class Wildfire       weight: 0.2022, precision: 0.7543, accuracy: 0.6731, F1: 0.7114 IoU: 0.5521 
+
+Validation Precision       : 0.7543
+Validation Recall          : 0.6731
+Validation F1-Score        : 0.7114
+Validation AUROC           : 0.9328
+Validation OA              : 0.8896
+2026-05-07 18:25:44,597 - Trainer - INFO - ################# Epoch (33/40) #################
+2026-05-07 18:26:38,278 - Trainer - INFO - -----------------   Training   -----------------
+class Background     weight: 0.6667, precision: 0.9369, accuracy: 0.9356, F1: 0.9363 IoU: 0.8802 
+class Wildfire       weight: 0.3333, precision: 0.8716, accuracy: 0.8740, F1: 0.8728 IoU: 0.7743 
+
+Training Precision       : 0.8716
+Training Recall          : 0.8740
+Training F1-Score        : 0.8728
+Training AUROC           : 0.9700
+Training OA              : 0.9151
+2026-05-07 18:26:43,187 - Trainer - INFO - -----------------   Validation   -----------------
+class Background     weight: 0.7978, precision: 0.9233, accuracy: 0.9427, F1: 0.9329 IoU: 0.8742 
+class Wildfire       weight: 0.2022, precision: 0.7534, accuracy: 0.6908, F1: 0.7207 IoU: 0.5634 
+
+Validation Precision       : 0.7534
+Validation Recall          : 0.6908
+Validation F1-Score        : 0.7207
+Validation AUROC           : 0.9344
+Validation OA              : 0.8918
+2026-05-07 18:26:43,288 - Trainer - INFO - saving model to ./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55/test/model_checkpoints/epoch_33_model.pth
+2026-05-07 18:26:43,330 - Trainer - INFO - ################# Epoch (34/40) #################
+2026-05-07 18:27:37,035 - Trainer - INFO - -----------------   Training   -----------------
+class Background     weight: 0.6667, precision: 0.9384, accuracy: 0.9356, F1: 0.9370 IoU: 0.8815 
+class Wildfire       weight: 0.3333, precision: 0.8720, accuracy: 0.8771, F1: 0.8745 IoU: 0.7770 
+
+Training Precision       : 0.8720
+Training Recall          : 0.8771
+Training F1-Score        : 0.8745
+Training AUROC           : 0.9701
+Training OA              : 0.9161
+2026-05-07 18:27:41,833 - Trainer - INFO - -----------------   Validation   -----------------
+class Background     weight: 0.7978, precision: 0.9202, accuracy: 0.9439, F1: 0.9319 IoU: 0.8724 
+class Wildfire       weight: 0.2022, precision: 0.7534, accuracy: 0.6769, F1: 0.7131 IoU: 0.5542 
+
+Validation Precision       : 0.7534
+Validation Recall          : 0.6769
+Validation F1-Score        : 0.7131
+Validation AUROC           : 0.9338
+Validation OA              : 0.8899
+2026-05-07 18:27:41,941 - Trainer - INFO - ################# Epoch (35/40) #################
+2026-05-07 18:28:35,732 - Trainer - INFO - -----------------   Training   -----------------
+class Background     weight: 0.6667, precision: 0.9379, accuracy: 0.9367, F1: 0.9373 IoU: 0.8820 
+class Wildfire       weight: 0.3333, precision: 0.8737, accuracy: 0.8760, F1: 0.8749 IoU: 0.7775 
+
+Training Precision       : 0.8737
+Training Recall          : 0.8760
+Training F1-Score        : 0.8749
+Training AUROC           : 0.9703
+Training OA              : 0.9165
+2026-05-07 18:28:40,690 - Trainer - INFO - -----------------   Validation   -----------------
+class Background     weight: 0.7978, precision: 0.9198, accuracy: 0.9452, F1: 0.9323 IoU: 0.8732 
+class Wildfire       weight: 0.2022, precision: 0.7573, accuracy: 0.6746, F1: 0.7136 IoU: 0.5547 
+
+Validation Precision       : 0.7573
+Validation Recall          : 0.6746
+Validation F1-Score        : 0.7136
+Validation AUROC           : 0.9335
+Validation OA              : 0.8905
+2026-05-07 18:28:40,791 - Trainer - INFO - saving model to ./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55/test/model_checkpoints/epoch_35_model.pth
+2026-05-07 18:28:40,834 - Trainer - INFO - ################# Epoch (36/40) #################
+2026-05-07 18:29:34,815 - Trainer - INFO - -----------------   Training   -----------------
+class Background     weight: 0.6667, precision: 0.9372, accuracy: 0.9377, F1: 0.9375 IoU: 0.8823 
+class Wildfire       weight: 0.3333, precision: 0.8753, accuracy: 0.8743, F1: 0.8748 IoU: 0.7775 
+
+Training Precision       : 0.8753
+Training Recall          : 0.8743
+Training F1-Score        : 0.8748
+Training AUROC           : 0.9705
+Training OA              : 0.9166
+2026-05-07 18:29:39,679 - Trainer - INFO - -----------------   Validation   -----------------
+class Background     weight: 0.7978, precision: 0.9216, accuracy: 0.9423, F1: 0.9319 IoU: 0.8724 
+class Wildfire       weight: 0.2022, precision: 0.7502, accuracy: 0.6838, F1: 0.7155 IoU: 0.5570 
+
+Validation Precision       : 0.7502
+Validation Recall          : 0.6838
+Validation F1-Score        : 0.7155
+Validation AUROC           : 0.9337
+Validation OA              : 0.8900
+2026-05-07 18:29:39,787 - Trainer - INFO - ################# Epoch (37/40) #################
+2026-05-07 18:30:33,824 - Trainer - INFO - -----------------   Training   -----------------
+class Background     weight: 0.6667, precision: 0.9380, accuracy: 0.9355, F1: 0.9367 IoU: 0.8810 
+class Wildfire       weight: 0.3333, precision: 0.8717, accuracy: 0.8762, F1: 0.8739 IoU: 0.7761 
+
+Training Precision       : 0.8717
+Training Recall          : 0.8762
+Training F1-Score        : 0.8739
+Training AUROC           : 0.9705
+Training OA              : 0.9157
+2026-05-07 18:30:38,923 - Trainer - INFO - -----------------   Validation   -----------------
+class Background     weight: 0.7978, precision: 0.9190, accuracy: 0.9468, F1: 0.9327 IoU: 0.8739 
+class Wildfire       weight: 0.2022, precision: 0.7616, accuracy: 0.6708, F1: 0.7133 IoU: 0.5544 
+
+Validation Precision       : 0.7616
+Validation Recall          : 0.6708
+Validation F1-Score        : 0.7133
+Validation AUROC           : 0.9338
+Validation OA              : 0.8910
+2026-05-07 18:30:39,024 - Trainer - INFO - saving model to ./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55/test/model_checkpoints/epoch_37_model.pth
+2026-05-07 18:30:39,058 - Trainer - INFO - ################# Epoch (38/40) #################
+2026-05-07 18:31:32,881 - Trainer - INFO - -----------------   Training   -----------------
+class Background     weight: 0.6667, precision: 0.9385, accuracy: 0.9349, F1: 0.9367 IoU: 0.8809 
+class Wildfire       weight: 0.3333, precision: 0.8708, accuracy: 0.8774, F1: 0.8741 IoU: 0.7763 
+
+Training Precision       : 0.8708
+Training Recall          : 0.8774
+Training F1-Score        : 0.8741
+Training AUROC           : 0.9707
+Training OA              : 0.9157
+2026-05-07 18:31:38,092 - Trainer - INFO - -----------------   Validation   -----------------
+class Background     weight: 0.7978, precision: 0.9222, accuracy: 0.9427, F1: 0.9323 IoU: 0.8732 
+class Wildfire       weight: 0.2022, precision: 0.7521, accuracy: 0.6862, F1: 0.7176 IoU: 0.5596 
+
+Validation Precision       : 0.7521
+Validation Recall          : 0.6862
+Validation F1-Score        : 0.7176
+Validation AUROC           : 0.9344
+Validation OA              : 0.8908
+2026-05-07 18:31:38,202 - Trainer - INFO - ################# Epoch (39/40) #################
+2026-05-07 18:32:32,427 - Trainer - INFO - -----------------   Training   -----------------
+class Background     weight: 0.6667, precision: 0.9379, accuracy: 0.9359, F1: 0.9369 IoU: 0.8813 
+class Wildfire       weight: 0.3333, precision: 0.8723, accuracy: 0.8760, F1: 0.8742 IoU: 0.7765 
+
+Training Precision       : 0.8723
+Training Recall          : 0.8760
+Training F1-Score        : 0.8742
+Training AUROC           : 0.9702
+Training OA              : 0.9159
+2026-05-07 18:32:37,773 - Trainer - INFO - -----------------   Validation   -----------------
+class Background     weight: 0.7978, precision: 0.9201, accuracy: 0.9446, F1: 0.9322 IoU: 0.8730 
+class Wildfire       weight: 0.2022, precision: 0.7558, accuracy: 0.6762, F1: 0.7138 IoU: 0.5549 
+
+Validation Precision       : 0.7558
+Validation Recall          : 0.6762
+Validation F1-Score        : 0.7138
+Validation AUROC           : 0.9340
+Validation OA              : 0.8904
+2026-05-07 18:32:37,873 - Trainer - INFO - saving model to ./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55/test/model_checkpoints/epoch_39_model.pth
+2026-05-07 18:32:37,911 - Trainer - INFO - ################# Epoch (40/40) #################
+2026-05-07 18:33:31,710 - Trainer - INFO - -----------------   Training   -----------------
+class Background     weight: 0.6667, precision: 0.9382, accuracy: 0.9365, F1: 0.9373 IoU: 0.8821 
+class Wildfire       weight: 0.3333, precision: 0.8734, accuracy: 0.8766, F1: 0.8750 IoU: 0.7778 
+
+Training Precision       : 0.8734
+Training Recall          : 0.8766
+Training F1-Score        : 0.8750
+Training AUROC           : 0.9703
+Training OA              : 0.9165
+2026-05-07 18:33:36,897 - Trainer - INFO - -----------------   Validation   -----------------
+class Background     weight: 0.7978, precision: 0.9194, accuracy: 0.9454, F1: 0.9322 IoU: 0.8731 
+class Wildfire       weight: 0.2022, precision: 0.7576, accuracy: 0.6731, F1: 0.7128 IoU: 0.5538 
+
+Validation Precision       : 0.7576
+Validation Recall          : 0.6731
+Validation F1-Score        : 0.7128
+Validation AUROC           : 0.9337
+Validation OA              : 0.8904

@@ -1,0 +1,703 @@
+2026-04-30 15:37:17,769 - Trainer - INFO - Parameters ...
+2026-04-30 15:37:17,769 - Trainer - INFO - Namespace(model='CNN', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_year=2021, negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./pretrained_models/pretrained_CNN_w_TE.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-04-30 15:37:17,770 - Trainer - INFO - loading dataset ...
+2026-04-30 15:37:18,005 - Trainer - INFO - # testing samples: 36732
+2026-04-30 15:37:18,005 - Trainer - INFO - 
+loading the model ...
+2026-04-30 15:37:19,188 - Trainer - INFO - model parameters: 413762
+2026-04-30 15:37:19,192 - Trainer - INFO - testing on FireCube dataset ...
+
+2026-04-30 15:37:36,082 - Trainer - INFO - -----------------   Testing   -----------------
+class Background     weight: 0.8800, precision: 0.9826, accuracy: 0.9871, F1: 0.9848 IoU: 0.9701 
+class Wildfire       weight: 0.1200, precision: 0.9021, accuracy: 0.8718, F1: 0.8867 IoU: 0.7964 
+
+Testing accuracy      : 0.9733
+Testing mean accuracy : 0.9294
+Testing AUROC         : 0.9854
+Testing mean IoU      : 0.8833
+Testing mean F1       : 0.9358
+Testing mean loss     : 0.0000    best mean loss     : nan
+2026-04-30 15:39:27,450 - Trainer - INFO - Parameters ...
+2026-04-30 15:39:27,450 - Trainer - INFO - Namespace(model='CNN', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_year=2021, negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test/model_checkpoints/best_loss_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-04-30 15:39:27,451 - Trainer - INFO - loading dataset ...
+2026-04-30 15:39:27,686 - Trainer - INFO - # testing samples: 36732
+2026-04-30 15:39:27,686 - Trainer - INFO - 
+loading the model ...
+2026-04-30 15:39:28,792 - Trainer - INFO - model parameters: 413762
+2026-04-30 15:39:28,800 - Trainer - INFO - testing on FireCube dataset ...
+
+2026-04-30 15:39:45,172 - Trainer - INFO - -----------------   Testing   -----------------
+class Background     weight: 0.8800, precision: 0.9830, accuracy: 0.9795, F1: 0.9813 IoU: 0.9632 
+class Wildfire       weight: 0.1200, precision: 0.8534, accuracy: 0.8761, F1: 0.8646 IoU: 0.7615 
+
+Testing accuracy      : 0.9671
+Testing mean accuracy : 0.9278
+Testing AUROC         : 0.9844
+Testing mean IoU      : 0.8624
+Testing mean F1       : 0.9229
+Testing mean loss     : 0.0000    best mean loss     : nan
+2026-05-01 00:21:36,329 - Trainer - INFO - Parameters ...
+2026-05-01 00:21:36,329 - Trainer - INFO - Namespace(model='SwinTransformer3D', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_year=2021, negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test/model_checkpoints/best_loss_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-01 00:21:36,330 - Trainer - INFO - loading dataset ...
+2026-05-01 00:21:36,568 - Trainer - INFO - # testing samples: 36732
+2026-05-01 00:21:36,568 - Trainer - INFO - 
+loading the model ...
+2026-05-01 00:21:37,158 - Trainer - INFO - model parameters: 1785470
+2026-05-01 00:25:34,474 - Trainer - INFO - Parameters ...
+2026-05-01 00:25:34,474 - Trainer - INFO - Namespace(model='SwinTransformer3D', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_year=2021, negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test/model_checkpoints/best_loss_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-01 00:25:34,475 - Trainer - INFO - loading dataset ...
+2026-05-01 00:25:34,714 - Trainer - INFO - # testing samples: 36732
+2026-05-01 00:25:34,714 - Trainer - INFO - 
+loading the model ...
+2026-05-01 00:25:35,393 - Trainer - INFO - model parameters: 1785470
+2026-05-01 00:27:56,608 - Trainer - INFO - Parameters ...
+2026-05-01 00:27:56,608 - Trainer - INFO - Namespace(model='SwinTransformer3D', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_year=2021, negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test/model_checkpoints/best_loss_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-01 00:27:56,609 - Trainer - INFO - loading dataset ...
+2026-05-01 00:27:56,847 - Trainer - INFO - # testing samples: 36732
+2026-05-01 00:27:56,847 - Trainer - INFO - 
+loading the model ...
+2026-05-01 00:27:57,438 - Trainer - INFO - model parameters: 1785470
+2026-05-01 00:28:43,814 - Trainer - INFO - Parameters ...
+2026-05-01 00:28:43,814 - Trainer - INFO - Namespace(model='SwinTransformer3D', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_year=2021, negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test/model_checkpoints/best_loss_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-01 00:28:43,815 - Trainer - INFO - loading dataset ...
+2026-05-01 00:28:44,052 - Trainer - INFO - # testing samples: 36732
+2026-05-01 00:28:44,052 - Trainer - INFO - 
+loading the model ...
+2026-05-01 00:28:44,742 - Trainer - INFO - model parameters: 1785470
+2026-05-01 00:28:44,755 - Trainer - INFO - testing on FireCube dataset ...
+
+2026-05-01 00:29:15,995 - Trainer - INFO - -----------------   Testing   -----------------
+class Background     weight: 0.8800, precision: 0.9876, accuracy: 0.9553, F1: 0.9712 IoU: 0.9439 
+class Wildfire       weight: 0.1200, precision: 0.7354, accuracy: 0.9120, F1: 0.8142 IoU: 0.6867 
+
+Testing accuracy      : 0.9501
+Testing mean accuracy : 0.9336
+Testing AUROC         : 0.9789
+Testing mean IoU      : 0.8153
+Testing mean F1       : 0.8927
+Testing mean loss     : 0.0000    best mean loss     : nan
+2026-05-01 00:43:26,820 - Trainer - INFO - Parameters ...
+2026-05-01 00:43:26,820 - Trainer - INFO - Namespace(model='SwinTransformer3D', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test/model_checkpoints/best_loss_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-01 00:43:26,821 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-01 00:43:27,208 - Trainer - INFO - # testing samples: 42820
+2026-05-01 00:43:27,208 - Trainer - INFO - 
+loading the model ...
+2026-05-01 00:43:27,781 - Trainer - INFO - model parameters: 1785470
+2026-05-01 00:43:27,795 - Trainer - INFO - testing on FireCube dataset ...
+
+2026-05-01 00:44:03,922 - Trainer - INFO - -----------------   Testing   -----------------
+class Background     weight: 0.8684, precision: 0.9786, accuracy: 0.9527, F1: 0.9654 IoU: 0.9332 
+class Wildfire       weight: 0.1316, precision: 0.7341, accuracy: 0.8623, F1: 0.7930 IoU: 0.6571 
+
+Testing accuracy      : 0.9408
+Testing mean accuracy : 0.9075
+Testing AUROC         : 0.9636
+Testing mean IoU      : 0.7951
+Testing mean F1       : 0.8792
+Testing mean loss     : 0.0000    best mean loss     : nan
+2026-05-01 13:52:47,833 - Trainer - INFO - Parameters ...
+2026-05-01 13:52:47,833 - Trainer - INFO - Namespace(model='DualBranchSwinGCA', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test/model_checkpoints/best_loss_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-01 13:52:47,834 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-01 13:52:48,225 - Trainer - INFO - # testing samples: 42820
+2026-05-01 13:52:48,225 - Trainer - INFO - 
+loading the model ...
+2026-05-01 13:52:48,805 - Trainer - INFO - model parameters: 1952415
+2026-05-01 13:52:48,818 - Trainer - INFO - testing on FireCube dataset ...
+
+2026-05-01 13:53:28,207 - Trainer - INFO - -----------------   Testing   -----------------
+class Background     weight: 0.8684, precision: 0.9720, accuracy: 0.9639, F1: 0.9679 IoU: 0.9378 
+class Wildfire       weight: 0.1316, precision: 0.7741, accuracy: 0.8167, F1: 0.7948 IoU: 0.6595 
+
+Testing accuracy      : 0.9445
+Testing mean accuracy : 0.8903
+Testing AUROC         : 0.9646
+Testing mean IoU      : 0.7987
+Testing mean F1       : 0.8814
+Testing mean loss     : 0.0000    best mean loss     : nan
+2026-05-01 14:31:43,753 - Trainer - INFO - Parameters ...
+2026-05-01 14:31:43,753 - Trainer - INFO - Namespace(model='DualBranchSwinGCA', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test/model_checkpoints/best_loss_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-01 14:31:43,754 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-01 14:31:44,114 - Trainer - INFO - # testing samples: 42820
+2026-05-01 14:31:44,114 - Trainer - INFO - 
+loading the model ...
+2026-05-01 14:31:44,671 - Trainer - INFO - model parameters: 1952415
+2026-05-01 14:31:44,684 - Trainer - INFO - testing on FireCube dataset ...
+
+2026-05-01 14:32:23,544 - Trainer - INFO - -----------------   Testing   -----------------
+class Background     weight: 0.8684, precision: 0.9720, accuracy: 0.9639, F1: 0.9679 IoU: 0.9378 
+class Wildfire       weight: 0.1316, precision: 0.7741, accuracy: 0.8167, F1: 0.7948 IoU: 0.6595 
+
+Testing Precision       : 0.7741
+Testing Recall       : 0.8167
+Testing mean F1       : 0.7948
+Testing AUROC         : 0.9646
+Testing OA      : 0.9445
+2026-05-01 14:33:09,059 - Trainer - INFO - Parameters ...
+2026-05-01 14:33:09,060 - Trainer - INFO - Namespace(model='DualBranchSwinGCA', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test/model_checkpoints/best_loss_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-01 14:33:09,060 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-01 14:33:09,428 - Trainer - INFO - # testing samples: 42820
+2026-05-01 14:33:09,428 - Trainer - INFO - 
+loading the model ...
+2026-05-01 14:33:10,004 - Trainer - INFO - model parameters: 1952415
+2026-05-01 14:33:10,018 - Trainer - INFO - testing on FireCube dataset ...
+
+2026-05-01 14:33:49,156 - Trainer - INFO - -----------------   Testing   -----------------
+class Background     weight: 0.8684, precision: 0.9720, accuracy: 0.9639, F1: 0.9679 IoU: 0.9378 
+class Wildfire       weight: 0.1316, precision: 0.7741, accuracy: 0.8167, F1: 0.7948 IoU: 0.6595 
+
+Testing Precision       : 0.7741
+Testing Recall          : 0.8167
+Testing F1-Score        : 0.7948
+Testing AUROC           : 0.9646
+Testing OA              : 0.9445
+2026-05-01 14:34:59,614 - Trainer - INFO - Parameters ...
+2026-05-01 14:34:59,614 - Trainer - INFO - Namespace(model='CNN', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test_loan/model_checkpoints/best_loss_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-01 14:34:59,614 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-01 14:34:59,978 - Trainer - INFO - # testing samples: 42820
+2026-05-01 14:34:59,978 - Trainer - INFO - 
+loading the model ...
+2026-05-01 14:35:01,110 - Trainer - INFO - model parameters: 413762
+2026-05-01 14:35:01,114 - Trainer - INFO - testing on FireCube dataset ...
+
+2026-05-01 14:35:12,070 - Trainer - INFO - -----------------   Testing   -----------------
+class Background     weight: 0.8684, precision: 0.9731, accuracy: 0.9777, F1: 0.9754 IoU: 0.9520 
+class Wildfire       weight: 0.1316, precision: 0.8480, accuracy: 0.8217, F1: 0.8346 IoU: 0.7162 
+
+Testing Precision       : 0.8480
+Testing Recall          : 0.8217
+Testing F1-Score        : 0.8346
+Testing AUROC           : 0.9749
+Testing OA              : 0.9571
+2026-05-01 14:36:36,873 - Trainer - INFO - Parameters ...
+2026-05-01 14:36:36,873 - Trainer - INFO - Namespace(model='SwinTransformer3D', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test_SwinTransformer3D/model_checkpoints/best_loss_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-01 14:36:36,874 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-01 14:36:37,230 - Trainer - INFO - # testing samples: 42820
+2026-05-01 14:36:37,230 - Trainer - INFO - 
+loading the model ...
+2026-05-01 14:36:37,789 - Trainer - INFO - model parameters: 1785470
+2026-05-01 14:36:37,802 - Trainer - INFO - testing on FireCube dataset ...
+
+2026-05-01 14:37:17,557 - Trainer - INFO - -----------------   Testing   -----------------
+class Background     weight: 0.8684, precision: 0.9786, accuracy: 0.9527, F1: 0.9654 IoU: 0.9332 
+class Wildfire       weight: 0.1316, precision: 0.7341, accuracy: 0.8623, F1: 0.7930 IoU: 0.6571 
+
+Testing Precision       : 0.7341
+Testing Recall          : 0.8623
+Testing F1-Score        : 0.7930
+Testing AUROC           : 0.9636
+Testing OA              : 0.9408
+2026-05-01 15:59:49,369 - Trainer - INFO - Parameters ...
+2026-05-01 15:59:49,369 - Trainer - INFO - Namespace(model='DualBranchSwinGCA', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test_SwinTransformer3D/model_checkpoints/best_loss_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-01 15:59:49,370 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-01 15:59:49,736 - Trainer - INFO - # testing samples: 42820
+2026-05-01 15:59:49,736 - Trainer - INFO - 
+loading the model ...
+2026-05-01 15:59:50,455 - Trainer - INFO - model parameters: 3567007
+2026-05-01 16:19:55,382 - Trainer - INFO - Parameters ...
+2026-05-01 16:19:55,382 - Trainer - INFO - Namespace(model='DualBranchSwinGCA', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0,1', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test/model_checkpoints/best_loss_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-01 16:19:55,383 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-01 16:19:55,736 - Trainer - INFO - # testing samples: 42820
+2026-05-01 16:19:55,736 - Trainer - INFO - 
+loading the model ...
+2026-05-01 16:19:56,491 - Trainer - INFO - model parameters: 3567007
+2026-05-01 16:20:24,138 - Trainer - INFO - Parameters ...
+2026-05-01 16:20:24,138 - Trainer - INFO - Namespace(model='DualBranchSwinGCA', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test/model_checkpoints/best_loss_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-01 16:20:24,139 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-01 16:20:24,515 - Trainer - INFO - # testing samples: 42820
+2026-05-01 16:20:24,515 - Trainer - INFO - 
+loading the model ...
+2026-05-01 16:20:25,274 - Trainer - INFO - model parameters: 3567007
+2026-05-01 16:20:25,292 - Trainer - INFO - testing on FireCube dataset ...
+
+2026-05-01 16:21:04,883 - Trainer - INFO - -----------------   Testing   -----------------
+class Background     weight: 0.8684, precision: 0.9524, accuracy: 0.9728, F1: 0.9625 IoU: 0.9277 
+class Wildfire       weight: 0.1316, precision: 0.7911, accuracy: 0.6793, F1: 0.7310 IoU: 0.5760 
+
+Testing Precision       : 0.7911
+Testing Recall          : 0.6793
+Testing F1-Score        : 0.7310
+Testing AUROC           : 0.9557
+Testing OA              : 0.9342
+2026-05-02 00:11:40,144 - Trainer - INFO - Parameters ...
+2026-05-02 00:11:40,145 - Trainer - INFO - Namespace(model='DualBranchSwinGCA', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test/model_checkpoints/best_loss_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-02 00:11:40,145 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-02 00:11:40,504 - Trainer - INFO - # testing samples: 42820
+2026-05-02 00:11:40,504 - Trainer - INFO - 
+loading the model ...
+2026-05-02 00:11:41,080 - Trainer - INFO - model parameters: 2256287
+2026-05-02 00:11:41,095 - Trainer - INFO - testing on FireCube dataset ...
+
+2026-05-02 00:12:16,624 - Trainer - INFO - -----------------   Testing   -----------------
+class Background     weight: 0.8684, precision: 0.9655, accuracy: 0.9710, F1: 0.9682 IoU: 0.9384 
+class Wildfire       weight: 0.1316, precision: 0.8009, accuracy: 0.7709, F1: 0.7856 IoU: 0.6469 
+
+Testing Precision       : 0.8009
+Testing Recall          : 0.7709
+Testing F1-Score        : 0.7856
+Testing AUROC           : 0.9591
+Testing OA              : 0.9446
+2026-05-02 00:56:42,801 - Trainer - INFO - Parameters ...
+2026-05-02 00:56:42,801 - Trainer - INFO - Namespace(model='DualBranchSwinAdaLN', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test/model_checkpoints/best_loss_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-02 00:56:42,802 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-02 00:56:43,167 - Trainer - INFO - # testing samples: 42820
+2026-05-02 00:56:43,167 - Trainer - INFO - 
+loading the model ...
+2026-05-02 00:57:22,410 - Trainer - INFO - Parameters ...
+2026-05-02 00:57:22,411 - Trainer - INFO - Namespace(model='DualBranchSwinAdaLN', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test/model_checkpoints/best_loss_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-02 00:57:22,414 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-02 00:57:22,784 - Trainer - INFO - # testing samples: 42820
+2026-05-02 00:57:22,784 - Trainer - INFO - 
+loading the model ...
+2026-05-02 00:57:23,475 - Trainer - INFO - model parameters: 2223518
+2026-05-02 00:57:23,488 - Trainer - INFO - testing on FireCube dataset ...
+
+2026-05-02 00:57:57,679 - Trainer - INFO - -----------------   Testing   -----------------
+class Background     weight: 0.8684, precision: 0.9683, accuracy: 0.9610, F1: 0.9646 IoU: 0.9317 
+class Wildfire       weight: 0.1316, precision: 0.7546, accuracy: 0.7925, F1: 0.7731 IoU: 0.6302 
+
+Testing Precision       : 0.7546
+Testing Recall          : 0.7925
+Testing F1-Score        : 0.7731
+Testing AUROC           : 0.9633
+Testing OA              : 0.9388
+2026-05-02 01:30:58,615 - Trainer - INFO - Parameters ...
+2026-05-02 01:30:58,615 - Trainer - INFO - Namespace(model='DualBranchSwinAdaLN', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test/model_checkpoints/best_loss_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-02 01:30:58,616 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-02 01:30:58,980 - Trainer - INFO - # testing samples: 42820
+2026-05-02 01:30:58,980 - Trainer - INFO - 
+loading the model ...
+2026-05-02 01:30:59,671 - Trainer - INFO - model parameters: 2223518
+2026-05-02 01:30:59,684 - Trainer - INFO - testing on FireCube dataset ...
+
+2026-05-02 01:31:34,220 - Trainer - INFO - -----------------   Testing   -----------------
+class Background     weight: 0.8684, precision: 0.9732, accuracy: 0.9458, F1: 0.9593 IoU: 0.9218 
+class Wildfire       weight: 0.1316, precision: 0.6985, accuracy: 0.8279, F1: 0.7577 IoU: 0.6099 
+
+Testing Precision       : 0.6985
+Testing Recall          : 0.8279
+Testing F1-Score        : 0.7577
+Testing AUROC           : 0.9583
+Testing OA              : 0.9303
+2026-05-02 02:08:24,867 - Trainer - INFO - Parameters ...
+2026-05-02 02:08:24,867 - Trainer - INFO - Namespace(model='DualBranchSwinAdaLN', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test/model_checkpoints/best_loss_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-02 02:08:24,868 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-02 02:08:25,242 - Trainer - INFO - # testing samples: 42820
+2026-05-02 02:08:25,242 - Trainer - INFO - 
+loading the model ...
+2026-05-02 02:08:25,865 - Trainer - INFO - model parameters: 2223518
+2026-05-02 02:08:25,879 - Trainer - INFO - testing on FireCube dataset ...
+
+2026-05-02 02:09:00,139 - Trainer - INFO - -----------------   Testing   -----------------
+class Background     weight: 0.8684, precision: 0.9769, accuracy: 0.9587, F1: 0.9677 IoU: 0.9375 
+class Wildfire       weight: 0.1316, precision: 0.7575, accuracy: 0.8502, F1: 0.8012 IoU: 0.6683 
+
+Testing Precision       : 0.7575
+Testing Recall          : 0.8502
+Testing F1-Score        : 0.8012
+Testing AUROC           : 0.9638
+Testing OA              : 0.9445
+2026-05-02 02:21:02,087 - Trainer - INFO - Parameters ...
+2026-05-02 02:21:02,087 - Trainer - INFO - Namespace(model='DualBranchSwinGCA', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test_SwinGCA_0/model_checkpoints/best_loss_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-02 02:21:02,088 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-02 02:21:02,479 - Trainer - INFO - # testing samples: 42820
+2026-05-02 02:21:02,479 - Trainer - INFO - 
+loading the model ...
+2026-05-02 02:21:03,377 - Trainer - INFO - model parameters: 2256287
+2026-05-02 02:26:19,935 - Trainer - INFO - Parameters ...
+2026-05-02 02:26:19,935 - Trainer - INFO - Namespace(model='DualBranchSwinGCA', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test_SwinGCA_0/model_checkpoints/best_loss_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-02 02:26:19,936 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-02 02:26:20,343 - Trainer - INFO - # testing samples: 42820
+2026-05-02 02:26:20,343 - Trainer - INFO - 
+loading the model ...
+2026-05-02 02:26:21,165 - Trainer - INFO - model parameters: 2256287
+2026-05-02 02:31:13,290 - Trainer - INFO - Parameters ...
+2026-05-02 02:31:13,290 - Trainer - INFO - Namespace(model='DualBranchSwinGCA', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test_SwinGCA_0/model_checkpoints/best_loss_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-02 02:31:13,291 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-02 02:31:13,688 - Trainer - INFO - # testing samples: 42820
+2026-05-02 02:31:13,688 - Trainer - INFO - 
+loading the model ...
+2026-05-02 02:31:14,470 - Trainer - INFO - model parameters: 1952415
+2026-05-02 02:33:50,007 - Trainer - INFO - Parameters ...
+2026-05-02 02:33:50,007 - Trainer - INFO - Namespace(model='DualBranchSwinGCA', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test_SwinGCA_0/model_checkpoints/best_loss_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-02 02:33:50,007 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-02 02:33:50,418 - Trainer - INFO - # testing samples: 42820
+2026-05-02 02:33:50,418 - Trainer - INFO - 
+loading the model ...
+2026-05-02 02:33:51,283 - Trainer - INFO - model parameters: 1952415
+2026-05-02 02:35:00,694 - Trainer - INFO - Parameters ...
+2026-05-02 02:35:00,694 - Trainer - INFO - Namespace(model='DualBranchSwinGCA', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test_SwinGCA_0/model_checkpoints/best_loss_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-02 02:35:00,695 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-02 02:35:01,204 - Trainer - INFO - # testing samples: 42820
+2026-05-02 02:35:01,204 - Trainer - INFO - 
+loading the model ...
+2026-05-02 02:35:02,129 - Trainer - INFO - model parameters: 1952415
+2026-05-02 02:36:02,053 - Trainer - INFO - Parameters ...
+2026-05-02 02:36:02,053 - Trainer - INFO - Namespace(model='DualBranchSwinGCA', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test_SwinGCA_0/model_checkpoints/best_loss_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-02 02:36:02,054 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-02 02:36:02,441 - Trainer - INFO - # testing samples: 42820
+2026-05-02 02:36:02,441 - Trainer - INFO - 
+loading the model ...
+2026-05-02 02:36:03,221 - Trainer - INFO - model parameters: 1952415
+2026-05-02 02:36:03,235 - Trainer - INFO - testing on FireCube dataset ...
+
+2026-05-02 02:36:50,363 - Trainer - INFO - -----------------   Testing   -----------------
+class Background     weight: 0.8684, precision: 0.9720, accuracy: 0.9639, F1: 0.9679 IoU: 0.9378 
+class Wildfire       weight: 0.1316, precision: 0.7741, accuracy: 0.8167, F1: 0.7948 IoU: 0.6595 
+
+Testing Precision       : 0.7741
+Testing Recall          : 0.8167
+Testing F1-Score        : 0.7948
+Testing AUROC           : 0.9646
+Testing OA              : 0.9445
+2026-05-02 02:38:40,388 - Trainer - INFO - Parameters ...
+2026-05-02 02:38:40,388 - Trainer - INFO - Namespace(model='DualBranchSwinGCA', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test_SwinGCA_2/model_checkpoints/best_loss_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-02 02:38:40,389 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-02 02:38:40,989 - Trainer - INFO - # testing samples: 42820
+2026-05-02 02:38:40,990 - Trainer - INFO - 
+loading the model ...
+2026-05-02 02:38:41,932 - Trainer - INFO - model parameters: 2256287
+2026-05-02 02:38:41,951 - Trainer - INFO - testing on FireCube dataset ...
+
+2026-05-02 02:39:24,350 - Trainer - INFO - -----------------   Testing   -----------------
+class Background     weight: 0.8684, precision: 0.9655, accuracy: 0.9710, F1: 0.9682 IoU: 0.9384 
+class Wildfire       weight: 0.1316, precision: 0.8009, accuracy: 0.7709, F1: 0.7856 IoU: 0.6469 
+
+Testing Precision       : 0.8009
+Testing Recall          : 0.7709
+Testing F1-Score        : 0.7856
+Testing AUROC           : 0.9591
+Testing OA              : 0.9446
+2026-05-02 02:40:37,633 - Trainer - INFO - Parameters ...
+2026-05-02 02:40:37,633 - Trainer - INFO - Namespace(model='DualBranchSwinAdaLN', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test/model_checkpoints/best_loss_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-02 02:40:37,634 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-02 02:40:38,003 - Trainer - INFO - # testing samples: 42820
+2026-05-02 02:40:38,003 - Trainer - INFO - 
+loading the model ...
+2026-05-02 02:40:38,672 - Trainer - INFO - model parameters: 2223518
+2026-05-02 02:40:38,686 - Trainer - INFO - testing on FireCube dataset ...
+
+2026-05-02 02:41:12,917 - Trainer - INFO - -----------------   Testing   -----------------
+class Background     weight: 0.8684, precision: 0.9673, accuracy: 0.9678, F1: 0.9676 IoU: 0.9372 
+class Wildfire       weight: 0.1316, precision: 0.7870, accuracy: 0.7840, F1: 0.7855 IoU: 0.6468 
+
+Testing Precision       : 0.7870
+Testing Recall          : 0.7840
+Testing F1-Score        : 0.7855
+Testing AUROC           : 0.9587
+Testing OA              : 0.9436
+2026-05-02 02:51:01,323 - Trainer - INFO - Parameters ...
+2026-05-02 02:51:01,324 - Trainer - INFO - Namespace(model='DualBranchSwinGCA', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test/model_checkpoints/best_loss_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-02 02:51:01,324 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-02 02:51:01,731 - Trainer - INFO - # testing samples: 42820
+2026-05-02 02:51:01,731 - Trainer - INFO - 
+loading the model ...
+2026-05-02 02:51:02,867 - Trainer - INFO - model parameters: 3567007
+2026-05-02 02:51:46,866 - Trainer - INFO - Parameters ...
+2026-05-02 02:51:46,866 - Trainer - INFO - Namespace(model='DualBranchSwinGCA', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test_SwinGCA_1/model_checkpoints/best_loss_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-02 02:51:46,867 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-02 02:51:47,407 - Trainer - INFO - # testing samples: 42820
+2026-05-02 02:51:47,407 - Trainer - INFO - 
+loading the model ...
+2026-05-02 02:51:48,457 - Trainer - INFO - model parameters: 3567007
+2026-05-02 02:51:48,476 - Trainer - INFO - testing on FireCube dataset ...
+
+2026-05-02 02:52:36,305 - Trainer - INFO - -----------------   Testing   -----------------
+class Background     weight: 0.8684, precision: 0.9524, accuracy: 0.9728, F1: 0.9625 IoU: 0.9277 
+class Wildfire       weight: 0.1316, precision: 0.7911, accuracy: 0.6793, F1: 0.7310 IoU: 0.5760 
+
+Testing Precision       : 0.7911
+Testing Recall          : 0.6793
+Testing F1-Score        : 0.7310
+Testing AUROC           : 0.9557
+Testing OA              : 0.9342
+2026-05-02 03:27:23,283 - Trainer - INFO - Parameters ...
+2026-05-02 03:27:23,283 - Trainer - INFO - Namespace(model='DualBranchSwinAdaLN', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test_SwinGCA_1/model_checkpoints/best_loss_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-02 03:27:23,284 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-02 03:27:23,663 - Trainer - INFO - # testing samples: 42820
+2026-05-02 03:27:23,663 - Trainer - INFO - 
+loading the model ...
+2026-05-02 03:27:24,477 - Trainer - INFO - model parameters: 2223518
+2026-05-02 03:27:48,679 - Trainer - INFO - Parameters ...
+2026-05-02 03:27:48,679 - Trainer - INFO - Namespace(model='DualBranchSwinAdaLN', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test/model_checkpoints/best_loss_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-02 03:27:48,680 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-02 03:27:49,075 - Trainer - INFO - # testing samples: 42820
+2026-05-02 03:27:49,076 - Trainer - INFO - 
+loading the model ...
+2026-05-02 03:27:49,806 - Trainer - INFO - model parameters: 2223518
+2026-05-02 03:27:49,822 - Trainer - INFO - testing on FireCube dataset ...
+
+2026-05-02 03:28:35,270 - Trainer - INFO - -----------------   Testing   -----------------
+class Background     weight: 0.8684, precision: 0.9693, accuracy: 0.9575, F1: 0.9634 IoU: 0.9293 
+class Wildfire       weight: 0.1316, precision: 0.7404, accuracy: 0.8002, F1: 0.7691 IoU: 0.6249 
+
+Testing Precision       : 0.7404
+Testing Recall          : 0.8002
+Testing F1-Score        : 0.7691
+Testing AUROC           : 0.9550
+Testing OA              : 0.9368
+2026-05-02 12:30:09,629 - Trainer - INFO - Parameters ...
+2026-05-02 12:30:09,630 - Trainer - INFO - Namespace(model='DualBranchSwinGCA', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test_SwinGCA_1_new/model_checkpoints/best_loss_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-02 12:30:09,636 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-02 12:30:10,008 - Trainer - INFO - # testing samples: 42820
+2026-05-02 12:30:10,008 - Trainer - INFO - 
+loading the model ...
+2026-05-02 12:30:10,717 - Trainer - INFO - model parameters: 3567007
+2026-05-02 12:30:10,736 - Trainer - INFO - testing on FireCube dataset ...
+
+2026-05-02 12:30:45,195 - Trainer - INFO - -----------------   Testing   -----------------
+class Background     weight: 0.8684, precision: 0.9768, accuracy: 0.9637, F1: 0.9702 IoU: 0.9421 
+class Wildfire       weight: 0.1316, precision: 0.7801, accuracy: 0.8486, F1: 0.8129 IoU: 0.6848 
+
+Testing Precision       : 0.7801
+Testing Recall          : 0.8486
+Testing F1-Score        : 0.8129
+Testing AUROC           : 0.9671
+Testing OA              : 0.9486
+2026-05-02 12:31:48,515 - Trainer - INFO - Parameters ...
+2026-05-02 12:31:48,515 - Trainer - INFO - Namespace(model='DualBranchSwinAdaLN', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test_SwinAdaLN_4/model_checkpoints/best_loss_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-02 12:31:48,516 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-02 12:31:48,883 - Trainer - INFO - # testing samples: 42820
+2026-05-02 12:31:48,883 - Trainer - INFO - 
+loading the model ...
+2026-05-02 12:31:49,530 - Trainer - INFO - model parameters: 2223518
+2026-05-02 12:31:49,544 - Trainer - INFO - testing on FireCube dataset ...
+
+2026-05-02 12:32:23,969 - Trainer - INFO - -----------------   Testing   -----------------
+class Background     weight: 0.8684, precision: 0.9768, accuracy: 0.9588, F1: 0.9677 IoU: 0.9375 
+class Wildfire       weight: 0.1316, precision: 0.7576, accuracy: 0.8500, F1: 0.8011 IoU: 0.6682 
+
+Testing Precision       : 0.7576
+Testing Recall          : 0.8500
+Testing F1-Score        : 0.8011
+Testing AUROC           : 0.9638
+Testing OA              : 0.9445
+2026-05-07 15:39:07,055 - Trainer - INFO - Parameters ...
+2026-05-07 15:39:07,055 - Trainer - INFO - Namespace(model='DualBranchSwin2d3d', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test_SwinGCA_2d3d_ws_2/test/model_checkpoints/best_loss_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-07 15:39:07,056 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-07 15:39:07,418 - Trainer - INFO - # testing samples: 42820
+2026-05-07 15:39:07,418 - Trainer - INFO - 
+loading the model ...
+2026-05-07 15:39:08,016 - Trainer - INFO - model parameters: 1989907
+2026-05-07 15:39:08,033 - Trainer - INFO - testing on FireCube dataset ...
+
+2026-05-07 15:39:43,207 - Trainer - INFO - -----------------   Testing   -----------------
+class Background     weight: 0.8684, precision: 0.9738, accuracy: 0.9732, F1: 0.9735 IoU: 0.9484 
+class Wildfire       weight: 0.1316, precision: 0.8241, accuracy: 0.8275, F1: 0.8258 IoU: 0.7033 
+
+Testing Precision       : 0.8241
+Testing Recall          : 0.8275
+Testing F1-Score        : 0.8258
+Testing AUROC           : 0.9668
+Testing OA              : 0.9541
+2026-05-07 15:40:03,730 - Trainer - INFO - Parameters ...
+2026-05-07 15:40:03,730 - Trainer - INFO - Namespace(model='DualBranchSwin2d3d', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test_SwinGCA_2d3d_ws_2/test/model_checkpoints/epoch_39_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-07 15:40:03,731 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-07 15:40:04,119 - Trainer - INFO - # testing samples: 42820
+2026-05-07 15:40:04,119 - Trainer - INFO - 
+loading the model ...
+2026-05-07 15:40:04,746 - Trainer - INFO - model parameters: 1989907
+2026-05-07 15:40:04,762 - Trainer - INFO - testing on FireCube dataset ...
+
+2026-05-07 15:40:39,109 - Trainer - INFO - -----------------   Testing   -----------------
+class Background     weight: 0.8684, precision: 0.9739, accuracy: 0.9754, F1: 0.9746 IoU: 0.9505 
+class Wildfire       weight: 0.1316, precision: 0.8360, accuracy: 0.8275, F1: 0.8317 IoU: 0.7119 
+
+Testing Precision       : 0.8360
+Testing Recall          : 0.8275
+Testing F1-Score        : 0.8317
+Testing AUROC           : 0.9673
+Testing OA              : 0.9559
+2026-05-07 17:24:38,532 - Trainer - INFO - Parameters ...
+2026-05-07 17:24:38,532 - Trainer - INFO - Namespace(model='DualBranchSwin2d3d', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test_SwinGCA_2d3d_ws_2_vpd_5545/test/model_checkpoints/best_loss_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-07 17:24:38,533 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-07 17:24:38,906 - Trainer - INFO - # testing samples: 42820
+2026-05-07 17:24:38,906 - Trainer - INFO - 
+loading the model ...
+2026-05-07 17:24:39,522 - Trainer - INFO - model parameters: 1989939
+2026-05-07 17:24:39,538 - Trainer - INFO - testing on FireCube dataset ...
+
+2026-05-07 17:25:15,191 - Trainer - INFO - -----------------   Testing   -----------------
+class Background     weight: 0.8684, precision: 0.9698, accuracy: 0.9743, F1: 0.9720 IoU: 0.9456 
+class Wildfire       weight: 0.1316, precision: 0.8251, accuracy: 0.7996, F1: 0.8122 IoU: 0.6838 
+
+Testing Precision       : 0.8251
+Testing Recall          : 0.7996
+Testing F1-Score        : 0.8122
+Testing AUROC           : 0.9644
+Testing OA              : 0.9513
+2026-05-07 17:26:02,230 - Trainer - INFO - Parameters ...
+2026-05-07 17:26:02,230 - Trainer - INFO - Namespace(model='DualBranchSwin2d3d', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test_SwinGCA_2d3d_ws_2_vpd_5545/test/model_checkpoints/epoch_39_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-07 17:26:02,231 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-07 17:26:02,600 - Trainer - INFO - # testing samples: 42820
+2026-05-07 17:26:02,600 - Trainer - INFO - 
+loading the model ...
+2026-05-07 17:26:03,200 - Trainer - INFO - model parameters: 1989939
+2026-05-07 17:26:03,216 - Trainer - INFO - testing on FireCube dataset ...
+
+2026-05-07 17:26:39,671 - Trainer - INFO - -----------------   Testing   -----------------
+class Background     weight: 0.8684, precision: 0.9695, accuracy: 0.9752, F1: 0.9723 IoU: 0.9461 
+class Wildfire       weight: 0.1316, precision: 0.8297, accuracy: 0.7973, F1: 0.8132 IoU: 0.6852 
+
+Testing Precision       : 0.8297
+Testing Recall          : 0.7973
+Testing F1-Score        : 0.8132
+Testing AUROC           : 0.9653
+Testing OA              : 0.9518
+2026-05-07 17:27:27,476 - Trainer - INFO - Parameters ...
+2026-05-07 17:27:27,477 - Trainer - INFO - Namespace(model='DualBranchSwin2d3d', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test_SwinGCA_2d3d_ws_2_vpd_5545/test/model_checkpoints/epoch_37_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-07 17:27:27,477 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-07 17:27:27,853 - Trainer - INFO - # testing samples: 42820
+2026-05-07 17:27:27,853 - Trainer - INFO - 
+loading the model ...
+2026-05-07 17:27:28,423 - Trainer - INFO - model parameters: 1989939
+2026-05-07 17:27:28,439 - Trainer - INFO - testing on FireCube dataset ...
+
+2026-05-07 17:28:03,913 - Trainer - INFO - -----------------   Testing   -----------------
+class Background     weight: 0.8684, precision: 0.9687, accuracy: 0.9756, F1: 0.9722 IoU: 0.9458 
+class Wildfire       weight: 0.1316, precision: 0.8313, accuracy: 0.7920, F1: 0.8112 IoU: 0.6823 
+
+Testing Precision       : 0.8313
+Testing Recall          : 0.7920
+Testing F1-Score        : 0.8112
+Testing AUROC           : 0.9649
+Testing OA              : 0.9515
+2026-05-07 17:29:06,824 - Trainer - INFO - Parameters ...
+2026-05-07 17:29:06,824 - Trainer - INFO - Namespace(model='DualBranchSwin2d3d', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test_SwinGCA_2d3d_ws_2_vpd_5545/test/model_checkpoints/epoch_35_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-07 17:29:06,825 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-07 17:29:07,183 - Trainer - INFO - # testing samples: 42820
+2026-05-07 17:29:07,183 - Trainer - INFO - 
+loading the model ...
+2026-05-07 17:29:07,784 - Trainer - INFO - model parameters: 1989939
+2026-05-07 17:29:07,799 - Trainer - INFO - testing on FireCube dataset ...
+
+2026-05-07 17:29:44,476 - Trainer - INFO - -----------------   Testing   -----------------
+class Background     weight: 0.8684, precision: 0.9693, accuracy: 0.9757, F1: 0.9725 IoU: 0.9465 
+class Wildfire       weight: 0.1316, precision: 0.8323, accuracy: 0.7963, F1: 0.8139 IoU: 0.6862 
+
+Testing Precision       : 0.8323
+Testing Recall          : 0.7963
+Testing F1-Score        : 0.8139
+Testing AUROC           : 0.9652
+Testing OA              : 0.9521
+2026-05-07 17:30:23,527 - Trainer - INFO - Parameters ...
+2026-05-07 17:30:23,527 - Trainer - INFO - Namespace(model='DualBranchSwin2d3d', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test_SwinGCA_2d3d_ws_2_vpd_5545/test/model_checkpoints/epoch_33_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-07 17:30:23,529 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-07 17:30:23,898 - Trainer - INFO - # testing samples: 42820
+2026-05-07 17:30:23,898 - Trainer - INFO - 
+loading the model ...
+2026-05-07 17:30:24,516 - Trainer - INFO - model parameters: 1989939
+2026-05-07 17:30:24,532 - Trainer - INFO - testing on FireCube dataset ...
+
+2026-05-07 17:30:59,870 - Trainer - INFO - -----------------   Testing   -----------------
+class Background     weight: 0.8684, precision: 0.9708, accuracy: 0.9729, F1: 0.9719 IoU: 0.9453 
+class Wildfire       weight: 0.1316, precision: 0.8187, accuracy: 0.8069, F1: 0.8128 IoU: 0.6846 
+
+Testing Precision       : 0.8187
+Testing Recall          : 0.8069
+Testing F1-Score        : 0.8128
+Testing AUROC           : 0.9645
+Testing OA              : 0.9511
+2026-05-07 17:31:06,054 - Trainer - INFO - Parameters ...
+2026-05-07 17:31:06,054 - Trainer - INFO - Namespace(model='DualBranchSwin2d3d', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test_SwinGCA_2d3d_ws_2_vpd_5545/test/model_checkpoints/epoch_13_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-07 17:31:06,055 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-07 17:31:06,418 - Trainer - INFO - # testing samples: 42820
+2026-05-07 17:31:06,418 - Trainer - INFO - 
+loading the model ...
+2026-05-07 17:31:07,002 - Trainer - INFO - model parameters: 1989939
+2026-05-07 17:31:07,017 - Trainer - INFO - testing on FireCube dataset ...
+
+2026-05-07 17:31:42,249 - Trainer - INFO - -----------------   Testing   -----------------
+class Background     weight: 0.8684, precision: 0.9689, accuracy: 0.9738, F1: 0.9713 IoU: 0.9442 
+class Wildfire       weight: 0.1316, precision: 0.8210, accuracy: 0.7934, F1: 0.8070 IoU: 0.6764 
+
+Testing Precision       : 0.8210
+Testing Recall          : 0.7934
+Testing F1-Score        : 0.8070
+Testing AUROC           : 0.9631
+Testing OA              : 0.9500
+2026-05-07 17:36:08,952 - Trainer - INFO - Parameters ...
+2026-05-07 17:36:08,952 - Trainer - INFO - Namespace(model='DualBranchSwin2d3d', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test_SwinGCA_2d3d_ws_2_uv_5545/test/model_checkpoints/best_loss_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh', 'era5_max_wind_u10', 'era5_max_wind_v10'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-07 17:36:08,953 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-07 17:36:09,315 - Trainer - INFO - # testing samples: 42820
+2026-05-07 17:36:09,315 - Trainer - INFO - 
+loading the model ...
+2026-05-07 17:36:09,894 - Trainer - INFO - model parameters: 1989971
+2026-05-07 17:36:09,909 - Trainer - INFO - testing on FireCube dataset ...
+
+2026-05-07 17:36:46,397 - Trainer - INFO - -----------------   Testing   -----------------
+class Background     weight: 0.8684, precision: 0.9721, accuracy: 0.9788, F1: 0.9755 IoU: 0.9521 
+class Wildfire       weight: 0.1316, precision: 0.8537, accuracy: 0.8149, F1: 0.8338 IoU: 0.7150 
+
+Testing Precision       : 0.8537
+Testing Recall          : 0.8149
+Testing F1-Score        : 0.8338
+Testing AUROC           : 0.9676
+Testing OA              : 0.9573
+2026-05-07 19:40:17,919 - Trainer - INFO - Parameters ...
+2026-05-07 19:40:17,919 - Trainer - INFO - Namespace(model='DualBranchSwin2d3d', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55/test/model_checkpoints/best_loss_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh', 'era5_max_wind_u10', 'era5_max_wind_v10'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-07 19:40:17,920 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-07 19:40:18,276 - Trainer - INFO - # testing samples: 42820
+2026-05-07 19:40:18,276 - Trainer - INFO - 
+loading the model ...
+2026-05-07 19:40:18,858 - Trainer - INFO - model parameters: 1989971
+2026-05-07 19:40:46,224 - Trainer - INFO - Parameters ...
+2026-05-07 19:40:46,224 - Trainer - INFO - Namespace(model='DualBranchSwin2d3d', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55/test/model_checkpoints/best_loss_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh', 'era5_max_wind_u10', 'era5_max_wind_v10'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-07 19:40:46,225 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-07 19:40:46,596 - Trainer - INFO - # testing samples: 42820
+2026-05-07 19:40:46,596 - Trainer - INFO - 
+loading the model ...
+2026-05-07 19:40:47,175 - Trainer - INFO - model parameters: 1989971
+2026-05-07 19:41:02,750 - Trainer - INFO - Parameters ...
+2026-05-07 19:41:02,750 - Trainer - INFO - Namespace(model='DualBranchSwin2d3d', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55/test/model_checkpoints/best_loss_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh', 'era5_max_wind_u10', 'era5_max_wind_v10'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-07 19:41:02,751 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-07 19:41:03,144 - Trainer - INFO - # testing samples: 42820
+2026-05-07 19:41:03,144 - Trainer - INFO - 
+loading the model ...
+2026-05-07 19:41:03,732 - Trainer - INFO - model parameters: 1990003
+2026-05-07 19:41:03,748 - Trainer - INFO - testing on FireCube dataset ...
+
+2026-05-07 19:41:40,493 - Trainer - INFO - -----------------   Testing   -----------------
+class Background     weight: 0.8684, precision: 0.9770, accuracy: 0.9748, F1: 0.9759 IoU: 0.9530 
+class Wildfire       weight: 0.1316, precision: 0.8363, accuracy: 0.8488, F1: 0.8425 IoU: 0.7279 
+
+Testing Precision       : 0.8363
+Testing Recall          : 0.8488
+Testing F1-Score        : 0.8425
+Testing AUROC           : 0.9701
+Testing OA              : 0.9582
+2026-05-07 19:42:37,047 - Trainer - INFO - Parameters ...
+2026-05-07 19:42:37,047 - Trainer - INFO - Namespace(model='DualBranchSwin2d3d', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55/test/model_checkpoints/epoch_39_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh', 'era5_max_wind_u10', 'era5_max_wind_v10'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-07 19:42:37,048 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-07 19:42:37,407 - Trainer - INFO - # testing samples: 42820
+2026-05-07 19:42:37,407 - Trainer - INFO - 
+loading the model ...
+2026-05-07 19:42:38,038 - Trainer - INFO - model parameters: 1990003
+2026-05-07 19:42:38,054 - Trainer - INFO - testing on FireCube dataset ...
+
+2026-05-07 19:43:15,199 - Trainer - INFO - -----------------   Testing   -----------------
+class Background     weight: 0.8684, precision: 0.9767, accuracy: 0.9750, F1: 0.9759 IoU: 0.9529 
+class Wildfire       weight: 0.1316, precision: 0.8371, accuracy: 0.8465, F1: 0.8418 IoU: 0.7268 
+
+Testing Precision       : 0.8371
+Testing Recall          : 0.8465
+Testing F1-Score        : 0.8418
+Testing AUROC           : 0.9703
+Testing OA              : 0.9581
+2026-05-07 19:43:50,875 - Trainer - INFO - Parameters ...
+2026-05-07 19:43:50,875 - Trainer - INFO - Namespace(model='DualBranchSwin2d3d', batch_size=256, n_workers=8, pin_memory=True, seed=0, name='test_2021', gpu_id='0', test_years=[2020, 2021], negative='clc', nan_fill=0.0, is_scale=True, lag=10, neg_pos_ratio_val=None, drop_out=0.5, PE=True, model_dir='./log/test_SwinGCA_2d3d_ws_2_vpd_uv_55/test/model_checkpoints/epoch_37_model.pth', data_dir='./datasets/datasets_grl/npy/spatiotemporal', log_dir='./log', dynamic_features=['1 km 16 days NDVI', 'LST_Day_1km', 'LST_Night_1km', 'era5_max_d2m', 'era5_max_t2m', 'era5_max_sp', 'era5_max_tp', 'sminx', 'era5_max_wind_speed', 'era5_min_rh', 'era5_max_wind_u10', 'era5_max_wind_v10'], static_features=['dem_mean', 'slope_mean', 'roads_distance', 'waterway_distance', 'population_density'], clc_features=['clc_0', 'clc_1', 'clc_2', 'clc_3', 'clc_4', 'clc_5', 'clc_6', 'clc_7', 'clc_8', 'clc_9'])
+2026-05-07 19:43:50,876 - Trainer - INFO - loading dataset for years [2020, 2021]...
+2026-05-07 19:43:51,252 - Trainer - INFO - # testing samples: 42820
+2026-05-07 19:43:51,252 - Trainer - INFO - 
+loading the model ...
+2026-05-07 19:43:51,898 - Trainer - INFO - model parameters: 1990003
+2026-05-07 19:43:51,913 - Trainer - INFO - testing on FireCube dataset ...
+
+2026-05-07 19:44:29,088 - Trainer - INFO - -----------------   Testing   -----------------
+class Background     weight: 0.8684, precision: 0.9766, accuracy: 0.9755, F1: 0.9760 IoU: 0.9532 
+class Wildfire       weight: 0.1316, precision: 0.8395, accuracy: 0.8454, F1: 0.8424 IoU: 0.7278 
+
+Testing Precision       : 0.8395
+Testing Recall          : 0.8454
+Testing F1-Score        : 0.8424
+Testing AUROC           : 0.9702
+Testing OA              : 0.9584
