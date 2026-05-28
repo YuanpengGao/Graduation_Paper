@@ -1,6 +1,6 @@
 # 毕业论文-基于物理信息启发的双分支Swin Transformer野火风险预测研究
 
-本毕业论文基于LOAN(https://arxiv.org/abs/2212.08208, https://github.com/HakamShams/LOAN)的代码及江丰楗学长的工作构建。
+本毕业论文基于LOAN(https://arxiv.org/abs/2212.08208, https://github.com/HakamShams/LOAN) 的代码及江丰楗学长的工作构建。
 
 ## Setup
 配置虚拟环境。
